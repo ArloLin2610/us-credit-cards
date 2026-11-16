@@ -6,7 +6,7 @@ All card data was read from issuer websites on 2026-11-16 with `scripts/research
 | Issuer | Cards | How the pages were read | Gaps |
 |---|---:|---|---|
 | Chase | 31 | Plain HTTP: card index + every product page | FX fee omitted where the product page does not state it (Freedom Unlimited, Freedom Rise, Southwest/Marriott Bountiful/Bold etc. as applicable). Aer Lingus / Iberia FX fee assumed same as British Airways page. Disney Premier 2% categories not itemised. |
-| American Express | 13 | Plain HTTP product pages | Welcome offers are personalised and not in page text → not listed. Green, Cash Magnet, EveryDay, EveryDay Preferred product URLs redirected to the index → not listed. Hilton Surpass annual fee not in page text (entered $150, flagged in notes). Blue Cash FX fee text truncated (2.7% flagged in notes). |
+| American Express | 13 (1 hidden) | Plain HTTP product pages | Welcome offers are personalised and not in page text → not listed. Green, Cash Magnet, EveryDay, EveryDay Preferred product URLs redirected to the index → not listed. Hilton Surpass annual fee not stated on its page → `needs_review`. Blue Cash FX fee text truncated (2.7% flagged in notes). |
 | Citi | 14 | Headless Chrome (prices/offers are filled in by JavaScript) | Custom Cash: closed to applications since 2026-05-28 (kept as a discontinued record). FX fee blank for AAdvantage Executive/Globe/MileUp and AT&T Points Plus. Retail store cards not listed. |
 | Capital One | 12 | Plain HTTP: compare page + product pages | Partner/retail cards and "for Good Credit" variants not listed. Network not stated on pages (`varies`). |
 | Discover | 8 | Plain HTTP: card index | FX fee not stated on index. Quarterly 5% cap amount not stated on index. |

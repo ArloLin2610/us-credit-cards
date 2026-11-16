@@ -656,7 +656,8 @@
     "source_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
     "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000328_480x304_straight_withname.png",
     "last_verified": "2026-11-16",
-    "notes": "Annual fee ($150) was not present in the fetched page text; entered from prior knowledge — confirm on Rates & Fees."
+    "notes": "Hidden: the product page does not state the annual fee (checked 2026-11-16, also via a second fetch). $150 is from prior knowledge only — confirm on Rates & Fees, then remove needs_review.",
+    "needs_review": true
   },
   {
     "id": "amex-hilton-aspire",

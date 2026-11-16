@@ -66,7 +66,7 @@ cards = [
          B + 'hilton-honors-surpass/', A(328), fx=0, welcome=WV,
          hl=[('Complimentary Hilton Honors Gold status', '贈 Hilton Honors Gold 會籍'),
              ('Free Night Reward after $15,000 in purchases in a calendar year', '曆年消費滿 $15,000 贈免費住宿一晚')],
-         notes='Annual fee ($150) was not present in the fetched page text; entered from prior knowledge — confirm on Rates & Fees.'),
+         notes='Hidden: the product page does not state the annual fee; $150 is from prior knowledge only — confirm on Rates & Fees.', review=True),
     card('amex-hilton-aspire', 'Hilton Honors American Express Aspire Card', 'amex', 550, 'points', 'hilton',
          [('hotel_brand', 14, *HIL),
           ('flights', 7, 'flights booked directly with airlines or AmexTravel.com, and car rentals booked directly with select companies', '直接向航空公司或經 AmexTravel.com 訂機票，以及直接向指定租車公司租車'),
