@@ -1,0 +1,402 @@
+{
+  "source": {
+    "name": "NerdWallet — How Much Are Travel Points and Miles Worth in 2026?",
+    "url": "https://www.nerdwallet.com/blog/travel/airline-miles-and-hotel-points-valuations",
+    "as_of": "2026-10-13",
+    "retrieved": "2026-11-16",
+    "method": {
+      "en": "Median values from real-world cash-versus-award price comparisons (economy flights, standard hotel nights, transfer partners). They are estimates, not guaranteed redemption values.",
+      "zh": "取自實際現金價與兌換價比較的中位數（經濟艙機票、一般飯店房晚、轉點夥伴）。屬估算值，並非保證兌換價值。"
+    }
+  },
+  "programs": [
+    {
+      "id": "cash",
+      "name": {
+        "en": "Cash back",
+        "zh": "現金回饋"
+      },
+      "kind": "cash",
+      "unit": "usd",
+      "cpp": 1,
+      "basis": "fixed"
+    },
+    {
+      "id": "chase-ur",
+      "name": {
+        "en": "Chase Ultimate Rewards®",
+        "zh": "Chase Ultimate Rewards®"
+      },
+      "kind": "transferable",
+      "unit": "points",
+      "cpp": 1.4,
+      "basis": "nerdwallet",
+      "note": {
+        "en": "NerdWallet values Ultimate Rewards at 1.4¢ with Sapphire Preferred and 1.8¢ with Sapphire Reserve; this site uses the lower figure for both.",
+        "zh": "NerdWallet 對 Sapphire Preferred 估 1.4 美分、Sapphire Reserve 估 1.8 美分；本站一律採較低者。"
+      }
+    },
+    {
+      "id": "amex-mr",
+      "name": {
+        "en": "American Express Membership Rewards®",
+        "zh": "American Express Membership Rewards®"
+      },
+      "kind": "transferable",
+      "unit": "points",
+      "cpp": 1.3,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "capitalone",
+      "name": {
+        "en": "Capital One miles",
+        "zh": "Capital One 哩程"
+      },
+      "kind": "transferable",
+      "unit": "miles",
+      "cpp": 1.3,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "citi-ty",
+      "name": {
+        "en": "Citi ThankYou® Points (Strata Elite / Strata Premier)",
+        "zh": "Citi ThankYou® 點數（Strata Elite／Strata Premier）"
+      },
+      "kind": "transferable",
+      "unit": "points",
+      "cpp": 1.7,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "citi-ty-basic",
+      "name": {
+        "en": "Citi ThankYou® Points (other Citi cards)",
+        "zh": "Citi ThankYou® 點數（其他花旗卡）"
+      },
+      "kind": "bank",
+      "unit": "points",
+      "cpp": 1.2,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "bilt",
+      "name": {
+        "en": "Bilt Points",
+        "zh": "Bilt 點數"
+      },
+      "kind": "transferable",
+      "unit": "points",
+      "cpp": 1.8,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "wf-rewards",
+      "name": {
+        "en": "Wells Fargo Rewards",
+        "zh": "Wells Fargo Rewards"
+      },
+      "kind": "transferable",
+      "unit": "points",
+      "cpp": 1.4,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "usbank-altitude",
+      "name": {
+        "en": "U.S. Bank Altitude points",
+        "zh": "U.S. Bank Altitude 點數"
+      },
+      "kind": "bank",
+      "unit": "points",
+      "cpp": 1,
+      "basis": "assumed",
+      "note": {
+        "en": "No published valuation found; assumed 1¢ each.",
+        "zh": "查無公開估值，暫以每單位 1 美分假設。"
+      }
+    },
+    {
+      "id": "bofa-points",
+      "name": {
+        "en": "Bank of America points",
+        "zh": "Bank of America 點數"
+      },
+      "kind": "bank",
+      "unit": "points",
+      "cpp": 1,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "discover-miles",
+      "name": {
+        "en": "Discover Miles",
+        "zh": "Discover 哩程"
+      },
+      "kind": "bank",
+      "unit": "miles",
+      "cpp": 1,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "united",
+      "name": {
+        "en": "United MileagePlus®",
+        "zh": "United MileagePlus®"
+      },
+      "kind": "airline",
+      "unit": "miles",
+      "cpp": 1.2,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "delta",
+      "name": {
+        "en": "Delta SkyMiles®",
+        "zh": "Delta SkyMiles®"
+      },
+      "kind": "airline",
+      "unit": "miles",
+      "cpp": 1.2,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "american",
+      "name": {
+        "en": "American Airlines AAdvantage®",
+        "zh": "美國航空 AAdvantage®"
+      },
+      "kind": "airline",
+      "unit": "miles",
+      "cpp": 1.7,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "southwest",
+      "name": {
+        "en": "Southwest Rapid Rewards®",
+        "zh": "Southwest Rapid Rewards®"
+      },
+      "kind": "airline",
+      "unit": "points",
+      "cpp": 1.4,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "jetblue",
+      "name": {
+        "en": "JetBlue TrueBlue",
+        "zh": "JetBlue TrueBlue"
+      },
+      "kind": "airline",
+      "unit": "points",
+      "cpp": 1.4,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "atmos",
+      "name": {
+        "en": "Atmos™ Rewards (Alaska / Hawaiian)",
+        "zh": "Atmos™ Rewards（阿拉斯加／夏威夷航空）"
+      },
+      "kind": "airline",
+      "unit": "points",
+      "cpp": 1.4,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "aeroplan",
+      "name": {
+        "en": "Air Canada Aeroplan®",
+        "zh": "加拿大航空 Aeroplan®"
+      },
+      "kind": "airline",
+      "unit": "points",
+      "cpp": 1.1,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "avios",
+      "name": {
+        "en": "Avios (British Airways / Aer Lingus / Iberia)",
+        "zh": "Avios（英航／愛爾蘭航空／西班牙國家航空）"
+      },
+      "kind": "airline",
+      "unit": "miles",
+      "cpp": 1.2,
+      "basis": "nerdwallet",
+      "note": {
+        "en": "Uses NerdWallet's British Airways Avios figure for all three Avios cards.",
+        "zh": "三張 Avios 卡皆採 NerdWallet 的英航 Avios 估值。"
+      }
+    },
+    {
+      "id": "emirates",
+      "name": {
+        "en": "Emirates Skywards",
+        "zh": "阿聯酋航空 Skywards"
+      },
+      "kind": "airline",
+      "unit": "miles",
+      "cpp": 1.0,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "miles-and-more",
+      "name": {
+        "en": "Miles & More (Lufthansa Group)",
+        "zh": "Miles & More（漢莎集團）"
+      },
+      "kind": "airline",
+      "unit": "miles",
+      "cpp": 1,
+      "basis": "assumed",
+      "note": {
+        "en": "No published valuation found; assumed 1¢ each.",
+        "zh": "查無公開估值，暫以每單位 1 美分假設。"
+      }
+    },
+    {
+      "id": "frontier",
+      "name": {
+        "en": "Frontier Miles",
+        "zh": "Frontier Miles"
+      },
+      "kind": "airline",
+      "unit": "miles",
+      "cpp": 1,
+      "basis": "assumed",
+      "note": {
+        "en": "No published valuation found; assumed 1¢ each.",
+        "zh": "查無公開估值，暫以每單位 1 美分假設。"
+      }
+    },
+    {
+      "id": "breeze",
+      "name": {
+        "en": "BreezePoints",
+        "zh": "BreezePoints"
+      },
+      "kind": "airline",
+      "unit": "points",
+      "cpp": 1,
+      "basis": "issuer",
+      "note": {
+        "en": "Barclays describes 40,000 BreezePoints as a $400 value.",
+        "zh": "Barclays 官網稱 40,000 BreezePoints 價值 $400。"
+      }
+    },
+    {
+      "id": "allegiant",
+      "name": {
+        "en": "Allegiant Allways Rewards",
+        "zh": "Allegiant Allways Rewards"
+      },
+      "kind": "airline",
+      "unit": "points",
+      "cpp": 1,
+      "basis": "assumed",
+      "note": {
+        "en": "No published valuation found; assumed 1¢ each.",
+        "zh": "查無公開估值，暫以每單位 1 美分假設。"
+      }
+    },
+    {
+      "id": "hyatt",
+      "name": {
+        "en": "World of Hyatt",
+        "zh": "World of Hyatt"
+      },
+      "kind": "hotel",
+      "unit": "points",
+      "cpp": 1.8,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "marriott",
+      "name": {
+        "en": "Marriott Bonvoy®",
+        "zh": "Marriott Bonvoy®"
+      },
+      "kind": "hotel",
+      "unit": "points",
+      "cpp": 0.7,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "hilton",
+      "name": {
+        "en": "Hilton Honors",
+        "zh": "Hilton Honors"
+      },
+      "kind": "hotel",
+      "unit": "points",
+      "cpp": 0.4,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "ihg",
+      "name": {
+        "en": "IHG One Rewards",
+        "zh": "IHG One Rewards"
+      },
+      "kind": "hotel",
+      "unit": "points",
+      "cpp": 0.6,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "wyndham",
+      "name": {
+        "en": "Wyndham Rewards",
+        "zh": "Wyndham Rewards"
+      },
+      "kind": "hotel",
+      "unit": "points",
+      "cpp": 0.7,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "choice",
+      "name": {
+        "en": "Choice Privileges®",
+        "zh": "Choice Privileges®"
+      },
+      "kind": "hotel",
+      "unit": "points",
+      "cpp": 0.8,
+      "basis": "nerdwallet"
+    },
+    {
+      "id": "disney",
+      "name": {
+        "en": "Disney Rewards Dollars",
+        "zh": "Disney Rewards Dollars"
+      },
+      "kind": "restricted",
+      "unit": "usd",
+      "cpp": 1,
+      "basis": "fixed",
+      "note": {
+        "en": "Worth $1 each, but only toward Disney purchases (and, on some cards, airline statement credits).",
+        "zh": "每 1 元價值 $1，但僅能用於 Disney 相關消費（部分卡可折抵機票）。"
+      }
+    },
+    {
+      "id": "onekey",
+      "name": {
+        "en": "OneKeyCash®",
+        "zh": "OneKeyCash®"
+      },
+      "kind": "restricted",
+      "unit": "usd",
+      "cpp": 1,
+      "basis": "fixed",
+      "note": {
+        "en": "Worth $1 each, but only toward Expedia, Hotels.com and Vrbo bookings.",
+        "zh": "每 1 元價值 $1，但僅能用於 Expedia、Hotels.com、Vrbo 訂購。"
+      }
+    }
+  ]
+}

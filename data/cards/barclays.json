@@ -1,0 +1,808 @@
+[
+  {
+    "id": "barclays-jetblue",
+    "issuer": "barclays",
+    "name": "JetBlue Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "miles",
+    "program": "jetblue",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "eligible JetBlue purchases",
+          "zh": "符合條件的 JetBlue 消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants and eligible grocery stores",
+          "zh": "餐廳與符合條件的超市"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 10000,
+      "unit": "points",
+      "extra": {
+        "en": "after qualifying purchases (see issuer page)",
+        "zh": "需完成指定消費（見官網）"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "50% savings on eligible inflight purchases on JetBlue-operated flights",
+        "zh": "JetBlue 航班機上消費 5 折"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/jetblue-card/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/jetblue-card/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/JBM_card_NoFee_WM_Angle_359x246_L.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-jetblue-plus",
+    "issuer": "barclays",
+    "name": "JetBlue Plus Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 99
+    },
+    "reward_type": "miles",
+    "program": "jetblue",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 6,
+        "detail": {
+          "en": "eligible JetBlue purchases",
+          "zh": "符合條件的 JetBlue 消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants and eligible grocery stores",
+          "zh": "餐廳與符合條件的超市"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 60000,
+      "unit": "points",
+      "extra": {
+        "en": "after qualifying account activity (see issuer page)",
+        "zh": "需完成指定條件（見官網）"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Free first checked bag for you and up to 3 companions on JetBlue-operated flights",
+        "zh": "JetBlue 航班本人與最多 3 位同行者免費託運第一件行李"
+      },
+      {
+        "en": "5,000 bonus points each account anniversary",
+        "zh": "每年週年贈 5,000 點"
+      },
+      {
+        "en": "10% of points back after redeeming for a JetBlue award flight",
+        "zh": "兌換 JetBlue 獎勵機票後退回 10% 點數"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/JBE_card_Plus_WE_Angle_359x246_L.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-jetblue-premier",
+    "issuer": "barclays",
+    "name": "JetBlue Premier Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 499,
+      "note": {
+        "en": "$150 for each authorized user",
+        "zh": "每位附卡持卡人 $150"
+      }
+    },
+    "reward_type": "miles",
+    "program": "jetblue",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 6,
+        "detail": {
+          "en": "eligible JetBlue purchases",
+          "zh": "符合條件的 JetBlue 消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants and eligible grocery stores",
+          "zh": "餐廳與符合條件的超市"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 80000,
+      "unit": "points",
+      "extra": {
+        "en": "after qualifying account activity (see issuer page)",
+        "zh": "需完成指定條件（見官網）"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Priority Pass™ lounge access and BlueHouse™ access with eligible fares",
+        "zh": "Priority Pass™ 貴賓室，符合條件票種可使用 BlueHouse™"
+      },
+      {
+        "en": "Free first checked bag for you and up to 3 companions",
+        "zh": "本人與最多 3 位同行者免費託運第一件行李"
+      },
+      {
+        "en": "15% of points back after redeeming for a JetBlue award flight",
+        "zh": "兌換 JetBlue 獎勵機票後退回 15% 點數"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/JBP_CD_card_Premier_WE_Angle_359x246_L.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-wyndham-earner",
+    "issuer": "barclays",
+    "name": "Wyndham Rewards Earner® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "wyndham",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 5,
+        "detail": {
+          "en": "Hotels by Wyndham, including Wyndham Travel Bundles",
+          "zh": "Hotels by Wyndham，含 Wyndham Travel Bundles"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "dining, grocery stores (excluding Target® and Walmart®) and gas",
+          "zh": "餐飲、超市（不含 Target®、Walmart®）與加油"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 45000,
+      "unit": "points",
+      "extra": {
+        "en": "after qualifying account activity (see issuer page)",
+        "zh": "需完成指定條件（見官網）"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Automatic Wyndham Rewards Gold level",
+        "zh": "自動享 Wyndham Rewards Gold 會籍"
+      },
+      {
+        "en": "7,500 bonus points each anniversary year you spend $15,000",
+        "zh": "年度消費滿 $15,000 贈 7,500 點"
+      },
+      {
+        "en": "Redeem 10% fewer points for free nights",
+        "zh": "兌換免費住宿少扣 10% 點數"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-card/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-card/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/Wyndham_3x2_AngledCard_Earner_399x245.png",
+    "last_verified": "2026-11-16",
+    "notes": "Network (Visa) not confirmed from page text."
+  },
+  {
+    "id": "barclays-wyndham-earner-plus",
+    "issuer": "barclays",
+    "name": "Wyndham Rewards Earner® Plus Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95,
+      "first_year": 0
+    },
+    "reward_type": "points",
+    "program": "wyndham",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 6,
+        "detail": {
+          "en": "Hotels by Wyndham, including Wyndham Travel Bundles",
+          "zh": "Hotels by Wyndham，含 Wyndham Travel Bundles"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 4,
+        "detail": {
+          "en": "dining, grocery stores (excluding Target® and Walmart®) and travel",
+          "zh": "餐飲、超市（不含 Target®、Walmart®）與旅遊"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 90000,
+      "unit": "points",
+      "extra": {
+        "en": "\"up to\" 90,000; after qualifying account activity (see issuer page)",
+        "zh": "最高 90,000 點；需完成指定條件（見官網）"
+      },
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Diamond level in year one, then Platinum",
+        "zh": "首年 Diamond 會籍，之後為 Platinum"
+      },
+      {
+        "en": "15,000 bonus points each anniversary after paying the annual fee",
+        "zh": "每年繳年費後贈 15,000 點"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/Wyndham_3x2_AngledCard_Earner-Plus_399x245.png",
+    "last_verified": "2026-11-16",
+    "notes": "Network (Visa) not confirmed from page text."
+  },
+  {
+    "id": "barclays-wyndham-earner-premier",
+    "issuer": "barclays",
+    "name": "Wyndham Rewards Earner® Premier Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 395
+    },
+    "reward_type": "points",
+    "program": "wyndham",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 8,
+        "detail": {
+          "en": "Hotels by Wyndham, including Wyndham Travel Bundles",
+          "zh": "Hotels by Wyndham，含 Wyndham Travel Bundles"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 4,
+        "detail": {
+          "en": "Vacation Club, travel, dining and grocery purchases (see issuer page)",
+          "zh": "Vacation Club、旅遊、餐飲與超市（詳見官網）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 120000,
+      "unit": "points",
+      "extra": {
+        "en": "\"up to\" 120,000 across two spending tiers (see issuer page)",
+        "zh": "最高 120,000 點，分兩階段達成（見官網）"
+      },
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Automatic Wyndham Rewards Diamond level",
+        "zh": "自動享 Wyndham Rewards Diamond 會籍"
+      },
+      {
+        "en": "Over $400 a year in statement credits (Wyndham hotels $100, meal delivery up to $120, streaming up to $100, wholesale club $65)",
+        "zh": "每年逾 $400 回饋（Wyndham 飯店 $100、外送最高 $120、串流最高 $100、量販會籍 $65）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-premier-card/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-premier-card/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/Wyndham_3x2_AngledCard_Earner-Premier_399x245.png",
+    "last_verified": "2026-11-16",
+    "notes": "Network (Visa) not confirmed from page text."
+  },
+  {
+    "id": "barclays-emirates-premium",
+    "issuer": "barclays",
+    "name": "Emirates Skywards Premium World Elite Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 499
+    },
+    "reward_type": "miles",
+    "program": "emirates",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "eligible Emirates purchases",
+          "zh": "符合條件的阿聯酋航空消費"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 2,
+        "detail": {
+          "en": "eligible travel purchases",
+          "zh": "符合條件的旅遊消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 50000,
+      "unit": "miles",
+      "spend": 3000,
+      "months": 3,
+      "extra": {
+        "en": "plus Skywards Gold tier in the first year",
+        "zh": "另享首年 Skywards Gold 會籍"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Priority Pass™ airport lounge access",
+        "zh": "Priority Pass™ 機場貴賓室"
+      },
+      {
+        "en": "10,000 anniversary bonus Skywards Miles each year",
+        "zh": "每年週年贈 10,000 Skywards 哩"
+      },
+      {
+        "en": "Global Entry or TSA PreCheck application fee credit",
+        "zh": "Global Entry／TSA PreCheck 申請費回饋"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-front/EKE_LP_Card_SkywardsPrem_320x205.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-emirates-rewards",
+    "issuer": "barclays",
+    "name": "Emirates Skywards Rewards World Elite Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 99
+    },
+    "reward_type": "miles",
+    "program": "emirates",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "eligible Emirates purchases",
+          "zh": "符合條件的阿聯酋航空消費"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 2,
+        "detail": {
+          "en": "eligible travel purchases",
+          "zh": "符合條件的旅遊消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 40000,
+      "unit": "miles",
+      "spend": 3000,
+      "months": 3,
+      "extra": {
+        "en": "plus Skywards Silver tier in the first year",
+        "zh": "另享首年 Skywards Silver 會籍"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "25% savings when you buy or gift Skywards Miles",
+        "zh": "購買或贈送 Skywards 哩程 75 折"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/emirates-skywards-rewards-world-elite-mastercard/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/emirates-skywards-rewards-world-elite-mastercard/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-front/EKS_card_Rewards_359x227.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-miles-and-more",
+    "issuer": "barclays",
+    "name": "Miles & More® World Elite Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 89
+    },
+    "reward_type": "miles",
+    "program": "miles-and-more",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 2,
+        "detail": {
+          "en": "tickets from Miles & More partner airlines",
+          "zh": "Miles & More 夥伴航空機票"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 50000,
+      "unit": "miles",
+      "spend": 3000,
+      "months": 3,
+      "extra": {
+        "en": "and pay the annual fee in full within the first 90 days",
+        "zh": "並於 90 天內繳清年費"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Annual Companion Ticket after each anniversary (taxes and fees apply)",
+        "zh": "每年週年後贈同行票（需付稅費）"
+      },
+      {
+        "en": "2 Lufthansa Business Lounge vouchers a year",
+        "zh": "每年 2 張漢莎商務貴賓室券"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/LFT_card_Lufthansa_WE_Angle_359x246_L.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-frontier",
+    "issuer": "barclays",
+    "name": "Frontier Airlines World Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 99
+    },
+    "reward_type": "miles",
+    "program": "frontier",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 5,
+        "detail": {
+          "en": "eligible Frontier purchases; issuer advertises \"up to 17x\" including Frontier Miles member earnings",
+          "zh": "符合條件的 Frontier 消費；官網標示含會員哩程「最高 17x」"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "eligible restaurant purchases",
+          "zh": "符合條件的餐廳消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 60000,
+      "unit": "miles",
+      "extra": {
+        "en": "\"up to\" 60,000; after qualifying account activity (see issuer page)",
+        "zh": "最高 60,000 哩；需完成指定條件（見官網）"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Two free checked bags on eligible flights",
+        "zh": "符合條件航班兩件免費託運行李"
+      },
+      {
+        "en": "$100 flight voucher every anniversary with eligible purchases",
+        "zh": "每年週年達成消費贈 $100 機票券"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/adobe-dam/frontier/FTF_card_rRGB_Fee_MC_NoBleed_padding.png",
+    "last_verified": "2026-11-16",
+    "notes": "Card-only earn rate on Frontier purchases not broken out on the page (\"up to 17x\" total); 5x is a placeholder to verify.",
+    "needs_review": true
+  },
+  {
+    "id": "barclays-breeze",
+    "issuer": "barclays",
+    "name": "Breeze Easy® Visa® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 89
+    },
+    "reward_type": "miles",
+    "program": "breeze",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 5,
+        "detail": {
+          "en": "Breeze Nicer/Nicest Bundles at purchase (up to 10X with flown points); 2X on Nice Bundles, 1X on No Flex Fares",
+          "zh": "Breeze Nicer／Nicest 套票購買時（含搭乘點數最高 10X）；Nice 套票 2X、No Flex 1X"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "eligible grocery store and restaurant purchases",
+          "zh": "符合條件的超市與餐廳消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 40000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3,
+      "extra": {
+        "en": "a $400 value, plus Breezy 1 benefits",
+        "zh": "價值 $400，另享 Breezy 1 禮遇"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "7,500 anniversary bonus BreezePoints with eligible purchases",
+        "zh": "每年週年達成消費贈 7,500 BreezePoints"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/breeze-airways/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/breeze-airways/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/credit-card/breeze/card/BRZ_card_wMoneyBadge_CardDetails_359x226.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-aarp-essential",
+    "issuer": "barclays",
+    "name": "AARP® Essential Rewards Mastercard® from Barclays",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas and drug store purchases",
+          "zh": "加油與藥妝店"
+        }
+      },
+      {
+        "cat": "choice",
+        "rate": 2,
+        "detail": {
+          "en": "eligible medical expenses",
+          "zh": "符合條件的醫療支出"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 100,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "fx_fee": 3,
+    "highlights": [
+      {
+        "en": "Rewards do not expire while the account is open",
+        "zh": "帳戶有效期間回饋不會過期"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/aarp-essential-rewards-mastercard/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/aarp-essential-rewards-mastercard/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/ARE_card_rRGB_Essential_6146_359x246_Angle_L.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-aarp-travel",
+    "issuer": "barclays",
+    "name": "AARP® Travel Rewards Mastercard® from Barclays",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "travel",
+        "rate": 3,
+        "detail": {
+          "en": "airfare, hotel stays and car rentals",
+          "zh": "機票、飯店住宿與租車"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "eligible restaurant purchases",
+          "zh": "符合條件的餐廳消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 100,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Rewards do not expire while the account is open",
+        "zh": "帳戶有效期間回饋不會過期"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/aarp-travel-rewards-mastercard/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/aarp-travel-rewards-mastercard/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/credit-card/aarp/card-art/ART_card_rCMY_Travel_WM_5492_359x246_angle_L.png-Medium.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "barclays-upromise",
+    "issuer": "barclays",
+    "name": "Upromise® World Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 1.529,
+        "detail": {
+          "en": "when your Upromise account is linked to an eligible college savings plan",
+          "zh": "需將 Upromise 帳戶連結符合條件的大學儲蓄計畫"
+        }
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "extra": {
+        "en": "see issuer page for the qualifying activity",
+        "zh": "達成條件見官網"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Upromise Round Up rounds up purchases toward savings",
+        "zh": "Upromise Round Up 可將消費湊整存入"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/",
+    "source_url": "https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/",
+    "image_url": "https://cards.barclaycardus.com/content/dam/bcuspublic/card-plastic/card-angled/UPR_card_rRGB_Upromise_WM_angled_359x246_L.png",
+    "last_verified": "2026-11-16"
+  }
+]

@@ -1,0 +1,174 @@
+---
+import Base from '../../../layouts/Base.astro';
+import CardTile from '../../../components/CardTile.astro';
+import IssuerChip from '../../../components/IssuerChip.astro';
+import { cards, issuerById, cardImage, topReward, baseReward, formatFee, cardsOfIssuer, cardsOfType, headline, rewardRows, rateText, catLabel, cashEquiv, needsEstimate, programOf, unitWord, welcomeText, welcomeValue, fxText, introText, tagsOf } from '../../../lib/data';
+import { BASIS_LABEL, LANGS, NETWORK_LABEL, REWARD_TYPE_LABEL, STATUS_LABEL, TAG_LABEL, TAG_PAGES, UI, fmtPct, fmtUsd, href, langFromParam, tr } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => cards.map((card) => ({ params: { lang: l === 'en' ? undefined : l, id: card.id }, props: { card } })));
+}
+const { card } = Astro.props;
+const lang = langFromParam(Astro.params.lang);
+const t = UI[lang];
+const c = t.card;
+const issuer = issuerById.get(card.issuer)!;
+const img = cardImage(card);
+const top = topReward(card);
+const base = baseReward(card);
+const est = needsEstimate(card);
+const prog = programOf(card);
+const rows = rewardRows(card, lang);
+const rewardClass = `reward-${card.reward_type === 'cashback' ? 'cash' : card.reward_type}`;
+const inactive = card.status !== 'active';
+const hl = headline(card, lang);
+const wText = welcomeText(card, lang);
+const wVal = welcomeValue(card);
+const tags = tagsOf(card);
+const soon = (d?: string) => (d ? Date.parse(d) - Date.now() < 45 * 86400000 : false);
+const related = cardsOfType(card.reward_type).filter((x) => x.id !== card.id && x.issuer !== card.issuer && x.status === 'active' && x.program !== 'cash' === (card.program !== 'cash')).slice(0, 3);
+const sameIssuer = cardsOfIssuer(card.issuer).filter((x) => x.id !== card.id && x.status === 'active').slice(0, 3);
+const description = c.desc(issuer.short_name, card.name, hl, formatFee(card, lang), card.last_verified);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CreditCard',
+  name: card.name,
+  provider: { '@type': 'BankOrCreditUnion', name: issuer.name, url: issuer.website },
+  description: hl,
+  url: new URL(Astro.url.pathname.replace(/\.html$/, ''), Astro.site).href,
+  image: img.isPlaceholder ? undefined : new URL(img.src, Astro.site).href,
+  feesAndCommissionsSpecification: `Annual fee: ${formatFee(card, 'en')}`,
+};
+---
+
+<Base lang={lang} title={card.name} description={description} ogImage={img.isPlaceholder || img.isRemote ? undefined : img.src}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <nav class="mx-auto max-w-6xl px-4 pt-6 text-sm text-ink-soft" aria-label={c.breadcrumb}>
+    <a href={href(lang, '/')} class="hover:text-ink">{t.home}</a> / <a href={href(lang, `/category/${card.reward_type}`)} class="hover:text-ink">{tr(REWARD_TYPE_LABEL[card.reward_type], lang)}</a> /
+    <a href={href(lang, `/issuers/${issuer.id}`)} class="hover:text-ink">{issuer.short_name}</a>
+  </nav>
+
+  <article class="mx-auto max-w-6xl px-4 pb-16 pt-4">
+    {inactive && (
+      <div class="mb-6 rounded-xl border border-danger/30 bg-danger-soft px-4 py-3 text-sm text-danger">
+        <strong>{tr(STATUS_LABEL[card.status], lang)}</strong>
+        {card.status_note && <span> — {tr(card.status_note, lang)}</span>}
+        {card.status_changed_at && <span class="ml-2 text-danger/80">({card.status_changed_at})</span>}
+      </div>
+    )}
+    <div class="grid gap-8 md:grid-cols-[minmax(0,420px)_1fr] md:gap-12">
+      <div>
+        <div class="card-face"><img src={img.src} alt={`${card.name} ${t.ex.cardArt}`} width="420" height="265" fetchpriority="high" /></div>
+        {img.isPlaceholder && <p class="mt-2 text-xs text-ink-soft">{c.placeholder}</p>}
+        <div class="mt-5 flex flex-wrap gap-2">
+          {card.apply_url && !inactive && <a href={card.apply_url} target="_blank" rel="noopener nofollow" class="btn btn-cash">{c.applyAt(issuer.short_name)}</a>}
+          <a href={`${href(lang, '/compare')}?ids=${card.id}`} class="btn btn-ghost">{c.addCompare}</a>
+        </div>
+        <p class="mt-3 text-xs text-ink-soft">
+          {c.source}: <a href={card.source_url} target="_blank" rel="noopener nofollow" class="underline">{c.issuerSite(issuer.short_name)}</a> · {c.checked} {card.last_verified}
+        </p>
+      </div>
+
+      <div>
+        <a href={href(lang, `/issuers/${issuer.id}`)} class="inline-flex items-center gap-3 text-sm text-ink-soft hover:underline"><IssuerChip issuer={issuer} size={28} />{issuer.name}</a>
+        <h1 class="mt-2 text-3xl font-black leading-tight tracking-tight md:text-4xl">{card.name}</h1>
+        <p class="mt-4 text-lg">{hl}</p>
+
+        <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
+          <div class="rounded-xl border border-line bg-surface p-4">
+            <div class="text-xs text-ink-soft">{c.top}</div>
+            <div class="mt-1 text-2xl font-black tracking-tight">{top ? rateText(card, top, lang) : '—'}</div>
+            <div class="text-xs text-ink-soft">{top ? catLabel(top, lang) : c.rewardsNone}</div>
+            {top && est && <div class="mt-1 text-xs text-ink-soft">≈ {fmtPct(cashEquiv(card, top.rate))} · {c.estOnly}</div>}
+          </div>
+          <div class="rounded-xl border border-line bg-surface p-4">
+            <div class="text-xs text-ink-soft">{c.base}</div>
+            <div class="mt-1 text-2xl font-black tracking-tight">{base ? rateText(card, base, lang) : '—'}</div>
+            {base && est && <div class="mt-1 text-xs text-ink-soft">≈ {fmtPct(cashEquiv(card, base.rate))} · {c.estOnly}</div>}
+          </div>
+          <div class="rounded-xl border border-line bg-surface p-4">
+            <div class="text-xs text-ink-soft">{c.fee}</div>
+            <div class="mt-1 text-2xl font-black tracking-tight">{card.annual_fee.amount === 0 ? c.noFee : fmtUsd(card.annual_fee.amount)}</div>
+            <div class="text-xs text-ink-soft">{card.annual_fee.first_year !== undefined && card.annual_fee.first_year !== card.annual_fee.amount ? c.feeFirst(fmtUsd(card.annual_fee.first_year)) : tr(card.annual_fee.note, lang)}</div>
+          </div>
+        </div>
+
+        {wText && (
+          <div class="mt-6 rounded-xl border border-line bg-surface p-4">
+            <div class="flex flex-wrap items-center gap-2 text-xs text-ink-soft">{c.welcome}{card.welcome?.limited_time && <span class="rounded bg-points-soft px-1.5 py-0.5 font-semibold text-points">{c.limited}</span>}</div>
+            <p class="mt-1 font-medium">{wText}</p>
+            {wVal && <p class="mt-1 text-xs text-ink-soft">{c.welcomeEst(fmtUsd(wVal))} · {c.estOnly}</p>}
+          </div>
+        )}
+
+        <h2 class="mt-10 text-xl font-bold">{c.rewards}</h2>
+        {rows.length === 0 ? (
+          <p class="mt-3 text-ink-soft">{c.rewardsNone}</p>
+        ) : (
+          <table class="spec mt-3">
+            <tbody>
+              {rows.map((r) => (
+                <tr>
+                  <th scope="row">{r.label}</th>
+                  <td>
+                    <div class="flex flex-wrap items-baseline gap-x-3">
+                      <span class="text-xl font-black tracking-tight">{r.rate}</span>
+                      {r.equiv && <span class="text-sm text-ink-soft" title={t.ex.estTitle}>{r.equiv}</span>}
+                    </div>
+                    {r.detail && <div class:list={['mt-1 text-sm', soon(r.until) ? 'text-danger' : 'text-ink-soft']}>{r.detail}</div>}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+
+        {est && (
+          <div class="mt-4 rounded-xl border border-line bg-paper-2 px-4 py-3 text-sm text-ink-soft">
+            <strong class="text-ink">{c.valuation}</strong>
+            <p class="mt-1">{c.valuationBody(tr(prog.name, lang), String(prog.cpp), tr(BASIS_LABEL[prog.basis], lang))} {prog.note && tr(prog.note, lang)}</p>
+            <a href={href(lang, '/valuations')} class="mt-1 inline-block underline">{c.valuationLink}</a>
+          </div>
+        )}
+
+        {card.highlights.length > 0 && (
+          <>
+            <h2 class="mt-10 text-xl font-bold">{c.highlights}</h2>
+            <ul class="mt-3 list-disc space-y-2 pl-5">{card.highlights.map((h) => <li>{tr(h, lang)}</li>)}</ul>
+          </>
+        )}
+
+        <h2 class="mt-10 text-xl font-bold">{c.facts}</h2>
+        <table class="spec mt-3">
+          <tbody>
+            <tr><th scope="row">{c.issuer}</th><td>{issuer.name}{lang === 'zh' && issuer.name_zh ? `（${issuer.name_zh}）` : ''}</td></tr>
+            <tr><th scope="row">{c.network}</th><td>{tr(NETWORK_LABEL[card.network], lang)}</td></tr>
+            <tr><th scope="row">{c.program}</th><td>{tr(prog.name, lang)}</td></tr>
+            <tr><th scope="row">{c.fee}</th><td>{formatFee(card, lang)}{card.annual_fee.note && <div class="mt-1 text-sm text-ink-soft">{tr(card.annual_fee.note, lang)}</div>}</td></tr>
+            <tr><th scope="row">{c.fx}</th><td>{fxText(card, lang)}</td></tr>
+            {card.intro_apr && <tr><th scope="row">{c.intro}</th><td>{introText(card, lang)}</td></tr>}
+            <tr><th scope="row">{c.goodFor}</th><td class="flex flex-wrap gap-1">{tags.map((x) => TAG_PAGES.includes(x) ? <a href={href(lang, `/tags/${x}`)} class="rounded bg-paper-2 px-2 py-0.5 text-sm hover:bg-line">{tr(TAG_LABEL[x], lang)}</a> : <span class="rounded bg-paper-2 px-2 py-0.5 text-sm">{tr(TAG_LABEL[x], lang)}</span>)}</td></tr>
+            <tr><th scope="row">{c.status}</th><td>{tr(STATUS_LABEL[card.status], lang)}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {(related.length > 0 || sameIssuer.length > 0) && (
+      <section class="mt-16 grid gap-10 lg:grid-cols-2">
+        {related.length > 0 && (
+          <div>
+            <h2 class="text-xl font-bold">{c.related}</h2>
+            <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{related.map((x) => <CardTile card={x} lang={lang} />)}</div>
+          </div>
+        )}
+        {sameIssuer.length > 0 && (
+          <div>
+            <h2 class="text-xl font-bold">{c.sameIssuer(issuer.short_name)}</h2>
+            <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{sameIssuer.map((x) => <CardTile card={x} lang={lang} showIssuer={false} />)}</div>
+          </div>
+        )}
+      </section>
+    )}
+  </article>
+</Base>

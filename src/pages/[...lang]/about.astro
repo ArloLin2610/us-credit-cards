@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import { issuers, siteStats, valuationSource } from '../../lib/data';
+import { UI, href, langFromParam, langPaths } from '../../lib/i18n';
+
+export const getStaticPaths = langPaths;
+const lang = langFromParam(Astro.params.lang);
+const t = UI[lang].about;
+const names = issuers.map((i) => i.short_name).join(lang === 'zh' ? '、' : ', ');
+const sections =
+  lang === 'zh'
+    ? [
+        ['這個網站在做什麼', `把 ${names} 共 ${siteStats.issuers} 家美國發卡機構、${siteStats.cards} 張個人信用卡的公開權益放在同一個地方：卡圖、年費、各類別回饋、開卡禮、海外手續費與官方連結，依現金回饋、哩程、點數分類，可挑三張並排比較。`],
+        ['資料從哪裡來', '所有數字都取自各發卡機構自己的官方網站。每張卡的頁面都有「資料來源」連結與核對日期；產品頁沒有寫明的項目（例如某些卡的海外手續費）會標示為未載明，而不是用猜的。'],
+        ['如何保持更新', '排程程式每月兩次重新讀取各機構的卡片總覽頁與每張卡的產品頁，和上次的內容比對，找出新卡、停止申請的卡與權益文字變動，整理成一份變更提案。提案要經過人工核對才會上線，不會自動發布。'],
+        ['哩程與點數換算成現金回饋', `哩程卡與點數卡旁的「≈ %」是把累積倍率乘上每點估值所得的約當現金回饋率，目的只是方便和現金回饋卡比較。估值主要採用 ${valuationSource.name}（${valuationSource.as_of}）。這是估算，不是保證：實際價值取決於兌換方式，計畫也可能調整。`],
+        ['目前沒有收錄的', '商務卡、大部分零售商聯名卡、地區銀行與信用合作社的卡片，以及美國銀行（官網需輸入郵遞區號，資料待人工核對）。美國運通的開卡禮因申請人而異，本站不列。各發卡機構頁面上方會說明該機構的收錄範圍。'],
+        ['獨立性與免責', '本站不是銀行、不代辦申請，沒有推薦連結，也不收取佣金。內容僅供資訊參考，不構成財務建議；核卡與否、實際利率與優惠由發卡機構決定。申請前請務必到官網再確認一次。卡面圖與商標屬各權利人所有，僅供辨識之用。'],
+      ]
+    : [
+        ['What this site does', `It puts the public terms of ${siteStats.cards} personal credit cards from ${siteStats.issuers} US issuers (${names}) in one place: card art, annual fee, category rewards, welcome offer, foreign transaction fee and the official link — grouped into cash back, miles and points, with a three-card side-by-side comparison.`],
+        ['Where the data comes from', 'Every figure is taken from the issuer’s own website. Each card page links to its source and shows the date it was last checked. When a product page does not state something (the foreign transaction fee on some cards, for example) the site says so instead of guessing.'],
+        ['How it stays current', 'Twice a month a scheduled job re-reads each issuer’s card index and every card’s product page, compares them with the previous copy, and flags new cards, cards closed to applications and changed benefit text as a proposed update. A person reviews each proposal before it goes live; nothing is published automatically.'],
+        ['Cash-back estimates for miles and points', `The “≈ %” next to miles and points rates multiplies the earn rate by an estimated value per point, only so those cards can sit next to cash-back cards. Values mostly come from ${valuationSource.name} (${valuationSource.as_of}). They are estimates, not promises: what you get depends on how you redeem, and programs change.`],
+        ['What is not covered yet', 'Business cards, most retail store cards, regional banks and credit unions, and Bank of America (its pages are ZIP-code gated, so its cards wait for manual verification). American Express welcome offers vary by applicant and are not listed. Each issuer page notes what is and is not included.'],
+        ['Independence and disclaimer', 'This site is not a bank, takes no applications, has no referral links and earns no commission. It is information, not financial advice; approval, rates and offers are decided by the issuer. Confirm on the issuer’s site before you apply. Card art and trademarks belong to their owners and are shown for identification only.'],
+      ];
+---
+
+<Base lang={lang} title={t.title} description={t.desc}>
+  <section class="mx-auto max-w-3xl px-4 pb-24 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">{t.title}</h1>
+    {sections.map(([h, body]) => (
+      <>
+        <h2 class="mt-10 text-xl font-bold">{h}</h2>
+        <p class="mt-3 leading-relaxed">{body}</p>
+      </>
+    ))}
+    <p class="mt-10 text-sm text-ink-soft"><a class="underline" href={href(lang, '/valuations')}>{UI[lang].nav.valuations}</a> · <a class="underline" href={href(lang, '/changelog')}>{UI[lang].nav.changelog}</a></p>
+  </section>
+</Base>

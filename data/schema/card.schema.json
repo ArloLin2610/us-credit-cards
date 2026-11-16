@@ -1,0 +1,290 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://us-card-compare/schema/card.schema.json",
+  "title": "US consumer credit card",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "L": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "zh"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zh": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "description": "Bilingual text: English and Traditional Chinese"
+    }
+  },
+  "required": [
+    "id",
+    "issuer",
+    "name",
+    "network",
+    "annual_fee",
+    "reward_type",
+    "program",
+    "earn_unit",
+    "rewards",
+    "highlights",
+    "status",
+    "source_url",
+    "last_verified"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug: <issuer-id>-<card-slug>, e.g. chase-sapphire-preferred"
+    },
+    "issuer": {
+      "type": "string",
+      "description": "Issuer id; must match data/issuers.json"
+    },
+    "name": {
+      "type": "string",
+      "description": "Official card name in English, as the issuer writes it"
+    },
+    "network": {
+      "enum": [
+        "visa",
+        "mastercard",
+        "amex",
+        "discover",
+        "varies"
+      ],
+      "description": "'varies' when the issuer assigns Visa or Mastercard at approval"
+    },
+    "annual_fee": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "amount"
+      ],
+      "properties": {
+        "amount": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Ongoing annual fee in USD (0 if none)"
+        },
+        "first_year": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Introductory first-year fee in USD, when different"
+        },
+        "note": {
+          "$ref": "#/$defs/L"
+        }
+      }
+    },
+    "reward_type": {
+      "enum": [
+        "cashback",
+        "miles",
+        "points"
+      ],
+      "description": "Site category. Airline co-brands are 'miles'; hotel and bank point currencies are 'points'"
+    },
+    "program": {
+      "type": "string",
+      "description": "Rewards currency id; must match data/programs.json (use 'cash' for plain cash back)"
+    },
+    "earn_unit": {
+      "enum": [
+        "pct",
+        "x"
+      ],
+      "description": "pct = percent back; x = points/miles per $1"
+    },
+    "rewards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cat",
+          "rate"
+        ],
+        "properties": {
+          "cat": {
+            "enum": [
+              "all",
+              "dining",
+              "groceries",
+              "gas",
+              "travel",
+              "portal",
+              "flights",
+              "hotels",
+              "airline",
+              "hotel_brand",
+              "streaming",
+              "drugstores",
+              "online",
+              "transit",
+              "rotating",
+              "choice",
+              "entertainment",
+              "brand",
+              "rent"
+            ],
+            "description": "Spending category. 'all' = everything else (base rate); 'portal' = issuer travel portal; 'airline'/'hotel_brand' = the co-brand partner"
+          },
+          "rate": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Percent (pct) or points/miles per $1 (x). The card's own earn rate \u2014 not 'up to' totals that include loyalty-member earnings"
+          },
+          "detail": {
+            "$ref": "#/$defs/L",
+            "description": "What exactly qualifies"
+          },
+          "cap": {
+            "$ref": "#/$defs/L"
+          },
+          "valid_until": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "featured": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "unit": {
+          "enum": [
+            "points",
+            "miles",
+            "usd",
+            "nights"
+          ]
+        },
+        "spend": {
+          "type": "number",
+          "description": "Required spend in USD"
+        },
+        "months": {
+          "type": "number",
+          "description": "Months to meet the spend"
+        },
+        "extra": {
+          "$ref": "#/$defs/L"
+        },
+        "text": {
+          "$ref": "#/$defs/L",
+          "description": "Full custom wording; replaces the generated sentence"
+        },
+        "limited_time": {
+          "type": "boolean"
+        }
+      }
+    },
+    "intro_apr": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "months",
+        "on"
+      ],
+      "properties": {
+        "months": {
+          "type": "number"
+        },
+        "on": {
+          "enum": [
+            "purchases",
+            "bt",
+            "both"
+          ]
+        }
+      }
+    },
+    "fx_fee": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Foreign transaction fee in percent; 0 = none. Omit when the product page does not state it"
+    },
+    "highlights": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "$ref": "#/$defs/L"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "lounge",
+          "student",
+          "secured",
+          "credit-building",
+          "no-rewards"
+        ]
+      },
+      "description": "Only tags that cannot be derived from the other fields"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "suspended",
+        "discontinued"
+      ],
+      "description": "active = accepting applications; discontinued = closed to new applicants"
+    },
+    "status_note": {
+      "$ref": "#/$defs/L"
+    },
+    "status_changed_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "apply_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official page used as the source of truth"
+    },
+    "image_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official card-art URL"
+    },
+    "image": {
+      "type": "string"
+    },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Maintainer notes; not shown on the site"
+    },
+    "needs_review": {
+      "type": "boolean",
+      "description": "true = incomplete/unverified; hidden from the site until cleared"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import CardExplorer from '../../components/CardExplorer.tsx';
+import { issuers, summariesFor, siteStats, changelog, issuerById } from '../../lib/data';
+import { REWARD_TYPE_LABEL, SITE_NAME, UI, href, langFromParam, langPaths, tr } from '../../lib/i18n';
+
+export const getStaticPaths = langPaths;
+const lang = langFromParam(Astro.params.lang);
+const t = UI[lang];
+const summaries = summariesFor(lang);
+const active = summaries.filter((c) => c.status === 'active');
+const issuerOpts = issuers.map((b) => ({ id: b.id, short_name: b.short_name }));
+const count = (f: (c: (typeof summaries)[number]) => boolean) => active.filter(f).length;
+const counts = { cashback: count((c) => c.rewardType === 'cashback'), miles: count((c) => c.rewardType === 'miles'), points: count((c) => c.rewardType === 'points') };
+const recent = changelog.slice(0, 4);
+const home = href(lang, '/');
+// Each scenario is a preset of the explorer below (query string) or a listing page.
+const scenes = [
+  { href: `${home}?tags=travel,no-fx-fee&sort=rate#cards`, text: t.scenes.travel, n: count((c) => c.tags.includes('travel') && c.tags.includes('no-fx-fee')) },
+  { href: href(lang, '/category/miles'), text: t.scenes.miles, n: counts.miles },
+  { href: href(lang, '/tags/flat-rate'), text: t.scenes.cash, n: count((c) => c.tags.includes('flat-rate')) },
+  { href: `${home}?tags=dining,groceries&sort=rate#cards`, text: t.scenes.food, n: count((c) => c.tags.includes('dining') && c.tags.includes('groceries')) },
+  { href: href(lang, '/tags/credit-building'), text: t.scenes.first, n: count((c) => c.tags.includes('credit-building') || c.tags.includes('student')) },
+];
+---
+
+<Base lang={lang} title={SITE_NAME[lang]}>
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10 md:pt-14">
+    <div class="grid items-end gap-6 md:grid-cols-[1fr_auto]">
+      <div class="max-w-2xl">
+        <h1 class="text-3xl font-black leading-tight tracking-tight md:text-5xl">{t.heroTitle}</h1>
+        <p class="mt-4 max-w-prose text-base text-ink-soft md:text-lg">{t.heroBody(siteStats.issuers, siteStats.active)}</p>
+      </div>
+      <dl class="grid grid-cols-3 gap-4 text-sm md:gap-6">
+        {(['cashback', 'miles', 'points'] as const).map((x) => (
+          <a href={href(lang, `/category/${x}`)} class="group">
+            <dt class="text-ink-soft group-hover:text-ink">{tr(REWARD_TYPE_LABEL[x], lang)}</dt>
+            <dd class="text-2xl font-black tracking-tight">{counts[x]} <span class="text-sm font-medium text-ink-soft">{t.cardsUnit}</span></dd>
+          </a>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pb-10" aria-label={t.scenes.aria}>
+    <ul class="grid grid-cols-2 gap-3 md:grid-cols-5">
+      {scenes.map((s) => (
+        <li>
+          <a href={s.href} class="tile flex h-full flex-col p-4">
+            <span class="text-base font-bold">{s.text[0]}</span>
+            <span class="mt-1 text-xs text-ink-soft">{s.text[1]}</span>
+            <span class="mt-auto pt-3 text-xs text-ink-soft tabular-nums">{s.n} {t.cardsUnit}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="cards" class="mx-auto max-w-6xl scroll-mt-20 px-4 pb-24">
+    <CardExplorer client:load lang={lang} cards={summaries} issuers={issuerOpts} showHero />
+  </section>
+
+  {recent.length > 0 && (
+    <section class="mx-auto max-w-6xl px-4 pb-8">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xl font-bold">{t.recent}</h2>
+        <a href={href(lang, '/changelog')} class="text-sm text-ink-soft underline">{t.all}</a>
+      </div>
+      <ul class="mt-3 divide-y divide-line rounded-xl border border-line bg-surface">
+        {recent.map((e) => (
+          <li class="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-3 text-sm">
+            <time class="text-ink-soft tabular-nums" datetime={e.date}>{e.date}</time>
+            <span class="text-ink-soft">{issuerById.get(e.issuer)?.short_name}</span>
+            {e.card_id ? <a href={href(lang, `/cards/${e.card_id}`)} class="font-medium underline">{e.card_name ?? e.card_id}</a> : null}
+            <span>{tr(e.summary, lang)}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>

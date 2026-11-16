@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-11-16",
+    "type": "added",
+    "issuer": "chase",
+    "summary": {
+      "en": "Site launched with 10 issuers; data checked against issuer websites.",
+      "zh": "網站上線，收錄 10 家發卡機構，資料對照官網核對。"
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "type": "status",
+    "issuer": "citi",
+    "card_id": "citi-custom-cash",
+    "card_name": "Citi Custom Cash® Card",
+    "summary": {
+      "en": "Citi stopped accepting applications.",
+      "zh": "Citi 停止受理申請。"
+    },
+    "source_url": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
+  }
+]

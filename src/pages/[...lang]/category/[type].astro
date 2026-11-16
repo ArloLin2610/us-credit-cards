@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import CardExplorer from '../../../components/CardExplorer.tsx';
+import { issuers, summariesFor } from '../../../lib/data';
+import { LANGS, REWARD_TYPE_DESC, REWARD_TYPE_LABEL, UI, href, langFromParam, tr } from '../../../lib/i18n';
+import type { RewardType } from '../../../lib/types';
+
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => (['cashback', 'miles', 'points'] as RewardType[]).map((type) => ({ params: { lang: l === 'en' ? undefined : l, type } })));
+}
+const lang = langFromParam(Astro.params.lang);
+const t = UI[lang];
+const type = Astro.params.type as RewardType;
+const list = summariesFor(lang).filter((c) => c.rewardType === type);
+const label = tr(REWARD_TYPE_LABEL[type], lang);
+const title = t.cat.title(label);
+---
+
+<Base lang={lang} title={title} description={`${t.cat.desc(list.filter((c) => c.status === 'active').length, label)} ${tr(REWARD_TYPE_DESC[type], lang)}`}>
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">{title}</h1>
+    <p class="mt-3 max-w-prose text-ink-soft">{tr(REWARD_TYPE_DESC[type], lang)}</p>
+    {type !== 'cashback' && (
+      <p class="mt-2 max-w-prose text-sm text-ink-soft">{t.cat.estNote} <a class="underline" href={href(lang, '/valuations')}>{t.nav.valuations}</a></p>
+    )}
+  </section>
+  <section class="mx-auto max-w-6xl px-4 pb-24">
+    <CardExplorer client:load lang={lang} cards={list} issuers={issuers.map((b) => ({ id: b.id, short_name: b.short_name }))} fixedType={type} />
+  </section>
+</Base>

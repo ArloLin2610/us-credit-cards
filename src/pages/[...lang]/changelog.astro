@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { changelog, issuerById, cardById } from '../../lib/data';
+import { UI, href, langFromParam, langPaths, tr } from '../../lib/i18n';
+
+export const getStaticPaths = langPaths;
+const lang = langFromParam(Astro.params.lang);
+const t = UI[lang].log;
+---
+
+<Base lang={lang} title={t.title} description={t.desc}>
+  <section class="mx-auto max-w-4xl px-4 pb-24 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">{t.title}</h1>
+    <p class="mt-3 max-w-prose text-ink-soft">{t.desc}</p>
+    <ul class="mt-8 divide-y divide-line rounded-xl border border-line bg-surface">
+      {changelog.map((e) => (
+        <li class="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-3 text-sm">
+          <time class="text-ink-soft tabular-nums" datetime={e.date}>{e.date}</time>
+          <span class="rounded bg-paper-2 px-1.5 py-0.5 text-xs">{t.types[e.type]}</span>
+          <span class="text-ink-soft">{issuerById.get(e.issuer)?.short_name}</span>
+          {e.card_id && cardById.has(e.card_id) ? <a href={href(lang, `/cards/${e.card_id}`)} class="font-medium underline">{e.card_name ?? e.card_id}</a> : e.card_name ? <span class="font-medium">{e.card_name}</span> : null}
+          <span>{tr(e.summary, lang)}</span>
+          {e.source_url && <a href={e.source_url} target="_blank" rel="noopener nofollow" class="text-xs text-ink-soft underline">↗</a>}
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

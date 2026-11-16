@@ -1,0 +1,369 @@
+[
+  {
+    "id": "wellsfargo-active-cash",
+    "issuer": "wellsfargo",
+    "name": "Wells Fargo Active Cash® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "value": 100,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 12,
+      "on": "both"
+    },
+    "fx_fee": 3,
+    "highlights": [
+      {
+        "en": "Up to $600 of cell phone protection ($25 deductible)",
+        "zh": "手機保障最高 $600（自負額 $25）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+    "source_url": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+    "image_url": "https://creditcards.wellsfargo.com/rv/next/images/cards/active-cash.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "wellsfargo-autograph",
+    "issuer": "wellsfargo",
+    "name": "Wells Fargo Autograph® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "wf-rewards",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "restaurants",
+          "zh": "餐廳"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 3
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas stations and transit",
+          "zh": "加油站與交通"
+        }
+      },
+      {
+        "cat": "streaming",
+        "rate": 3,
+        "detail": {
+          "en": "popular streaming services and phone plans",
+          "zh": "熱門串流服務與電信資費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 20000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3,
+      "extra": {
+        "en": "a $200 cash redemption value",
+        "zh": "兌現價值 $200"
+      }
+    },
+    "intro_apr": {
+      "months": 12,
+      "on": "purchases"
+    },
+    "fx_fee": 0,
+    "highlights": [],
+    "status": "active",
+    "apply_url": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+    "source_url": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+    "image_url": "https://creditcards.wellsfargo.com/rv/next/images/cards/autograph.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "wellsfargo-autograph-journey",
+    "issuer": "wellsfargo",
+    "name": "Wells Fargo Autograph Journey® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "points",
+    "program": "wf-rewards",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotels",
+        "rate": 5
+      },
+      {
+        "cat": "flights",
+        "rate": 4,
+        "detail": {
+          "en": "airlines",
+          "zh": "航空公司"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 3,
+        "detail": {
+          "en": "other travel and restaurants",
+          "zh": "其他旅遊消費與餐廳"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 60000,
+      "unit": "points",
+      "spend": 4000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "$50 annual statement credit with a minimum $50 airline purchase",
+        "zh": "每年航空消費滿 $50 回饋 $50"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+    "source_url": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+    "image_url": "https://creditcards.wellsfargo.com/rv/next/images/cards/autograph-journey.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "wellsfargo-reflect",
+    "issuer": "wellsfargo",
+    "name": "Wells Fargo Reflect® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "intro_apr": {
+      "months": 21,
+      "on": "both"
+    },
+    "fx_fee": 3,
+    "highlights": [
+      {
+        "en": "0% intro APR for 21 months from account opening; no rewards program",
+        "zh": "開卡起 21 個月 0% 優惠利率；無回饋計畫"
+      },
+      {
+        "en": "Up to $600 of cell phone protection ($25 deductible)",
+        "zh": "手機保障最高 $600（自負額 $25）"
+      }
+    ],
+    "tags": [
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.wellsfargo.com/reflect-visa-credit-card/",
+    "source_url": "https://creditcards.wellsfargo.com/reflect-visa-credit-card/",
+    "image_url": "https://creditcards.wellsfargo.com/rv/next/images/cards/reflect.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "wellsfargo-one-key",
+    "issuer": "wellsfargo",
+    "name": "One Key® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "onekey",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "brand",
+        "rate": 3,
+        "detail": {
+          "en": "Expedia, Hotels.com and Vrbo",
+          "zh": "Expedia、Hotels.com 與 Vrbo"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas stations, grocery stores and dining",
+          "zh": "加油站、超市與餐飲"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "welcome": {
+      "value": 250,
+      "unit": "usd",
+      "spend": 2000,
+      "months": 3,
+      "text": {
+        "en": "$250 in OneKeyCash® after $2,000 spend in the first 3 months",
+        "zh": "開卡 3 個月內消費 $2,000 可獲 $250 OneKeyCash®"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Rewards are OneKeyCash®, usable on Expedia, Hotels.com and Vrbo bookings rather than cash",
+        "zh": "回饋為 OneKeyCash®，用於 Expedia、Hotels.com、Vrbo 訂購，非現金"
+      },
+      {
+        "en": "Automatic One Key Silver status",
+        "zh": "自動享 One Key Silver 會籍"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.wellsfargo.com/one-key-credit-card/",
+    "source_url": "https://creditcards.wellsfargo.com/one-key-credit-card/",
+    "image_url": "https://creditcards.wellsfargo.com/rv/next/images/cards/one-key.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "wellsfargo-choice-privileges",
+    "issuer": "wellsfargo",
+    "name": "Choice Privileges® Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "choice",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 5,
+        "detail": {
+          "en": "stays at participating Choice Hotels® and Choice Privileges point purchases",
+          "zh": "Choice Hotels® 住宿與購買 Choice Privileges 點數"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas stations, grocery stores, home improvement stores and phone plan services",
+          "zh": "加油站、超市、家居修繕賣場與電信資費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 40000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "Gold Elite status perks and 10% bonus points on qualifying stays",
+        "zh": "Gold Elite 會籍禮遇，符合條件住宿加贈 10% 點數"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.wellsfargo.com/",
+    "source_url": "https://creditcards.wellsfargo.com/",
+    "image_url": "https://creditcards.wellsfargo.com/rv/next/images/cards/choice-privileges.webp",
+    "last_verified": "2026-11-16",
+    "notes": "Listed on the Wells Fargo card index; no dedicated product-page link was exposed there, so source_url is the index."
+  },
+  {
+    "id": "wellsfargo-choice-privileges-select",
+    "issuer": "wellsfargo",
+    "name": "Choice Privileges® Select Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "points",
+    "program": "choice",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 10,
+        "detail": {
+          "en": "stays at participating Choice Hotels® and Choice Privileges point purchases",
+          "zh": "Choice Hotels® 住宿與購買 Choice Privileges 點數"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 5,
+        "detail": {
+          "en": "gas stations, grocery stores, home improvement stores and phone plan services",
+          "zh": "加油站、超市、家居修繕賣場與電信資費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 60000,
+      "unit": "points",
+      "spend": 3000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "Platinum Elite status perks and 25% bonus points on qualifying stays",
+        "zh": "Platinum Elite 會籍禮遇，符合條件住宿加贈 25% 點數"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.wellsfargo.com/",
+    "source_url": "https://creditcards.wellsfargo.com/",
+    "image_url": "https://creditcards.wellsfargo.com/rv/next/images/cards/choice-privileges-select.webp",
+    "last_verified": "2026-11-16",
+    "notes": "Listed on the Wells Fargo card index; no dedicated product-page link was exposed there, so source_url is the index."
+  }
+]

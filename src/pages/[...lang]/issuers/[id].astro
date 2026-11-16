@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import CardExplorer from '../../../components/CardExplorer.tsx';
+import IssuerChip from '../../../components/IssuerChip.astro';
+import { issuers, issuerById, summariesFor, hiddenCount } from '../../../lib/data';
+import { LANGS, UI, langFromParam, tr } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => issuers.map((b) => ({ params: { lang: l === 'en' ? undefined : l, id: b.id } })));
+}
+const lang = langFromParam(Astro.params.lang);
+const t = UI[lang];
+const issuer = issuerById.get(Astro.params.id!)!;
+const list = summariesFor(lang).filter((c) => c.issuer === issuer.id);
+const h = hiddenCount(issuer.id);
+const n = list.filter((c) => c.status === 'active').length;
+---
+
+<Base lang={lang} title={`${issuer.short_name}${lang === 'zh' ? ' 信用卡' : ' credit cards'}`} description={t.iss.pageDesc(issuer.short_name, n)}>
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10">
+    <div class="flex flex-wrap items-center gap-4">
+      <IssuerChip issuer={issuer} size={44} />
+      <div>
+        <h1 class="text-3xl font-black tracking-tight md:text-4xl">{issuer.name}</h1>
+        <p class="text-sm text-ink-soft">
+          {lang === 'zh' && issuer.name_zh ? `${issuer.name_zh}・` : ''}{t.iss.cards(n)}{h > 0 && ` · ${t.iss.hidden(h)}`} ·
+          <a href={issuer.cards_index_url} target="_blank" rel="noopener nofollow" class="underline">{t.iss.site}</a>
+        </p>
+      </div>
+    </div>
+    {issuer.notes && <p class="mt-4 max-w-prose rounded-xl border border-line bg-surface px-4 py-3 text-sm text-ink-soft">{tr(issuer.notes, lang)}</p>}
+  </section>
+  <section class="mx-auto max-w-6xl px-4 pb-24">
+    {list.length > 0 && <CardExplorer client:load lang={lang} cards={list} issuers={[]} fixedIssuer={issuer.id} />}
+  </section>
+</Base>

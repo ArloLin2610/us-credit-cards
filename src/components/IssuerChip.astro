@@ -1,0 +1,10 @@
+---
+import type { Issuer } from '../lib/types';
+interface Props {
+  issuer: Issuer;
+  size?: number;
+}
+const { issuer, size = 36 } = Astro.props;
+---
+
+<span class="inline-flex shrink-0 items-center justify-center rounded-lg px-3 font-bold text-white" style={`height:${size}px;background:${issuer.color};font-size:${Math.round(size * 0.36)}px`}>{issuer.short_name}</span>

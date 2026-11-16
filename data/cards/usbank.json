@@ -1,0 +1,435 @@
+[
+  {
+    "id": "usbank-smartly",
+    "issuer": "usbank",
+    "name": "U.S. Bank Smartly™ Visa Signature® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "intro_apr": {
+      "months": 12,
+      "on": "both"
+    },
+    "highlights": [
+      {
+        "en": "Up to an additional 2% on the first $10,000 per billing cycle with qualifying U.S. Bank Smartly® Savings/Checking balances (2.5% total from $10,000, 3% from $50,000, 4% from $100,000)",
+        "zh": "持有 U.S. Bank Smartly® 存款達門檻，每期前 $10,000 最高再加 2%（$10,000 起共 2.5%、$50,000 起 3%、$100,000 起 4%）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/photo-bank-smartly-card-art.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "usbank-shield",
+    "issuer": "usbank",
+    "name": "U.S. Bank Shield® Visa® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 4,
+        "detail": {
+          "en": "prepaid air, hotel and car reservations booked in the Travel Center",
+          "zh": "於 Travel Center 預付訂購機票、飯店與租車"
+        }
+      }
+    ],
+    "intro_apr": {
+      "months": 21,
+      "on": "both"
+    },
+    "highlights": [
+      {
+        "en": "0% intro APR for the first 21 billing cycles on purchases and balance transfers",
+        "zh": "消費與餘額代償前 21 期帳單 0% 優惠利率"
+      },
+      {
+        "en": "No everyday rewards outside the Travel Center",
+        "zh": "除 Travel Center 外無一般消費回饋"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/shield-visa-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/shield-credit-card-transparent.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "usbank-cash-plus",
+    "issuer": "usbank",
+    "name": "U.S. Bank Cash+® Visa Signature® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "choice",
+        "rate": 5,
+        "detail": {
+          "en": "two categories you choose each quarter",
+          "zh": "每季自選兩個類別"
+        },
+        "cap": {
+          "en": "first $2,000 in combined purchases per quarter, then 1%; quarterly enrollment required",
+          "zh": "每季合計前 $2,000，之後 1%；需每季登錄"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "prepaid air, hotel and car reservations booked in the Travel Center",
+          "zh": "於 Travel Center 預付訂購機票、飯店與租車"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "one everyday category you choose each quarter (e.g. grocery stores, gas/EV charging, restaurants)",
+          "zh": "每季自選一個日常類別（如超市、加油／充電、餐廳）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 1000,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "highlights": [],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/photo-cash-plus-signature-lg.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "usbank-altitude-connect",
+    "issuer": "usbank",
+    "name": "U.S. Bank Altitude® Connect Visa Signature® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "usbank-altitude",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "prepaid hotels and car rentals booked in the Travel Center",
+          "zh": "於 Travel Center 預付訂購飯店與租車"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 4
+      },
+      {
+        "cat": "gas",
+        "rate": 4,
+        "detail": {
+          "en": "gas stations and EV charging stations",
+          "zh": "加油站與電動車充電站"
+        },
+        "cap": {
+          "en": "first $1,000 each quarter",
+          "zh": "每季前 $1,000"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "dining, streaming services and grocery stores",
+          "zh": "餐飲、串流服務與超市"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 20000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Airport lounge access benefit and TSA PreCheck® statement credits (see issuer page for limits)",
+        "zh": "機場貴賓室禮遇與 TSA PreCheck® 回饋（限制見官網）"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/photo-altitude-connect-consumer.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "usbank-altitude-go",
+    "issuer": "usbank",
+    "name": "U.S. Bank Altitude® Go Visa Signature® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "usbank-altitude",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "dining",
+        "rate": 4,
+        "detail": {
+          "en": "dining, takeout and restaurant delivery",
+          "zh": "餐飲、外帶與外送"
+        },
+        "cap": {
+          "en": "first $2,000 each quarter",
+          "zh": "每季前 $2,000"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "grocery stores and gas/EV charging stations (excludes discount stores/supercenters and wholesale clubs)",
+          "zh": "超市與加油／充電站（不含量販店與會員制賣場）"
+        }
+      },
+      {
+        "cat": "streaming",
+        "rate": 2,
+        "detail": {
+          "en": "streaming services",
+          "zh": "串流服務"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 20000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "highlights": [
+      {
+        "en": "$15 credit for annual streaming service purchases",
+        "zh": "年度串流服務消費回饋 $15"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/altitude-go-visa-signature-credit-card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "usbank-altitude-go-secured",
+    "issuer": "usbank",
+    "name": "U.S. Bank Altitude® Go Secured Visa® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "usbank-altitude",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "dining",
+        "rate": 4,
+        "detail": {
+          "en": "dining, takeout and restaurant delivery",
+          "zh": "餐飲、外帶與外送"
+        },
+        "cap": {
+          "en": "first $2,000 each quarter",
+          "zh": "每季前 $2,000"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "grocery stores and gas/EV charging stations (excludes discount stores/supercenters and wholesale clubs)",
+          "zh": "超市與加油／充電站（不含量販店與會員制賣場）"
+        }
+      },
+      {
+        "cat": "streaming",
+        "rate": 2,
+        "detail": {
+          "en": "streaming services",
+          "zh": "串流服務"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Refundable security deposit of $300–$5,000 sets your credit limit",
+        "zh": "可退還保證金 $300–$5,000，即為信用額度"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "secured"
+    ],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/altitude-go-secured-visa-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/altitude-go-secured-credit-card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "usbank-cash-plus-secured",
+    "issuer": "usbank",
+    "name": "U.S. Bank Cash+® Secured Visa® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "choice",
+        "rate": 5,
+        "detail": {
+          "en": "two categories you choose each quarter",
+          "zh": "每季自選兩個類別"
+        },
+        "cap": {
+          "en": "first $2,000 in combined purchases per quarter, then 1%; quarterly enrollment required",
+          "zh": "每季合計前 $2,000，之後 1%；需每季登錄"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "prepaid air, hotel and car reservations booked in the Travel Center",
+          "zh": "於 Travel Center 預付訂購機票、飯店與租車"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "one everyday category you choose each quarter (e.g. grocery stores, gas/EV charging, restaurants)",
+          "zh": "每季自選一個日常類別（如超市、加油／充電、餐廳）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Refundable security deposit of $300–$5,000 sets your credit limit",
+        "zh": "可退還保證金 $300–$5,000，即為信用額度"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "secured"
+    ],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/cash-plus-secured-visa-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/cash-plus-secured-lg.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "usbank-secured",
+    "issuer": "usbank",
+    "name": "U.S. Bank Secured Visa® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "highlights": [
+      {
+        "en": "Refundable security deposit of $300–$5,000 sets your credit limit",
+        "zh": "可退還保證金 $300–$5,000，即為信用額度"
+      },
+      {
+        "en": "No rewards program",
+        "zh": "無回饋計畫"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "secured",
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html",
+    "source_url": "https://www.usbank.com/credit-cards/secured-visa-credit-card.html",
+    "image_url": "https://www.usbank.com/content/dam/usbank/en/images/illustrations/card-art/credit-cards/photo-classic-secured-visa-vertical-2x3.png",
+    "last_verified": "2026-11-16"
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "bilt-blue",
+    "issuer": "bilt",
+    "name": "Bilt Blue Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "bilt",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "dining",
+        "rate": 4,
+        "detail": {
+          "en": "Bilt partner restaurants (up to 4X)",
+          "zh": "Bilt 合作餐廳（最高 4X）"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 3,
+        "detail": {
+          "en": "hotels booked on the Bilt Travel Portal",
+          "zh": "於 Bilt Travel Portal 訂飯店"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 2,
+        "detail": {
+          "en": "flights booked on the Bilt Travel Portal",
+          "zh": "於 Bilt Travel Portal 訂機票"
+        }
+      },
+      {
+        "cat": "rent",
+        "rate": 1.25,
+        "detail": {
+          "en": "rent and mortgage payments: 0.5X–1.25X depending on everyday card spend that billing cycle (250 points if spend is under 25% of the housing payment)",
+          "zh": "房租與房貸：0.5X–1.25X，依當期日常刷卡金額占房租比例而定（未達 25% 則為 250 點）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "$100 Bilt Cash",
+        "zh": "$100 Bilt Cash"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "No transaction fee on rent and mortgage payments made through Bilt",
+        "zh": "經 Bilt 繳房租與房貸免手續費"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      },
+      {
+        "en": "Cell phone protection when you pay your bill with the card",
+        "zh": "以本卡繳電話費享手機保障"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.bilt.com/card",
+    "source_url": "https://www.bilt.com/card",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "bilt-obsidian",
+    "issuer": "bilt",
+    "name": "Bilt Obsidian Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "points",
+    "program": "bilt",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "dining",
+        "rate": 6,
+        "detail": {
+          "en": "Bilt partner restaurants (up to 6X)",
+          "zh": "Bilt 合作餐廳（最高 6X）"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 4,
+        "detail": {
+          "en": "hotels booked on the Bilt Travel Portal",
+          "zh": "於 Bilt Travel Portal 訂飯店"
+        }
+      },
+      {
+        "cat": "choice",
+        "rate": 3,
+        "detail": {
+          "en": "your choice of dining or grocery",
+          "zh": "餐飲或超市二擇一"
+        },
+        "cap": {
+          "en": "grocery up to $25,000 per year",
+          "zh": "超市每年上限 $25,000"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 3,
+        "detail": {
+          "en": "flights booked on the Bilt Travel Portal",
+          "zh": "於 Bilt Travel Portal 訂機票"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 2,
+        "detail": {
+          "en": "other travel",
+          "zh": "其他旅遊消費"
+        }
+      },
+      {
+        "cat": "rent",
+        "rate": 1.25,
+        "detail": {
+          "en": "rent and mortgage payments: 0.5X–1.25X depending on everyday card spend that billing cycle (250 points if spend is under 25% of the housing payment)",
+          "zh": "房租與房貸：0.5X–1.25X，依當期日常刷卡金額占房租比例而定（未達 25% 則為 250 點）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "$200 Bilt Cash",
+        "zh": "$200 Bilt Cash"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "No transaction fee on rent and mortgage payments made through Bilt",
+        "zh": "經 Bilt 繳房租與房貸免手續費"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      },
+      {
+        "en": "$100 annual Bilt Travel hotel credit (two $50 statement credits)",
+        "zh": "每年 $100 Bilt Travel 飯店回饋（分兩次各 $50）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.bilt.com/card",
+    "source_url": "https://www.bilt.com/card",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "bilt-palladium",
+    "issuer": "bilt",
+    "name": "Bilt Palladium Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 495
+    },
+    "reward_type": "points",
+    "program": "bilt",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "dining",
+        "rate": 5,
+        "detail": {
+          "en": "Bilt partner restaurants (up to 5X)",
+          "zh": "Bilt 合作餐廳（最高 5X）"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 4,
+        "detail": {
+          "en": "hotels booked on the Bilt Travel Portal",
+          "zh": "於 Bilt Travel Portal 訂飯店"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 3,
+        "detail": {
+          "en": "flights booked on the Bilt Travel Portal",
+          "zh": "於 Bilt Travel Portal 訂機票"
+        }
+      },
+      {
+        "cat": "rent",
+        "rate": 1.25,
+        "detail": {
+          "en": "rent and mortgage payments: 0.5X–1.25X depending on everyday card spend that billing cycle (250 points if spend is under 25% of the housing payment)",
+          "zh": "房租與房貸：0.5X–1.25X，依當期日常刷卡金額占房租比例而定（未達 25% 則為 250 點）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2,
+        "detail": {
+          "en": "other travel and everyday purchases",
+          "zh": "其他旅遊與日常消費"
+        }
+      }
+    ],
+    "welcome": {
+      "value": 50000,
+      "unit": "points",
+      "spend": 4000,
+      "months": 3,
+      "extra": {
+        "en": "plus $300 Bilt Cash and Gold status; spend excludes rent and mortgage (first 90 days)",
+        "zh": "另贈 $300 Bilt Cash 與 Gold 會籍；消費門檻不含房租房貸（開卡 90 天內）"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "No transaction fee on rent and mortgage payments made through Bilt",
+        "zh": "經 Bilt 繳房租與房貸免手續費"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      },
+      {
+        "en": "$400 annual Bilt Travel hotel credit (two $200 statement credits)",
+        "zh": "每年 $400 Bilt Travel 飯店回饋（分兩次各 $200）"
+      },
+      {
+        "en": "Priority Pass™ airport lounge access",
+        "zh": "Priority Pass™ 機場貴賓室"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://www.bilt.com/card",
+    "source_url": "https://www.bilt.com/card",
+    "last_verified": "2026-11-16"
+  }
+]

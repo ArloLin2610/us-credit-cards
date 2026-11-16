@@ -1,0 +1,354 @@
+[
+  {
+    "id": "discover-it-cash-back",
+    "issuer": "discover",
+    "name": "Discover it® Cash Back Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "rotating",
+        "rate": 5,
+        "detail": {
+          "en": "everyday purchases at different places each quarter",
+          "zh": "每季不同的日常消費通路"
+        },
+        "cap": {
+          "en": "up to the quarterly maximum; activation required",
+          "zh": "每季有上限，需每季啟用"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "Unlimited Cashback Match: all cash back earned in the first year is matched dollar-for-dollar",
+        "zh": "Cashback Match：首年賺得的現金回饋全額加倍，無上限"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/cash-back/it-card/",
+    "source_url": "https://www.discover.com/credit-cards/cash-back/it-card/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/itblue_card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "discover-it-chrome",
+    "issuer": "discover",
+    "name": "Discover it® Chrome Gas & Restaurants Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "gas",
+        "rate": 2,
+        "detail": {
+          "en": "gas stations and restaurants",
+          "zh": "加油站與餐廳"
+        },
+        "cap": {
+          "en": "up to $1,000 in combined purchases each quarter",
+          "zh": "每季合計上限 $1,000"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Unlimited Cashback Match: all cash back earned in the first year is matched dollar-for-dollar",
+        "zh": "Cashback Match：首年賺得的現金回饋全額加倍，無上限"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/cash-back/chrome/",
+    "source_url": "https://www.discover.com/credit-cards/cash-back/chrome/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/itchrome_card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "discover-it-miles",
+    "issuer": "discover",
+    "name": "Discover it® Miles Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "miles",
+    "program": "discover-miles",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Unlimited Discover Match: all miles earned in the first year are matched",
+        "zh": "Discover Match：首年賺得的哩程全額加倍，無上限"
+      },
+      {
+        "en": "Miles are a fixed-value currency redeemed as travel credits or cash, not airline miles",
+        "zh": "哩程為固定價值，可折抵旅遊消費或兌現，並非航空公司哩程"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/travel/",
+    "source_url": "https://www.discover.com/credit-cards/travel/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/itmiles_card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "discover-it-balance-transfer",
+    "issuer": "discover",
+    "name": "Discover it® Balance Transfer Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "rotating",
+        "rate": 5,
+        "detail": {
+          "en": "everyday purchases at different places each quarter",
+          "zh": "每季不同的日常消費通路"
+        },
+        "cap": {
+          "en": "up to the quarterly maximum; activation required",
+          "zh": "每季有上限，需每季啟用"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "intro_apr": {
+      "months": 18,
+      "on": "bt"
+    },
+    "highlights": [
+      {
+        "en": "0% intro APR for 18 months on balance transfers and 6 months on purchases",
+        "zh": "餘額代償 18 個月、消費 6 個月 0% 優惠利率"
+      },
+      {
+        "en": "Unlimited Cashback Match: all cash back earned in the first year is matched dollar-for-dollar",
+        "zh": "Cashback Match：首年賺得的現金回饋全額加倍，無上限"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/balance-transfer-credit-cards/cash-back-bt-card/",
+    "source_url": "https://www.discover.com/credit-cards/balance-transfer-credit-cards/cash-back-bt-card/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/it-card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "discover-it-student-cash-back",
+    "issuer": "discover",
+    "name": "Discover it® Student Cash Back Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "rotating",
+        "rate": 5,
+        "detail": {
+          "en": "everyday purchases at different places each quarter",
+          "zh": "每季不同的日常消費通路"
+        },
+        "cap": {
+          "en": "up to the quarterly maximum; activation required",
+          "zh": "每季有上限，需每季啟用"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Unlimited Cashback Match: all cash back earned in the first year is matched dollar-for-dollar",
+        "zh": "Cashback Match：首年賺得的現金回饋全額加倍，無上限"
+      }
+    ],
+    "tags": [
+      "student"
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/student-credit-card/it-card/",
+    "source_url": "https://www.discover.com/credit-cards/student-credit-card/it-card/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/itiridescent_card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "discover-it-student-chrome",
+    "issuer": "discover",
+    "name": "Discover it® Student Chrome Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "gas",
+        "rate": 2,
+        "detail": {
+          "en": "gas stations and restaurants",
+          "zh": "加油站與餐廳"
+        },
+        "cap": {
+          "en": "up to $1,000 in combined purchases each quarter",
+          "zh": "每季合計上限 $1,000"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Unlimited Cashback Match: all cash back earned in the first year is matched dollar-for-dollar",
+        "zh": "Cashback Match：首年賺得的現金回饋全額加倍，無上限"
+      }
+    ],
+    "tags": [
+      "student"
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/student-credit-card/chrome-card/",
+    "source_url": "https://www.discover.com/credit-cards/student-credit-card/chrome-card/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/itchrome_card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "discover-it-secured",
+    "issuer": "discover",
+    "name": "Discover it® Secured Cash Back Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "rotating",
+        "rate": 5,
+        "detail": {
+          "en": "everyday purchases at different places each quarter",
+          "zh": "每季不同的日常消費通路"
+        },
+        "cap": {
+          "en": "up to the quarterly maximum; activation required",
+          "zh": "每季有上限，需每季啟用"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Refundable deposits as low as $49 unlock credit lines starting at $200",
+        "zh": "可退還保證金最低 $49，額度 $200 起"
+      },
+      {
+        "en": "Unlimited Cashback Match: all cash back earned in the first year is matched dollar-for-dollar",
+        "zh": "Cashback Match：首年賺得的現金回饋全額加倍，無上限"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "secured"
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/secured-credit-card/",
+    "source_url": "https://www.discover.com/credit-cards/secured-credit-card/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/itblue_card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "discover-it-nhl",
+    "issuer": "discover",
+    "name": "NHL® Discover it® Credit Card",
+    "network": "discover",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "rotating",
+        "rate": 5,
+        "detail": {
+          "en": "everyday purchases at different places each quarter",
+          "zh": "每季不同的日常消費通路"
+        },
+        "cap": {
+          "en": "up to the quarterly maximum; activation required",
+          "zh": "每季有上限，需每季啟用"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Card designs for all 32 NHL® teams",
+        "zh": "32 支 NHL® 球隊卡面可選"
+      },
+      {
+        "en": "Unlimited Cashback Match: all cash back earned in the first year is matched dollar-for-dollar",
+        "zh": "Cashback Match：首年賺得的現金回饋全額加倍，無上限"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.discover.com/credit-cards/cash-back/nhl-card/",
+    "source_url": "https://www.discover.com/credit-cards/cash-back/nhl-card/",
+    "image_url": "https://ecm.capitalone.com/WCM/dfs-card/products/itnhlshield_card/rdesktop.png",
+    "last_verified": "2026-11-16"
+  }
+]

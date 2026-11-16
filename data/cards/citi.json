@@ -1,0 +1,777 @@
+[
+  {
+    "id": "citi-double-cash",
+    "issuer": "citi",
+    "name": "Citi Double Cash® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 2,
+        "detail": {
+          "en": "1% when you buy plus 1% as you pay",
+          "zh": "消費時 1%，繳款時再 1%"
+        }
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 18,
+      "on": "bt"
+    },
+    "fx_fee": 3,
+    "highlights": [
+      {
+        "en": "No caps and no category enrollment",
+        "zh": "無上限、無需登錄類別"
+      },
+      {
+        "en": "0% intro APR for 18 months on balance transfers only",
+        "zh": "僅餘額代償享 18 個月 0% 優惠利率"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-double-cash-credit-card/citi-double-cash-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-custom-cash",
+    "issuer": "citi",
+    "name": "Citi Custom Cash® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "highlights": [
+      {
+        "en": "Closed to new applications; Citi points applicants to the Citi Double Cash® Card instead",
+        "zh": "已停止申請；Citi 建議改申請 Citi Double Cash® Card"
+      }
+    ],
+    "status": "discontinued",
+    "status_note": {
+      "en": "Citi stopped accepting applications for this card on May 28, 2026; existing cardmembers are not affected.",
+      "zh": "Citi 自 2026 年 5 月 28 日起停止受理本卡申請；現有持卡人不受影響。"
+    },
+    "apply_url": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-custom-cash-credit-card/citi-custom-cash-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-strata-premier",
+    "issuer": "citi",
+    "name": "Citi Strata Premier® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "points",
+    "program": "citi-ty",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 10,
+        "detail": {
+          "en": "hotels, car rentals and attractions booked on cititravel.com",
+          "zh": "於 cititravel.com 預訂飯店、租車與景點"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 3,
+        "detail": {
+          "en": "air travel and other hotel purchases",
+          "zh": "機票與其他飯店消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "restaurants",
+          "zh": "餐廳"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "supermarkets",
+          "zh": "超市"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas and EV charging stations",
+          "zh": "加油站與電動車充電站"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 60000,
+      "unit": "points",
+      "spend": 4000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "$100 off one hotel stay of $500+ per calendar year booked through cititravel.com",
+        "zh": "每曆年經 cititravel.com 訂房滿 $500 可折 $100 一次"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-strata-premier-credit-card/citi-strata-premier-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-strata-elite",
+    "issuer": "citi",
+    "name": "Citi Strata Elite® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 595
+    },
+    "reward_type": "points",
+    "program": "citi-ty",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 12,
+        "detail": {
+          "en": "hotels, car rentals and attractions booked on cititravel.com",
+          "zh": "於 cititravel.com 預訂飯店、租車與景點"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 6,
+        "detail": {
+          "en": "air travel booked on cititravel.com",
+          "zh": "於 cititravel.com 訂購機票"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "restaurants; 6X on Citi Nights℠ (Fri & Sat, 6 pm–6 am ET)",
+          "zh": "餐廳；Citi Nights℠（週五、六 18:00–06:00 ET）為 6X"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "welcome": {
+      "value": 75000,
+      "unit": "points",
+      "spend": 6000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Up to $300 off a hotel stay of 2+ nights each calendar year via cititravel.com",
+        "zh": "每曆年經 cititravel.com 訂房兩晚以上最高折 $300"
+      },
+      {
+        "en": "Up to $200 Splurge Credit® each calendar year at up to 2 chosen brands",
+        "zh": "每曆年於自選 2 個品牌最高 $200 Splurge Credit®"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-strata-elite-credit-card/citi-strata-elite-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-strata",
+    "issuer": "citi",
+    "name": "Citi Strata® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "citi-ty-basic",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "hotels, car rentals and attractions booked on cititravel.com",
+          "zh": "於 cititravel.com 預訂飯店、租車與景點"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "supermarkets",
+          "zh": "超市"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas and EV charging stations and select transit",
+          "zh": "加油站、電動車充電站與指定交通"
+        }
+      },
+      {
+        "cat": "choice",
+        "rate": 3,
+        "detail": {
+          "en": "one self-select category: fitness clubs, select streaming, live entertainment, cosmetic stores/barber shops/hair salons, or pet supply stores",
+          "zh": "自選一類：健身房、指定串流、現場娛樂、美妝／理髮美髮、寵物用品店"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants",
+          "zh": "餐廳"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 20000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "fx_fee": 3,
+    "highlights": [],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-strata-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-strata-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-strata-credit-card/citi-strata-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-costco-anywhere",
+    "issuer": "citi",
+    "name": "Costco Anywhere Visa® Card by Citi",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0,
+      "note": {
+        "en": "No annual fee with a paid, active Costco membership",
+        "zh": "持有效付費 Costco 會籍者免年費"
+      }
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "gas",
+        "rate": 5,
+        "detail": {
+          "en": "gas at Costco; 4% on other eligible gas and EV charging",
+          "zh": "Costco 加油 5%；其他符合條件的加油與電動車充電 4%"
+        },
+        "cap": {
+          "en": "first $7,000 in combined spend per year, then 1%",
+          "zh": "每年合計前 $7,000，之後 1%"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "restaurants and eligible travel, including Costco Travel",
+          "zh": "餐廳與符合條件的旅遊，含 Costco Travel"
+        }
+      },
+      {
+        "cat": "brand",
+        "rate": 2,
+        "detail": {
+          "en": "all other Costco and Costco.com purchases",
+          "zh": "其他 Costco 與 Costco.com 消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Cash back is paid once a year as a reward certificate after the February statement, redeemable at U.S. Costco warehouses",
+        "zh": "回饋每年於 2 月帳單後以回饋券一次發放，於美國 Costco 賣場兌換"
+      },
+      {
+        "en": "Requires a Costco membership",
+        "zh": "需有 Costco 會籍"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+    "source_url": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-costco-anywhere-visa-credit-card/citi-costco-anywhere-visa-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-aadvantage-platinum-select",
+    "issuer": "citi",
+    "name": "Citi® / AAdvantage® Platinum Select® World Elite Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 99,
+      "first_year": 0
+    },
+    "reward_type": "miles",
+    "program": "american",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 2,
+        "detail": {
+          "en": "eligible American Airlines purchases",
+          "zh": "符合條件的美國航空消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants, including takeout",
+          "zh": "餐廳，含外帶"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 2
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 50000,
+      "unit": "miles",
+      "spend": 2500,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "First checked bag free on domestic American Airlines itineraries (you and up to 4 companions)",
+        "zh": "美航國內線免費託運第一件行李（本人與最多 4 位同行者）"
+      },
+      {
+        "en": "Preferred boarding on American Airlines flights",
+        "zh": "美航航班優先登機"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard",
+    "source_url": "https://www.citi.com/credit-cards/citi-aadvantage-platinum-select-world-elite-mastercard",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-aadvantage-platinum-elite-credit-card/citi-aadvantage-platinum-elite-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-aadvantage-executive",
+    "issuer": "citi",
+    "name": "Citi® / AAdvantage® Executive World Elite Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 695
+    },
+    "reward_type": "miles",
+    "program": "american",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 12,
+        "detail": {
+          "en": "eligible AAdvantage Hotels® and AAdvantage Cars® bookings",
+          "zh": "符合條件的 AAdvantage Hotels® 與 AAdvantage Cars® 預訂"
+        }
+      },
+      {
+        "cat": "airline",
+        "rate": 4,
+        "detail": {
+          "en": "eligible American Airlines purchases (5X for the rest of the year after $150,000 in purchases)",
+          "zh": "符合條件的美航消費（曆年消費滿 $150,000 後當年為 5X）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 80000,
+      "unit": "miles",
+      "spend": 8000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "Admirals Club® membership with unlimited visits (up to 2 guests or immediate family)",
+        "zh": "Admirals Club® 會籍，不限次數（可帶 2 位賓客或直系家屬）"
+      },
+      {
+        "en": "Up to $500 back each calendar year on eligible American Airlines Vacations℠ purchases",
+        "zh": "每曆年 American Airlines Vacations℠ 消費最高回饋 $500"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard",
+    "source_url": "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-aadvantage-executive-world-legend-mastercard/citi-aadvantage-executive-world-legend-mastercard_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-aadvantage-globe",
+    "issuer": "citi",
+    "name": "Citi® / AAdvantage® Globe™ Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 350
+    },
+    "reward_type": "miles",
+    "program": "american",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 6,
+        "detail": {
+          "en": "eligible AAdvantage Hotels™ bookings",
+          "zh": "符合條件的 AAdvantage Hotels™ 預訂"
+        }
+      },
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "eligible American Airlines purchases",
+          "zh": "符合條件的美國航空消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants, including takeout and delivery",
+          "zh": "餐廳，含外帶與外送"
+        }
+      },
+      {
+        "cat": "transit",
+        "rate": 2,
+        "detail": {
+          "en": "Rides and Rails™: taxis, rideshares and public transit",
+          "zh": "Rides and Rails™：計程車、共乘與大眾運輸"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 60000,
+      "unit": "miles",
+      "spend": 4000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "4 Admirals Club® Globe™ Passes every calendar year",
+        "zh": "每曆年 4 張 Admirals Club® Globe™ 通行證"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
+    "source_url": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-aadvantage-globe-mastercard/citi-aadvantage-globe-mastercard_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-aadvantage-mileup",
+    "issuer": "citi",
+    "name": "American Airlines AAdvantage® MileUp® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "miles",
+    "program": "american",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 2,
+        "detail": {
+          "en": "eligible American Airlines purchases",
+          "zh": "符合條件的美國航空消費"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "grocery stores, including grocery delivery services",
+          "zh": "超市，含生鮮外送"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 15000,
+      "unit": "miles",
+      "spend": 500,
+      "months": 3,
+      "extra": {
+        "en": "plus a $100 statement credit",
+        "zh": "另贈 $100 帳單回饋"
+      }
+    },
+    "highlights": [
+      {
+        "en": "25% savings on inflight food and beverage purchases on American Airlines",
+        "zh": "美航機上餐飲 75 折"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/aadvantage-mile-up-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/aadvantage-mile-up-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/aadvantage-mile-up-credit-card/aadvantage-mile-up-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-diamond-preferred",
+    "issuer": "citi",
+    "name": "Citi® Diamond Preferred® Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "intro_apr": {
+      "months": 21,
+      "on": "bt"
+    },
+    "fx_fee": 3,
+    "highlights": [
+      {
+        "en": "0% intro APR for 21 months on balance transfers and 12 months on purchases; no rewards program",
+        "zh": "餘額代償 21 個月、消費 12 個月 0% 優惠利率；無回饋計畫"
+      },
+      {
+        "en": "Balance transfers must be completed in the first 4 months",
+        "zh": "餘額代償須於開卡 4 個月內完成"
+      }
+    ],
+    "tags": [
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-diamond-preferred-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-diamond-preferred-credit-card/citi-diamond-preferred-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-simplicity",
+    "issuer": "citi",
+    "name": "Citi Simplicity® Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "intro_apr": {
+      "months": 18,
+      "on": "both"
+    },
+    "fx_fee": 3,
+    "highlights": [
+      {
+        "en": "0% intro APR for 18 months on purchases and balance transfers; no rewards program",
+        "zh": "消費與餘額代償 18 個月 0% 優惠利率；無回饋計畫"
+      },
+      {
+        "en": "No late fees and no penalty rate",
+        "zh": "無逾期費、無懲罰性利率"
+      }
+    ],
+    "tags": [
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-simplicity-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-simplicity-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-simplicity-credit-card/citi-simplicity-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-secured",
+    "issuer": "citi",
+    "name": "Citi® Secured Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "fx_fee": 3,
+    "highlights": [
+      {
+        "en": "Security deposit of $200–$2,500 sets your credit limit",
+        "zh": "保證金 $200–$2,500，即為信用額度"
+      },
+      {
+        "en": "No rewards program; reports to major credit bureaus",
+        "zh": "無回饋計畫；向主要信用機構回報紀錄"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "secured",
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-secured-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-secured-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-secured-credit-card/citi-secured-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "citi-att-points-plus",
+    "issuer": "citi",
+    "name": "AT&T Points Plus® Card from Citi",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "citi-ty-basic",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas and EV charging stations",
+          "zh": "加油站與電動車充電站"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "grocery stores",
+          "zh": "超市"
+        }
+      },
+      {
+        "cat": "brand",
+        "rate": 2,
+        "detail": {
+          "en": "AT&T products and services",
+          "zh": "AT&T 產品與服務"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 1000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "$20 statement credit each billing cycle you spend $1,000 or more",
+        "zh": "每期帳單消費滿 $1,000 回饋 $20"
+      },
+      {
+        "en": "$10 off per line on AT&T wireless with AutoPay and paperless billing",
+        "zh": "AT&T 門號設定自動扣繳與電子帳單，每線每月折 $10"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.citi.com/credit-cards/citi-att-pointsplus-credit-card",
+    "source_url": "https://www.citi.com/credit-cards/citi-att-pointsplus-credit-card",
+    "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-att-pointsplus-credit-card/citi-att-pointsplus-credit-card_306x192.webp",
+    "last_verified": "2026-11-16"
+  }
+]

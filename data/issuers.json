@@ -1,0 +1,117 @@
+[
+  {
+    "id": "chase",
+    "name": "JPMorgan Chase",
+    "short_name": "Chase",
+    "name_zh": "大通銀行",
+    "website": "https://www.chase.com/",
+    "cards_index_url": "https://creditcards.chase.com/all-credit-cards",
+    "color": "#117ACA"
+  },
+  {
+    "id": "amex",
+    "name": "American Express",
+    "short_name": "Amex",
+    "name_zh": "美國運通",
+    "website": "https://www.americanexpress.com/",
+    "cards_index_url": "https://www.americanexpress.com/us/credit-cards/",
+    "color": "#016FD0",
+    "notes": {
+      "en": "Welcome offers on americanexpress.com vary by applicant, so they are not listed here. The Green, Cash Magnet, EveryDay and EveryDay Preferred product pages redirected to the card index when checked and are not listed.",
+      "zh": "美國運通官網的開卡禮因人而異，本站不列出。Green、Cash Magnet、EveryDay、EveryDay Preferred 的產品頁在核對時導回總覽頁，暫未收錄。"
+    }
+  },
+  {
+    "id": "citi",
+    "name": "Citibank",
+    "short_name": "Citi",
+    "name_zh": "花旗銀行",
+    "website": "https://www.citi.com/",
+    "cards_index_url": "https://www.citi.com/credit-cards/view-all-credit-cards",
+    "color": "#003B70",
+    "render": true
+  },
+  {
+    "id": "capitalone",
+    "name": "Capital One",
+    "short_name": "Capital One",
+    "name_zh": "第一資本",
+    "website": "https://www.capitalone.com/",
+    "cards_index_url": "https://www.capitalone.com/credit-cards/compare/",
+    "color": "#D03027",
+    "notes": {
+      "en": "Retail and partner cards (Kohl's, REI, BJ's, T-Mobile, Key Rewards, Bass Pro/Cabela's) and the \"for Good Credit\" variants are not listed in this first version.",
+      "zh": "零售與合作夥伴聯名卡（Kohl's、REI、BJ's、T-Mobile、Key Rewards、Bass Pro／Cabela's）以及「for Good Credit」版本，第一版未收錄。"
+    }
+  },
+  {
+    "id": "bofa",
+    "name": "Bank of America",
+    "short_name": "Bank of America",
+    "name_zh": "美國銀行",
+    "website": "https://www.bankofamerica.com/",
+    "cards_index_url": "https://www.bankofamerica.com/credit-cards/",
+    "color": "#E31837",
+    "notes": {
+      "en": "Bank of America card pages are ZIP-code gated and refuse automated browsers, so its cards are held back until someone verifies them by hand.",
+      "zh": "美國銀行的卡片頁面需輸入郵遞區號並拒絕自動化瀏覽器，卡片資料待人工核對後才會顯示。"
+    }
+  },
+  {
+    "id": "wellsfargo",
+    "name": "Wells Fargo",
+    "short_name": "Wells Fargo",
+    "name_zh": "富國銀行",
+    "website": "https://www.wellsfargo.com/",
+    "cards_index_url": "https://creditcards.wellsfargo.com/",
+    "color": "#D71E28"
+  },
+  {
+    "id": "discover",
+    "name": "Discover",
+    "short_name": "Discover",
+    "name_zh": "Discover（發現卡）",
+    "website": "https://www.discover.com/",
+    "cards_index_url": "https://www.discover.com/credit-cards/",
+    "color": "#E55C20",
+    "notes": {
+      "en": "Discover is now part of Capital One; its cards are still listed on discover.com.",
+      "zh": "Discover 已併入 Capital One，卡片仍於 discover.com 列示。"
+    }
+  },
+  {
+    "id": "usbank",
+    "name": "U.S. Bank",
+    "short_name": "U.S. Bank",
+    "name_zh": "美國合眾銀行",
+    "website": "https://www.usbank.com/",
+    "cards_index_url": "https://www.usbank.com/credit-cards.html",
+    "color": "#0C2074"
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays US",
+    "short_name": "Barclays",
+    "name_zh": "巴克萊",
+    "website": "https://cards.barclaycardus.com/",
+    "cards_index_url": "https://cards.barclaycardus.com/banking/cards/",
+    "color": "#00AEEF",
+    "notes": {
+      "en": "Airline, hotel, AARP and Upromise cards are listed; retail co-brands (Gap, Old Navy, Banana Republic, Athleta, GM, Carnival, Barnes & Noble and others) are not in this first version.",
+      "zh": "收錄航空、飯店、AARP 與 Upromise 卡；零售聯名卡（Gap、Old Navy、Banana Republic、Athleta、GM、Carnival、Barnes & Noble 等）第一版未收錄。"
+    }
+  },
+  {
+    "id": "bilt",
+    "name": "Bilt Rewards",
+    "short_name": "Bilt",
+    "name_zh": "Bilt",
+    "website": "https://www.bilt.com/",
+    "cards_index_url": "https://www.bilt.com/card",
+    "color": "#111111",
+    "notes": {
+      "en": "No official card-face images were exposed on the Bilt card page, so placeholders are shown.",
+      "zh": "Bilt 官網卡片頁未提供可辨識的卡面圖，暫以示意圖顯示。"
+    }
+  }
+]

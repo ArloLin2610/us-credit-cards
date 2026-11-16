@@ -1,0 +1,849 @@
+[
+  {
+    "id": "amex-platinum",
+    "issuer": "amex",
+    "name": "The Platinum Card® from American Express",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 895,
+      "note": {
+        "en": "$195 for each Additional Platinum Card",
+        "zh": "每張 Platinum 附卡 $195"
+      }
+    },
+    "reward_type": "points",
+    "program": "amex-mr",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "flights",
+        "rate": 5,
+        "detail": {
+          "en": "booked directly with airlines or through American Express Travel®",
+          "zh": "直接向航空公司或經 American Express Travel® 訂購"
+        },
+        "cap": {
+          "en": "up to $500,000 on these purchases per calendar year",
+          "zh": "每曆年此類消費上限 $500,000"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "prepaid hotels booked on American Express Travel®",
+          "zh": "經 American Express Travel® 預付訂房"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Centurion Lounges, Priority Pass™ and Delta Sky Club (10 visits when flying Delta)",
+        "zh": "Centurion Lounge、Priority Pass™ 與 Delta Sky Club（搭乘 Delta 時 10 次）"
+      },
+      {
+        "en": "Up to $600 hotel credit a year ($300 semi-annually) on prepaid Fine Hotels + Resorts® or The Hotel Collection",
+        "zh": "每年最高 $600 飯店回饋（每半年 $300），限預付 Fine Hotels + Resorts® 或 The Hotel Collection"
+      },
+      {
+        "en": "Up to $200 Uber Cash and up to $200 airline fee credit per year",
+        "zh": "每年最高 $200 Uber Cash 與 $200 航空雜費回饋"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+    "image_url": "https://www.aexp-static.com/online/myca/shared/summary/cardasset/images/NUS000000363_480x304_STRAIGHT_96.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-gold",
+    "issuer": "amex",
+    "name": "American Express® Gold Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 325
+    },
+    "reward_type": "points",
+    "program": "amex-mr",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "dining",
+        "rate": 4,
+        "detail": {
+          "en": "restaurants worldwide",
+          "zh": "全球餐廳"
+        },
+        "cap": {
+          "en": "up to $50,000 per calendar year, then 1X",
+          "zh": "每曆年上限 $50,000，之後 1X"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 4,
+        "detail": {
+          "en": "U.S. supermarkets",
+          "zh": "美國超市"
+        },
+        "cap": {
+          "en": "up to $25,000 per calendar year, then 1X",
+          "zh": "每曆年上限 $25,000，之後 1X"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "prepaid hotels booked through AmexTravel.com",
+          "zh": "經 AmexTravel.com 預付訂房"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 3,
+        "detail": {
+          "en": "booked through AmexTravel.com or directly with airlines",
+          "zh": "經 AmexTravel.com 或直接向航空公司訂購"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 2,
+        "detail": {
+          "en": "prepaid car rentals and cruises booked through AmexTravel.com",
+          "zh": "經 AmexTravel.com 預付租車與郵輪"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "$120 dining credit ($10 monthly at Grubhub, Five Guys, The Cheesecake Factory and others; enrollment required)",
+        "zh": "$120 餐飲回饋（每月 $10，Grubhub、Five Guys、The Cheesecake Factory 等；需登錄）"
+      },
+      {
+        "en": "$120 Uber Cash ($10 monthly)",
+        "zh": "$120 Uber Cash（每月 $10）"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+    "image_url": "https://www.aexp-static.com/online/myca/shared/summary/cardasset/images/NUS000000174_480x304_STRAIGHT_96.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-blue-cash-preferred",
+    "issuer": "amex",
+    "name": "Blue Cash Preferred® Card from American Express",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 95,
+      "first_year": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "groceries",
+        "rate": 6,
+        "detail": {
+          "en": "U.S. supermarkets",
+          "zh": "美國超市"
+        },
+        "cap": {
+          "en": "up to $6,000 per year, then 1%",
+          "zh": "每年上限 $6,000，之後 1%"
+        }
+      },
+      {
+        "cat": "streaming",
+        "rate": 6,
+        "detail": {
+          "en": "select U.S. streaming subscriptions",
+          "zh": "指定美國串流訂閱"
+        }
+      },
+      {
+        "cat": "transit",
+        "rate": 3,
+        "detail": {
+          "en": "taxis/rideshare, parking, tolls, trains, buses and more",
+          "zh": "計程車／共乘、停車、過路費、火車、公車等"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "U.S. gas stations",
+          "zh": "美國加油站"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 2.7,
+    "highlights": [
+      {
+        "en": "$120 Disney Streaming Credit (up to $10 back per month; enrollment required)",
+        "zh": "$120 Disney 串流回饋（每月最高 $10；需登錄）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000264_480x304_straight_withname.png",
+    "last_verified": "2026-11-16",
+    "notes": "FX fee text on page was truncated at \"2\"; Amex consumer cards with an FX fee charge 2.7% — confirm on Rates & Fees."
+  },
+  {
+    "id": "amex-blue-cash-everyday",
+    "issuer": "amex",
+    "name": "Blue Cash Everyday® Card from American Express",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "U.S. supermarkets",
+          "zh": "美國超市"
+        },
+        "cap": {
+          "en": "up to $6,000 per year, then 1%",
+          "zh": "每年上限 $6,000，之後 1%"
+        }
+      },
+      {
+        "cat": "online",
+        "rate": 3,
+        "detail": {
+          "en": "U.S. online retail purchases",
+          "zh": "美國線上零售消費"
+        },
+        "cap": {
+          "en": "up to $6,000 per year, then 1%",
+          "zh": "每年上限 $6,000，之後 1%"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "U.S. gas stations",
+          "zh": "美國加油站"
+        },
+        "cap": {
+          "en": "up to $6,000 per year, then 1%",
+          "zh": "每年上限 $6,000，之後 1%"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 2.7,
+    "highlights": [
+      {
+        "en": "$84 Disney Streaming Credit (up to $7 back per month; enrollment required)",
+        "zh": "$84 Disney 串流回饋（每月最高 $7；需登錄）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000305_480x304_straight_withname.png",
+    "last_verified": "2026-11-16",
+    "notes": "FX fee text on page was truncated at \"2\"; confirm 2.7% on Rates & Fees."
+  },
+  {
+    "id": "amex-delta-blue",
+    "issuer": "amex",
+    "name": "Delta SkyMiles® Blue American Express Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "miles",
+    "program": "delta",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 2,
+        "detail": {
+          "en": "purchases made directly with Delta",
+          "zh": "直接向 Delta 消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants, including takeout and delivery in the U.S.",
+          "zh": "餐廳，含美國境內外帶與外送"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000386_480x304_straight_withname.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-delta-gold",
+    "issuer": "amex",
+    "name": "Delta SkyMiles® Gold American Express Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 150,
+      "first_year": 0
+    },
+    "reward_type": "miles",
+    "program": "delta",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 2,
+        "detail": {
+          "en": "purchases made directly with Delta",
+          "zh": "直接向 Delta 消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants, including takeout and delivery in the U.S.",
+          "zh": "餐廳，含美國境內外帶與外送"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "U.S. supermarkets",
+          "zh": "美國超市"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "First checked bag free on Delta flights",
+        "zh": "Delta 航班免費託運第一件行李"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000385_480x304_straight_withname.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-delta-platinum",
+    "issuer": "amex",
+    "name": "Delta SkyMiles® Platinum American Express Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 350
+    },
+    "reward_type": "miles",
+    "program": "delta",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "purchases made directly with Delta",
+          "zh": "直接向 Delta 消費"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 3,
+        "detail": {
+          "en": "purchases made directly with hotels",
+          "zh": "直接向飯店消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants, including takeout and delivery in the U.S.",
+          "zh": "餐廳，含美國境內外帶與外送"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "U.S. supermarkets",
+          "zh": "美國超市"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Annual Companion Certificate (Delta Main, domestic/Caribbean/Central America round trip) after renewal",
+        "zh": "續卡後每年一張同行票（Delta Main，美國國內／加勒比海／中美洲來回）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000384_480x304_straight_withname.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-delta-reserve",
+    "issuer": "amex",
+    "name": "Delta SkyMiles® Reserve American Express Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 650
+    },
+    "reward_type": "miles",
+    "program": "delta",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "purchases made directly with Delta",
+          "zh": "直接向 Delta 消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Annual Companion Certificate valid for Delta First, Delta Comfort or Delta Main",
+        "zh": "每年一張同行票，可用於 Delta First、Comfort 或 Main"
+      },
+      {
+        "en": "Delta Sky Club® access when flying Delta (see issuer page for visit limits)",
+        "zh": "搭乘 Delta 可使用 Delta Sky Club®（次數限制見官網）"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000383_480x304_straight_withname.png",
+    "last_verified": "2026-11-16",
+    "notes": "Sky Club access wording not captured verbatim from the page text this session; verify visit limits."
+  },
+  {
+    "id": "amex-hilton-honors",
+    "issuer": "amex",
+    "name": "Hilton Honors American Express Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "hilton",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 7,
+        "detail": {
+          "en": "purchases made directly with hotels and resorts in the Hilton portfolio",
+          "zh": "直接向 Hilton 旗下飯店與度假村消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 5,
+        "detail": {
+          "en": "U.S. restaurants, U.S. supermarkets and U.S. gas stations",
+          "zh": "美國餐廳、美國超市與美國加油站"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 3
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Complimentary Hilton Honors Silver status",
+        "zh": "贈 Hilton Honors Silver 會籍"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000327_480x304_straight_withname.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-hilton-surpass",
+    "issuer": "amex",
+    "name": "Hilton Honors American Express Surpass® Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 150
+    },
+    "reward_type": "points",
+    "program": "hilton",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 12,
+        "detail": {
+          "en": "purchases made directly with hotels and resorts in the Hilton portfolio",
+          "zh": "直接向 Hilton 旗下飯店與度假村消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 6,
+        "detail": {
+          "en": "U.S. restaurants, U.S. supermarkets and U.S. gas stations",
+          "zh": "美國餐廳、美國超市與美國加油站"
+        }
+      },
+      {
+        "cat": "online",
+        "rate": 4,
+        "detail": {
+          "en": "U.S. online retail purchases",
+          "zh": "美國線上零售消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 3
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Complimentary Hilton Honors Gold status",
+        "zh": "贈 Hilton Honors Gold 會籍"
+      },
+      {
+        "en": "Free Night Reward after $15,000 in purchases in a calendar year",
+        "zh": "曆年消費滿 $15,000 贈免費住宿一晚"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000328_480x304_straight_withname.png",
+    "last_verified": "2026-11-16",
+    "notes": "Annual fee ($150) was not present in the fetched page text; entered from prior knowledge — confirm on Rates & Fees."
+  },
+  {
+    "id": "amex-hilton-aspire",
+    "issuer": "amex",
+    "name": "Hilton Honors American Express Aspire Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 550
+    },
+    "reward_type": "points",
+    "program": "hilton",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 14,
+        "detail": {
+          "en": "purchases made directly with hotels and resorts in the Hilton portfolio",
+          "zh": "直接向 Hilton 旗下飯店與度假村消費"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 7,
+        "detail": {
+          "en": "flights booked directly with airlines or AmexTravel.com, and car rentals booked directly with select companies",
+          "zh": "直接向航空公司或經 AmexTravel.com 訂機票，以及直接向指定租車公司租車"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 7,
+        "detail": {
+          "en": "U.S. restaurants",
+          "zh": "美國餐廳"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 3
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Complimentary Hilton Honors Diamond status",
+        "zh": "贈 Hilton Honors Diamond 會籍"
+      },
+      {
+        "en": "Annual Free Night Reward",
+        "zh": "每年免費住宿一晚"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000329_480x304_straight_withname.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-marriott-bevy",
+    "issuer": "amex",
+    "name": "Marriott Bonvoy Bevy® American Express® Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 250
+    },
+    "reward_type": "points",
+    "program": "marriott",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 6,
+        "detail": {
+          "en": "hotels participating in Marriott Bonvoy®",
+          "zh": "Marriott Bonvoy® 參與飯店"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 4,
+        "detail": {
+          "en": "restaurants worldwide and U.S. supermarkets",
+          "zh": "全球餐廳與美國超市"
+        },
+        "cap": {
+          "en": "up to $15,000 in combined purchases per year",
+          "zh": "每年合計上限 $15,000"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Complimentary Marriott Bonvoy Gold Elite status",
+        "zh": "贈 Marriott Bonvoy Gold Elite 會籍"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000311_480x304_straight_withname.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "amex-marriott-brilliant",
+    "issuer": "amex",
+    "name": "Marriott Bonvoy Brilliant® American Express® Card",
+    "network": "amex",
+    "annual_fee": {
+      "amount": 650
+    },
+    "reward_type": "points",
+    "program": "marriott",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 6,
+        "detail": {
+          "en": "hotels participating in Marriott Bonvoy®",
+          "zh": "Marriott Bonvoy® 參與飯店"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "restaurants worldwide",
+          "zh": "全球餐廳"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 3,
+        "detail": {
+          "en": "booked directly with airlines",
+          "zh": "直接向航空公司訂購"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Welcome offers vary by applicant and channel; see the issuer page for your current offer",
+        "zh": "開卡禮依申請人與管道而異，請以官網顯示為準"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Complimentary Marriott Bonvoy Platinum Elite status",
+        "zh": "贈 Marriott Bonvoy Platinum Elite 會籍"
+      },
+      {
+        "en": "Up to $300 a year in dining statement credits (up to $25 per month)",
+        "zh": "每年最高 $300 餐飲回饋（每月最高 $25）"
+      },
+      {
+        "en": "1 Free Night Award every year after renewal",
+        "zh": "每年續卡後贈免費住宿一晚"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+    "source_url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+    "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000313_480x304_straight_withname.png",
+    "last_verified": "2026-11-16"
+  }
+]

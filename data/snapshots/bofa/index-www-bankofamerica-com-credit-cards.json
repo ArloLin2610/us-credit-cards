@@ -1,0 +1,20 @@
+{
+  "url": "https://www.bankofamerica.com/credit-cards/",
+  "fetched_at": "2026-11-16T22:26:13.461Z",
+  "status": 200,
+  "variants": [
+    {
+      "sig": [
+        "https://mynewcard2.bankofamerica.com/USCCapp/Ctl/entry",
+        "https://secure.bankofamerica.com/apply-credit-cards/public/application-status",
+        "https://secure.bankofamerica.com/apply-now-services/cards-prequal/initialize-prequal",
+        "https://www.bankofamerica.com/credit-cards",
+        "https://www.bankofamerica.com/credit-cards/compare-credit-cards",
+        "https://www.bankofamerica.com/credit-cards/credit-card-agreements",
+        "https://www.bankofamerica.com/credit-cards/manage-your-credit-card-account"
+      ],
+      "seen_at": "2026-11-16T22:26:13.461Z",
+      "text": "Skip to main contentCredit CardsFilter CardsFilter CardsResetRates & Fees No Annual Fee⁠⁠ No Foreign Transaction Fee⁠⁠ Low Intro APR on Balance Transfers⁠⁠ Low Intro APR on Purchases⁠⁠Features Preferred Rewards⁠⁠Card Type Visa®Visa Mastercard®Master CardCancel View CardsWe're sorry, this page is temporarily unavailable. We apologize for the inconvenience.Visit our homepageWe're sorry, this page is temporarily unavailable. We apologize for the inconvenience.Visit credit card homepageInterstitial Link: language-change | Placeholder - hiddenClose compare cards layerRemove {CARD_NAME} from compare listRemove {CARD_NAME} from compare listRemove {CARD_NAME} from compare listRemove {CARD_NAME} from compare listCompare CompareYou can only compare up to 4 cards. Please remove a card before adding another. You can only compare up to 3 cards. Please remove a card before adding another. You can only compare up to 2 cards. Please remove a card before adding another.There are no cards that match your request within this categoryView all cardsThere are no cards that match your requestPlease try a different filter searchCompare the benefits of our most popular cards. Compare cardsPrequalify for a credit card with no impact to your credit scoreSee if you prequalifySee if you prequalifyLooking for information about your account?Activate your card, enroll in online banking, pay your bill, check your account, and more.Manage your accountApplication LinksComplete your saved applicationCheck application statusRespond to mail offerView sample credit card agreementsUnderstanding credit is key to your financial healthSelecting a credit cardChoosing a credit card can be overwhelming. We’ve compiled some important considerations to help you pick the best credit card for you.Managing your credit cardGet the most out of your credit card. Find out how you can take advantage of all the opportunities that may be available to you as a cardholder.Paying down your debtBy following a few simple steps, you can help ensure you’re headed in the right direction when it comes to managing your credit card debt.Improving your creditBetter credit habits can lead to a better credit score. If you’re looking to improve your credit, check out some of our helpful tips.Enter your ZIP codeZIP code * Enter only 5 digits. GoThis card is unavailableCloseConnect one on one with a credit card specialistSchedule an appointment"
+    }
+  ]
+}

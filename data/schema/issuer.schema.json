@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Card issuers",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "short_name",
+      "website",
+      "cards_index_url",
+      "color"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string"
+      },
+      "short_name": {
+        "type": "string"
+      },
+      "name_zh": {
+        "type": "string"
+      },
+      "website": {
+        "type": "string",
+        "format": "uri"
+      },
+      "cards_index_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official page listing the issuer's cards; watched by the updater"
+      },
+      "watch_urls": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "color": {
+        "type": "string",
+        "pattern": "^#[0-9a-fA-F]{6}$"
+      },
+      "render": {
+        "type": "boolean",
+        "description": "true = pages need a headless browser (values are filled in by JavaScript)"
+      },
+      "notes": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "en",
+          "zh"
+        ],
+        "properties": {
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "zh": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "description": "Bilingual text: English and Traditional Chinese"
+      }
+    }
+  }
+}

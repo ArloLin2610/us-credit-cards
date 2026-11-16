@@ -1,0 +1,26 @@
+---
+import Base from '../../../layouts/Base.astro';
+import CardExplorer from '../../../components/CardExplorer.tsx';
+import { issuers, summariesFor } from '../../../lib/data';
+import { LANGS, TAG_LABEL, TAG_PAGES, UI, langFromParam, tr } from '../../../lib/i18n';
+import type { Tag } from '../../../lib/types';
+
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => TAG_PAGES.map((tag) => ({ params: { lang: l === 'en' ? undefined : l, tag } })));
+}
+const lang = langFromParam(Astro.params.lang);
+const t = UI[lang];
+const tag = Astro.params.tag as Tag;
+const list = summariesFor(lang).filter((c) => c.tags.includes(tag));
+const label = tr(TAG_LABEL[tag], lang);
+---
+
+<Base lang={lang} title={t.tagPage.title(label)} description={t.tagPage.desc(list.filter((c) => c.status === 'active').length, label)}>
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">{t.tagPage.title(label)}</h1>
+    <p class="mt-3 max-w-prose text-ink-soft">{t.tagPage.desc(list.filter((c) => c.status === 'active').length, label)}</p>
+  </section>
+  <section class="mx-auto max-w-6xl px-4 pb-24">
+    <CardExplorer client:load lang={lang} cards={list} issuers={issuers.map((b) => ({ id: b.id, short_name: b.short_name }))} fixedTag={tag} />
+  </section>
+</Base>

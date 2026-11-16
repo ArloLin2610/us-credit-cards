@@ -1,0 +1,615 @@
+[
+  {
+    "id": "capitalone-venture-x",
+    "issuer": "capitalone",
+    "name": "Capital One Venture X Rewards Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 395
+    },
+    "reward_type": "miles",
+    "program": "capitalone",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 10,
+        "detail": {
+          "en": "hotels and rental cars booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂飯店與租車"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 5,
+        "detail": {
+          "en": "flights and vacation rentals booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂機票與度假租屋"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "value": 75000,
+      "unit": "miles",
+      "spend": 4000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "$300 annual credit for bookings through Capital One Travel",
+        "zh": "每年 $300 Capital One Travel 訂購回饋"
+      },
+      {
+        "en": "10,000 anniversary miles every year",
+        "zh": "每年週年贈 10,000 哩"
+      },
+      {
+        "en": "Capital One Lounges and 1,300+ Priority Pass™ lounges",
+        "zh": "Capital One Lounge 與 1,300+ 間 Priority Pass™ 貴賓室"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/venture-x/",
+    "source_url": "https://www.capitalone.com/credit-cards/venture-x/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/venture-x-card-art/mobile.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-venture",
+    "issuer": "capitalone",
+    "name": "Capital One Venture Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "miles",
+    "program": "capitalone",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "hotels, vacation rentals and rental cars booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂飯店、度假租屋與租車"
+        }
+      },
+      {
+        "cat": "entertainment",
+        "rate": 5,
+        "detail": {
+          "en": "Capital One Entertainment purchases",
+          "zh": "Capital One Entertainment 購票"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "value": 75000,
+      "unit": "miles",
+      "spend": 4000,
+      "months": 3,
+      "extra": {
+        "en": "plus a $300 stays credit in your first cardholder year",
+        "zh": "另享首年 $300 住宿回饋"
+      },
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Up to $120 Global Entry / TSA PreCheck® fee credit",
+        "zh": "Global Entry／TSA PreCheck® 申請費回饋最高 $120"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      },
+      {
+        "en": "Miles can also be redeemed as a statement credit against travel purchases",
+        "zh": "哩程亦可折抵旅遊消費"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/venture/",
+    "source_url": "https://www.capitalone.com/credit-cards/venture/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/venture_cardart_prim_323x203-1/mobile.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-ventureone",
+    "issuer": "capitalone",
+    "name": "Capital One VentureOne Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "miles",
+    "program": "capitalone",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "hotels, vacation rentals and rental cars booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂飯店、度假租屋與租車"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1.25
+      }
+    ],
+    "welcome": {
+      "value": 20000,
+      "unit": "miles",
+      "spend": 500,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/ventureone/",
+    "source_url": "https://www.capitalone.com/credit-cards/ventureone/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/ventureone_cardart_prim_323x203/mobile.png",
+    "last_verified": "2026-11-16",
+    "notes": "5X Capital One Travel rate taken from the issuer comparison table; a \"for Good Credit\" version without the bonus/intro APR also exists."
+  },
+  {
+    "id": "capitalone-quicksilver",
+    "issuer": "capitalone",
+    "name": "Capital One Quicksilver Cash Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "hotels, vacation rentals and rental cars booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂飯店、度假租屋與租車"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Rewards do not expire while the account is open",
+        "zh": "帳戶有效期間回饋不會過期"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/quicksilver/",
+    "source_url": "https://www.capitalone.com/credit-cards/quicksilver/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/quicksilver_cardart.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-savor",
+    "issuer": "capitalone",
+    "name": "Capital One Savor Cash Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "hotels, vacation rentals and rental cars booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂飯店、度假租屋與租車"
+        }
+      },
+      {
+        "cat": "entertainment",
+        "rate": 8,
+        "detail": {
+          "en": "Capital One Entertainment purchases",
+          "zh": "Capital One Entertainment 購票"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "dining, entertainment and popular streaming services",
+          "zh": "餐飲、娛樂與熱門串流服務"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "grocery stores (superstores like Walmart® and Target® excluded)",
+          "zh": "超市（不含 Walmart®、Target® 等量販店）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 12,
+      "on": "both"
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Rewards do not expire while the account is open",
+        "zh": "帳戶有效期間回饋不會過期"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/savor/",
+    "source_url": "https://www.capitalone.com/credit-cards/savor/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/new-savor-card-art/mobile.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-savorone",
+    "issuer": "capitalone",
+    "name": "Capital One SavorOne Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 39
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "hotels, vacation rentals and rental cars booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂飯店、度假租屋與租車"
+        }
+      },
+      {
+        "cat": "entertainment",
+        "rate": 8,
+        "detail": {
+          "en": "Capital One Entertainment purchases",
+          "zh": "Capital One Entertainment 購票"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "dining, entertainment and popular streaming services",
+          "zh": "餐飲、娛樂與熱門串流服務"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "grocery stores (superstores like Walmart® and Target® excluded)",
+          "zh": "超市（不含 Walmart®、Target® 等量販店）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "For fair credit; automatic credit line reviews",
+        "zh": "適合信用普通者；定期自動審視調高額度"
+      }
+    ],
+    "tags": [
+      "credit-building"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/savorone/",
+    "source_url": "https://www.capitalone.com/credit-cards/savorone/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/savorone-2025-cardart.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-quicksilverone",
+    "issuer": "capitalone",
+    "name": "Capital One QuicksilverOne Cash Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 39
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "highlights": [
+      {
+        "en": "For fair credit; automatic credit line reviews",
+        "zh": "適合信用普通者；定期自動審視調高額度"
+      }
+    ],
+    "tags": [
+      "credit-building"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/quicksilverone/",
+    "source_url": "https://www.capitalone.com/credit-cards/quicksilverone/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/quicksilver_one_cardart.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-savor-student",
+    "issuer": "capitalone",
+    "name": "Capital One Savor Student Cash Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "hotels, vacation rentals and rental cars booked through Capital One Travel",
+          "zh": "經 Capital One Travel 預訂飯店、度假租屋與租車"
+        }
+      },
+      {
+        "cat": "entertainment",
+        "rate": 8,
+        "detail": {
+          "en": "Capital One Entertainment purchases",
+          "zh": "Capital One Entertainment 購票"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "dining, entertainment and popular streaming services",
+          "zh": "餐飲、娛樂與熱門串流服務"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "grocery stores (superstores like Walmart® and Target® excluded)",
+          "zh": "超市（不含 Walmart®、Target® 等量販店）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 50,
+      "unit": "usd",
+      "spend": 100,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "For students; no credit score required to apply",
+        "zh": "學生卡；申請不需信用分數"
+      }
+    ],
+    "tags": [
+      "student"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/savor-student/",
+    "source_url": "https://www.capitalone.com/credit-cards/savor-student/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/new-savor-card-art/mobile.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-quicksilver-student",
+    "issuer": "capitalone",
+    "name": "Capital One Quicksilver Student Cash Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "welcome": {
+      "value": 50,
+      "unit": "usd",
+      "text": {
+        "en": "One-time $50 cash bonus after a qualifying spend (see issuer page)",
+        "zh": "達成指定消費可獲一次性 $50 現金回饋（門檻見官網）"
+      }
+    },
+    "highlights": [
+      {
+        "en": "For students",
+        "zh": "學生卡"
+      }
+    ],
+    "tags": [
+      "student"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/quicksilver-student/",
+    "source_url": "https://www.capitalone.com/credit-cards/quicksilver-student/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/qs_cardart_prim_1290x812_2.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-quicksilver-secured",
+    "issuer": "capitalone",
+    "name": "Capital One Quicksilver Secured Cash Rewards Credit Card",
+    "network": "varies",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "highlights": [
+      {
+        "en": "$200 minimum refundable security deposit",
+        "zh": "最低 $200 可退還保證金"
+      },
+      {
+        "en": "Can earn back the deposit and upgrade to an unsecured Quicksilver with responsible use",
+        "zh": "良好使用可退回保證金並升級為無擔保 Quicksilver"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "secured"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
+    "source_url": "https://www.capitalone.com/credit-cards/quicksilver-secured/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/quicksilver_cardart.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-platinum",
+    "issuer": "capitalone",
+    "name": "Capital One Platinum Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "No rewards program; for building credit",
+        "zh": "無回饋計畫；用於建立信用"
+      },
+      {
+        "en": "Automatically considered for a higher credit line in as little as 6 months",
+        "zh": "最快 6 個月自動審視調高額度"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/platinum/",
+    "source_url": "https://www.capitalone.com/credit-cards/platinum/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/plat_cardart_prim_323x203/mobile.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "capitalone-platinum-secured",
+    "issuer": "capitalone",
+    "name": "Capital One Platinum Secured Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Refundable deposits as low as $49 for a credit limit of at least $200",
+        "zh": "可退還保證金最低 $49，額度至少 $200"
+      },
+      {
+        "en": "No rewards program",
+        "zh": "無回饋計畫"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "secured",
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://www.capitalone.com/credit-cards/platinum-secured/",
+    "source_url": "https://www.capitalone.com/credit-cards/platinum-secured/",
+    "image_url": "https://ecm.capitalone.com/WCM/card/products/plat_cardart_prim_323x203/mobile.png",
+    "last_verified": "2026-11-16"
+  }
+]

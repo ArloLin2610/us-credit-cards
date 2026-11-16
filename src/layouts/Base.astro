@@ -1,0 +1,148 @@
+---
+import '../styles/global.css';
+import { siteStats } from '../lib/data';
+import { HTML_LANG, SITE_NAME, UI, href } from '../lib/i18n';
+import type { Lang } from '../lib/types';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description?: string;
+  ogImage?: string;
+  noindex?: boolean;
+}
+const { lang, title, description, ogImage, noindex = false } = Astro.props;
+const t = UI[lang];
+const site = SITE_NAME[lang];
+const desc = description ?? t.metaDesc;
+const fullTitle = title === site ? `${site} — ${t.tagline}` : `${title} | ${site}`;
+const cleanPath = Astro.url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '').replace(/(.)\/$/, '$1');
+const basePath = cleanPath === '/zh' ? '/' : cleanPath.replace(/^\/zh\//, '/');
+const other: Lang = lang === 'en' ? 'zh' : 'en';
+const canonical = new URL(cleanPath, Astro.site);
+const alt = (l: Lang) => new URL(href(l, basePath), Astro.site).href;
+const nav = [
+  { path: '/category/cashback', label: t.nav.cashback },
+  { path: '/category/miles', label: t.nav.miles },
+  { path: '/category/points', label: t.nav.points },
+  { path: '/issuers', label: t.nav.issuers },
+  { path: '/valuations', label: t.nav.valuations },
+  { path: '/changelog', label: t.nav.changelog },
+];
+const isCurrent = (p: string) => basePath.startsWith(p);
+---
+
+<!doctype html>
+<html lang={HTML_LANG[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={alt('en')} />
+    <link rel="alternate" hreflang="zh-Hant" href={alt('zh')} />
+    <link rel="alternate" hreflang="x-default" href={alt('en')} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <script is:inline define:vars={{ lang, zhUrl: href('zh', basePath) }}>
+      // Theme before first paint; and, on a first visit only, send Chinese-language browsers to the Chinese edition.
+      (function () {
+        try {
+          var th = localStorage.getItem('uscards.theme');
+          if (th === 'light' || th === 'dark') document.documentElement.setAttribute('data-theme', th);
+          if (!localStorage.getItem('uscards.lang')) {
+            localStorage.setItem('uscards.lang', 'auto');
+            if (lang === 'en' && /^zh\b/i.test(navigator.language || '')) location.replace(zhUrl + location.search + location.hash);
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="flex min-h-dvh flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-md focus:bg-surface focus:px-3 focus:py-2">{t.skip}</a>
+    <header class="border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/75 sticky top-0 z-40">
+      <div class="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
+        <a href={href(lang, '/')} class="flex shrink-0 items-center gap-2 text-lg font-black tracking-tight" aria-label={`${site} — ${t.home}`}>
+          <span class="inline-block h-6 w-9 rounded-[5px]" aria-hidden="true" style="background: linear-gradient(135deg, var(--ink) 0%, var(--cash) 100%)"></span>
+          {site}
+        </a>
+        <nav class="ml-auto hidden items-center gap-0.5 lg:flex" aria-label={t.nav.menu}>
+          {nav.map((n) => (
+            <a href={href(lang, n.path)} class:list={['rounded-md px-2.5 py-1.5 text-sm font-medium hover:bg-paper-2', { 'bg-paper-2': isCurrent(n.path) }]} aria-current={isCurrent(n.path) ? 'page' : undefined}>{n.label}</a>
+          ))}
+          <a href={href(lang, '/compare')} class="btn btn-ghost ml-2 !py-1.5 text-sm">{t.nav.compare}</a>
+          <a href={href(other, basePath)} hreflang={HTML_LANG[other]} lang={HTML_LANG[other]} data-lang-switch={other} class="btn btn-ghost ml-1 !py-1.5 text-sm">{t.langSwitch}</a>
+          <span class="ml-2"><div class="theme-toggle" role="group" aria-label={t.theme.label} data-theme-toggle>
+            <button type="button" data-theme-value="light" aria-pressed="false">{t.theme.light}</button>
+            <button type="button" data-theme-value="system" aria-pressed="true">{t.theme.auto}</button>
+            <button type="button" data-theme-value="dark" aria-pressed="false">{t.theme.dark}</button>
+          </div></span>
+        </nav>
+        <span class="ml-auto lg:hidden"><a href={href(other, basePath)} hreflang={HTML_LANG[other]} lang={HTML_LANG[other]} data-lang-switch={other} class="btn btn-ghost !px-3 !py-1.5 text-sm">{t.langSwitch}</a></span>
+        <details class="relative lg:hidden">
+          <summary class="btn btn-ghost !px-3 !py-1.5 text-sm list-none cursor-pointer">{t.nav.menu}</summary>
+          <div class="absolute right-0 mt-2 w-52 rounded-xl border border-line bg-surface p-2 shadow-lift">
+            {nav.map((n) => <a href={href(lang, n.path)} class="block rounded-md px-3 py-2 text-sm hover:bg-paper-2">{n.label}</a>)}
+            <a href={href(lang, '/compare')} class="block rounded-md px-3 py-2 text-sm hover:bg-paper-2">{t.nav.compare}</a>
+            <div class="mt-2 border-t border-line px-3 pt-2 text-xs text-ink-soft">{t.theme.label}</div>
+            <div class="px-2 pb-1 pt-1"><div class="theme-toggle" role="group" aria-label={t.theme.label} data-theme-toggle>
+              <button type="button" data-theme-value="light" aria-pressed="false">{t.theme.light}</button>
+              <button type="button" data-theme-value="system" aria-pressed="true">{t.theme.auto}</button>
+              <button type="button" data-theme-value="dark" aria-pressed="false">{t.theme.dark}</button>
+            </div></div>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-line">
+      <div class="mx-auto grid max-w-6xl gap-6 px-4 py-10 text-sm text-ink-soft md:grid-cols-[1fr_auto]">
+        <div class="max-w-prose space-y-2">
+          <p>{t.footer1(siteStats.issuers, siteStats.cards, siteStats.lastVerified)}</p>
+          <p>{t.footer2}</p>
+          <p>{t.footer3}</p>
+        </div>
+        <nav class="flex flex-wrap gap-x-5 gap-y-2 md:flex-col" aria-label="Footer">
+          <a href={href(lang, '/about')} class="hover:text-ink">{t.nav.about}</a>
+          <a href={href(lang, '/valuations')} class="hover:text-ink">{t.nav.valuations}</a>
+          <a href={href(lang, '/changelog')} class="hover:text-ink">{t.nav.changelog}</a>
+          <a href={href(lang, '/issuers')} class="hover:text-ink">{t.nav.allIssuers}</a>
+        </nav>
+      </div>
+    </footer>
+    <script is:inline>
+      (function () {
+        var KEY = 'uscards.theme';
+        function current() { try { return localStorage.getItem(KEY) || 'system'; } catch (e) { return 'system'; } }
+        function apply(v) {
+          if (v === 'light' || v === 'dark') document.documentElement.setAttribute('data-theme', v);
+          else document.documentElement.removeAttribute('data-theme');
+          try { v === 'system' ? localStorage.removeItem(KEY) : localStorage.setItem(KEY, v); } catch (e) {}
+          document.querySelectorAll('[data-theme-toggle] button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-theme-value') === v)); });
+        }
+        document.querySelectorAll('[data-theme-toggle] button').forEach(function (b) { b.addEventListener('click', function () { apply(b.getAttribute('data-theme-value')); }); });
+        apply(current());
+        // Remember an explicit language choice so the first-visit redirect never overrides it.
+        document.querySelectorAll('[data-lang-switch]').forEach(function (a) {
+          a.addEventListener('click', function () { try { localStorage.setItem('uscards.lang', a.getAttribute('data-lang-switch')); } catch (e) {} });
+        });
+      })();
+    </script>
+  </body>
+</html>

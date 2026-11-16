@@ -1,0 +1,1951 @@
+[
+  {
+    "id": "chase-sapphire-preferred",
+    "issuer": "chase",
+    "name": "Chase Sapphire Preferred® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "points",
+    "program": "chase-ur",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "Chase Travel℠",
+          "zh": "Chase Travel℠ 訂購"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas stations, EV charging and vacation homes at top brands",
+          "zh": "加油站、電動車充電、指定品牌度假屋"
+        }
+      },
+      {
+        "cat": "streaming",
+        "rate": 3,
+        "detail": {
+          "en": "top streaming services and online grocery (exclusions apply)",
+          "zh": "指定串流服務與線上超市（有排除項目）"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 2,
+        "detail": {
+          "en": "all other travel",
+          "zh": "其他旅遊消費"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 75000,
+      "unit": "points",
+      "spend": 5000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Up to $100 in statement credits each anniversary year for hotel stays booked through Chase Travel",
+        "zh": "每個年度經 Chase Travel 訂飯店最高 $100 帳單回饋"
+      },
+      {
+        "en": "Up to $120 Global Entry / TSA PreCheck® fee credit",
+        "zh": "Global Entry／TSA PreCheck® 申請費回饋最高 $120"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+    "source_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/sapphire-preferredcard2026.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-sapphire-reserve",
+    "issuer": "chase",
+    "name": "Chase Sapphire Reserve® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 795,
+      "note": {
+        "en": "$195 for each authorized user",
+        "zh": "每位附卡持卡人 $195"
+      }
+    },
+    "reward_type": "points",
+    "program": "chase-ur",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 8,
+        "detail": {
+          "en": "all purchases through Chase Travel℠, including The Edit℠",
+          "zh": "經 Chase Travel℠ 的所有消費（含 The Edit℠）"
+        }
+      },
+      {
+        "cat": "flights",
+        "rate": 4,
+        "detail": {
+          "en": "booked direct",
+          "zh": "直接向航空公司訂購"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 4,
+        "detail": {
+          "en": "booked direct",
+          "zh": "直接向飯店訂購"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "worldwide",
+          "zh": "全球餐飲"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 100000,
+      "unit": "points",
+      "spend": 6000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "$300 annual travel credit",
+        "zh": "每年 $300 旅遊消費回饋"
+      },
+      {
+        "en": "Chase Sapphire Lounges and 1,300+ Priority Pass™ lounges with up to two guests",
+        "zh": "Chase Sapphire Lounge 與 1,300+ 間 Priority Pass™ 貴賓室，可帶兩位同行"
+      },
+      {
+        "en": "Up to $500 a year in credits for prepaid stays with The Edit℠ (two-night minimum)",
+        "zh": "The Edit℠ 預付住宿每年最高 $500 回饋（至少兩晚）"
+      },
+      {
+        "en": "Points transfer to airline and hotel partners",
+        "zh": "點數可轉至航空與飯店夥伴"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+    "source_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/sapphire_reserve_card_Halo.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-freedom-unlimited",
+    "issuer": "chase",
+    "name": "Chase Freedom Unlimited® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "Chase Travel℠",
+          "zh": "Chase Travel℠ 訂購"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "including takeout and eligible delivery",
+          "zh": "含外帶與指定外送"
+        }
+      },
+      {
+        "cat": "drugstores",
+        "rate": 3
+      },
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "highlights": [
+      {
+        "en": "Points can be combined with a Sapphire card and transferred to airline/hotel partners",
+        "zh": "點數可合併到 Sapphire 卡後轉點至航空／飯店夥伴"
+      },
+      {
+        "en": "Rewards do not expire while the account is open",
+        "zh": "帳戶有效期間回饋不會過期"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+    "source_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/freedom_unlimited_card_alt.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-freedom-flex",
+    "issuer": "chase",
+    "name": "Chase Freedom Flex® Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "rotating",
+        "rate": 5,
+        "detail": {
+          "en": "bonus categories that change each quarter",
+          "zh": "每季輪替的加碼類別"
+        },
+        "cap": {
+          "en": "up to $1,500 in combined purchases per quarter; activation required",
+          "zh": "每季合計消費上限 $1,500，需每季啟用"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "Chase Travel℠",
+          "zh": "Chase Travel℠ 訂購"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "including takeout and eligible delivery",
+          "zh": "含外帶與指定外送"
+        }
+      },
+      {
+        "cat": "drugstores",
+        "rate": 3
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3
+    },
+    "intro_apr": {
+      "months": 15,
+      "on": "both"
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Points can be combined with a Sapphire card and transferred to airline/hotel partners",
+        "zh": "點數可合併到 Sapphire 卡後轉點至航空／飯店夥伴"
+      },
+      {
+        "en": "Rewards do not expire while the account is open",
+        "zh": "帳戶有效期間回饋不會過期"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+    "source_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/freedom_flex_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-freedom-rise",
+    "issuer": "chase",
+    "name": "Chase Freedom Rise® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 1.5
+      }
+    ],
+    "highlights": [
+      {
+        "en": "Aimed at people new to credit and students; $250+ in a Chase checking or savings account improves approval odds",
+        "zh": "適合無信用紀錄者與學生；Chase 支票／儲蓄帳戶有 $250 以上可提高核卡機會"
+      },
+      {
+        "en": "$25 statement credit for enrolling in automatic payments within the first 3 months",
+        "zh": "開卡 3 個月內設定自動扣繳可獲 $25 帳單回饋"
+      }
+    ],
+    "tags": [
+      "credit-building",
+      "student"
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise",
+    "source_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/rise",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/freedom_rise_alt_card2.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-slate",
+    "issuer": "chase",
+    "name": "Slate® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [],
+    "intro_apr": {
+      "months": 21,
+      "on": "both"
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "0% intro APR for 21 months on purchases and balance transfers; no rewards program",
+        "zh": "消費與餘額代償享 21 個月 0% 優惠利率；本卡沒有回饋計畫"
+      }
+    ],
+    "tags": [
+      "no-rewards"
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/balance-transfer-credit-cards/slate",
+    "source_url": "https://creditcards.chase.com/balance-transfer-credit-cards/slate",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/slate_dagger_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-united-explorer",
+    "issuer": "chase",
+    "name": "United℠ Explorer Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 150,
+      "first_year": 0
+    },
+    "reward_type": "miles",
+    "program": "united",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "United purchases (9x total on United flights incl. MileagePlus member miles)",
+          "zh": "United 消費（United 機票含會員哩程共 9x）"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 2,
+        "detail": {
+          "en": "booked with the hotel",
+          "zh": "直接向飯店訂房"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "including eligible delivery",
+          "zh": "含指定外送"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 80000,
+      "unit": "miles",
+      "spend": 3000,
+      "months": 3,
+      "extra": {
+        "en": "70,000 miles after the spend, plus 10,000 for adding an authorized user in the first 3 months",
+        "zh": "達成消費獲 70,000 哩，開卡 3 個月內新增附卡再獲 10,000 哩"
+      },
+      "limited_time": true
+    },
+    "highlights": [
+      {
+        "en": "First checked bag free",
+        "zh": "免費託運第一件行李"
+      },
+      {
+        "en": "2 United Club℠ one-time passes each year",
+        "zh": "每年 2 張 United Club℠ 單次通行證"
+      },
+      {
+        "en": "Over $500 in annual partner credits",
+        "zh": "每年合作夥伴回饋合計逾 $500"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/united_explorer_new_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-united-quest",
+    "issuer": "chase",
+    "name": "United Quest℠ Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 350
+    },
+    "reward_type": "miles",
+    "program": "united",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 4,
+        "detail": {
+          "en": "United purchases (10x total on United flights incl. MileagePlus member miles)",
+          "zh": "United 消費（United 機票含會員哩程共 10x）"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 5,
+        "detail": {
+          "en": "prepaid through Renowned Hotels and Resorts for United Cardmembers",
+          "zh": "經 Renowned Hotels and Resorts 預付訂房"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 2,
+        "detail": {
+          "en": "all other travel",
+          "zh": "其他旅遊消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2
+      },
+      {
+        "cat": "streaming",
+        "rate": 2,
+        "detail": {
+          "en": "select streaming services",
+          "zh": "指定串流服務"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 90000,
+      "unit": "miles",
+      "spend": 4000,
+      "months": 3,
+      "extra": {
+        "en": "80,000 miles after the spend, 10,000 for adding an authorized user, plus 500 PQP after first purchase",
+        "zh": "達成消費獲 80,000 哩，新增附卡再獲 10,000 哩，首刷另獲 500 PQP"
+      },
+      "limited_time": true
+    },
+    "highlights": [
+      {
+        "en": "First and second checked bags free",
+        "zh": "免費託運第一、二件行李"
+      },
+      {
+        "en": "$200 United travel credit",
+        "zh": "$200 United 旅遊回饋"
+      },
+      {
+        "en": "Annual 10,000-mile award flight discount",
+        "zh": "每年 10,000 哩獎勵機票折抵"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/united_quest_new_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-united-gateway",
+    "issuer": "chase",
+    "name": "United Gateway℠ Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "miles",
+    "program": "united",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 2,
+        "detail": {
+          "en": "United purchases (5x total on United flights incl. MileagePlus member miles)",
+          "zh": "United 消費（United 機票含會員哩程共 5x）"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 2
+      },
+      {
+        "cat": "transit",
+        "rate": 2,
+        "detail": {
+          "en": "local transit and commuting, including rideshare",
+          "zh": "大眾運輸與通勤，含共乘"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 50000,
+      "unit": "miles",
+      "spend": 1000,
+      "months": 3,
+      "extra": {
+        "en": "40,000 miles after the spend, plus 10,000 for adding an authorized user in the first 3 months",
+        "zh": "達成消費獲 40,000 哩，開卡 3 個月內新增附卡再獲 10,000 哩"
+      },
+      "limited_time": true
+    },
+    "intro_apr": {
+      "months": 12,
+      "on": "purchases"
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "2 free checked bags after spending $10,000 in a calendar year",
+        "zh": "曆年消費滿 $10,000 可獲 2 件免費託運行李"
+      },
+      {
+        "en": "25% back on United inflight and Club premium drink purchases",
+        "zh": "United 機上消費與 Club 付費飲品 25% 回饋"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/united/united-gateway",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/united/united-gateway",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/united_gateway_new_ribbon_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-united-club",
+    "issuer": "chase",
+    "name": "United Club℠ Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 695
+    },
+    "reward_type": "miles",
+    "program": "united",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 5,
+        "detail": {
+          "en": "United purchases (11x total on United flights incl. MileagePlus member miles)",
+          "zh": "United 消費（United 機票含會員哩程共 11x）"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 5,
+        "detail": {
+          "en": "prepaid through Renowned Hotels and Resorts for United Cardmembers",
+          "zh": "經 Renowned Hotels and Resorts 預付訂房"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 2,
+        "detail": {
+          "en": "all other travel",
+          "zh": "其他旅遊消費"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 100000,
+      "unit": "miles",
+      "spend": 5000,
+      "months": 3,
+      "extra": {
+        "en": "90,000 miles after the spend, plus 10,000 for adding an authorized user in the first 3 months",
+        "zh": "達成消費獲 90,000 哩，開卡 3 個月內新增附卡再獲 10,000 哩"
+      },
+      "limited_time": true
+    },
+    "highlights": [
+      {
+        "en": "United Club℠ membership",
+        "zh": "United Club℠ 貴賓室會籍"
+      },
+      {
+        "en": "First and second checked bags free",
+        "zh": "免費託運第一、二件行李"
+      },
+      {
+        "en": "Premier Access® travel services",
+        "zh": "Premier Access® 優先服務"
+      }
+    ],
+    "tags": [
+      "lounge"
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/united_club_new_infinite_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-southwest-plus",
+    "issuer": "chase",
+    "name": "Southwest Rapid Rewards® Plus Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 99
+    },
+    "reward_type": "miles",
+    "program": "southwest",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 2,
+        "detail": {
+          "en": "Southwest Airlines® purchases",
+          "zh": "Southwest 航空消費"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 2,
+        "detail": {
+          "en": "gas stations and grocery stores",
+          "zh": "加油站與超市"
+        },
+        "cap": {
+          "en": "first $5,000 in combined purchases per anniversary year",
+          "zh": "每年度合計前 $5,000"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 80000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3,
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "First checked bag free",
+        "zh": "免費託運第一件行李"
+      },
+      {
+        "en": "3,000 anniversary points each year",
+        "zh": "每年週年贈 3,000 點"
+      },
+      {
+        "en": "10% flight discount promo code each anniversary",
+        "zh": "每年週年 10% 機票折扣碼"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/swa_plus_card_New.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-southwest-priority",
+    "issuer": "chase",
+    "name": "Southwest Rapid Rewards® Priority Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 229
+    },
+    "reward_type": "miles",
+    "program": "southwest",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 4,
+        "detail": {
+          "en": "Southwest Airlines® purchases",
+          "zh": "Southwest 航空消費"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 2
+      },
+      {
+        "cat": "dining",
+        "rate": 2
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 90000,
+      "unit": "points",
+      "spend": 3000,
+      "months": 3,
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "First checked bag free",
+        "zh": "免費託運第一件行李"
+      },
+      {
+        "en": "7,500 anniversary points each year",
+        "zh": "每年週年贈 7,500 點"
+      },
+      {
+        "en": "25% back on inflight purchases",
+        "zh": "機上消費 25% 回饋"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/swa_priority_card-2.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-southwest-premier",
+    "issuer": "chase",
+    "name": "Southwest Rapid Rewards® Premier Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 149
+    },
+    "reward_type": "miles",
+    "program": "southwest",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "Southwest Airlines® purchases",
+          "zh": "Southwest 航空消費"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "grocery stores and restaurants",
+          "zh": "超市與餐廳"
+        },
+        "cap": {
+          "en": "first $8,000 in combined purchases per anniversary year",
+          "zh": "每年度合計前 $8,000"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 85000,
+      "unit": "points",
+      "spend": 2000,
+      "months": 3,
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "First checked bag free",
+        "zh": "免費託運第一件行李"
+      },
+      {
+        "en": "6,000 anniversary points each year",
+        "zh": "每年週年贈 6,000 點"
+      },
+      {
+        "en": "15% flight discount promo code each anniversary",
+        "zh": "每年週年 15% 機票折扣碼"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/swa_premier_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-marriott-boundless",
+    "issuer": "chase",
+    "name": "Marriott Bonvoy Boundless® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "points",
+    "program": "marriott",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 6,
+        "detail": {
+          "en": "Up to 17X total at Marriott incl. member and status earnings",
+          "zh": "含會員與會籍加碼，Marriott 住宿最高共 17X"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "grocery stores, gas stations and dining",
+          "zh": "超市、加油站與餐飲"
+        },
+        "cap": {
+          "en": "first $6,000 in combined purchases per year",
+          "zh": "每年合計前 $6,000"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "value": 3,
+      "unit": "nights",
+      "spend": 3000,
+      "months": 3,
+      "extra": {
+        "en": "each Free Night Award valued up to 50,000 points",
+        "zh": "每晚免費住宿上限 50,000 點"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Free Night Award every account anniversary",
+        "zh": "每年週年贈一晚免費住宿"
+      },
+      {
+        "en": "Automatic Silver Elite status and 15 Elite Night Credits",
+        "zh": "自動享 Silver Elite 會籍與 15 晚房晚數"
+      },
+      {
+        "en": "Through 6/30/2027: up to $100 in statement credits on airline purchases ($50 semi-annually after $250 spend)",
+        "zh": "至 2027/6/30：航空消費最高 $100 回饋（每半年消費 $250 回饋 $50）"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/marriott-bonvoy-boundless-card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-marriott-bountiful",
+    "issuer": "chase",
+    "name": "Marriott Bonvoy Bountiful® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 250
+    },
+    "reward_type": "points",
+    "program": "marriott",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 6,
+        "detail": {
+          "en": "Up to 18.5X total at Marriott incl. member and status earnings",
+          "zh": "含會員與會籍加碼，Marriott 住宿最高共 18.5X"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 4,
+        "detail": {
+          "en": "grocery stores and dining",
+          "zh": "超市與餐飲"
+        },
+        "cap": {
+          "en": "first $15,000 in combined purchases per year",
+          "zh": "每年合計前 $15,000"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "value": 85000,
+      "unit": "points",
+      "spend": 4000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "Automatic Gold Elite status",
+        "zh": "自動享 Gold Elite 會籍"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/marriott_bonvoy_bountiful_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-marriott-bold",
+    "issuer": "chase",
+    "name": "Marriott Bonvoy Bold® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "marriott",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 3,
+        "detail": {
+          "en": "Up to 14X total at Marriott incl. member and status earnings",
+          "zh": "含會員與會籍加碼，Marriott 住宿最高共 14X"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2
+      },
+      {
+        "cat": "transit",
+        "rate": 2,
+        "detail": {
+          "en": "rideshare and select food delivery",
+          "zh": "共乘與指定外送"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 45000,
+      "unit": "points",
+      "spend": 1000,
+      "months": 3
+    },
+    "highlights": [
+      {
+        "en": "Automatic Silver Elite status and 5 Elite Night Credits",
+        "zh": "自動享 Silver Elite 會籍與 5 晚房晚數"
+      },
+      {
+        "en": "Points can be redeemed for statement credits against qualifying travel purchases",
+        "zh": "點數可折抵符合條件的旅遊消費"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/marriott_bonvoy_bold_card_NAF.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-ihg-premier-select",
+    "issuer": "chase",
+    "name": "IHG One Rewards Premier Select Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 350
+    },
+    "reward_type": "points",
+    "program": "ihg",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 12,
+        "detail": {
+          "en": "Up to 28X total at IHG incl. member and status earnings",
+          "zh": "含會員與會籍加碼，IHG 住宿最高共 28X"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 6,
+        "detail": {
+          "en": "dining and all other travel, including rideshare",
+          "zh": "餐飲與其他旅遊消費，含共乘"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 3
+      }
+    ],
+    "welcome": {
+      "value": 150000,
+      "unit": "points",
+      "spend": 4000,
+      "months": 3,
+      "extra": {
+        "en": "plus 10,000 points for adding an authorized user in the first 3 months",
+        "zh": "開卡 3 個月內新增附卡再獲 10,000 點"
+      },
+      "limited_time": true
+    },
+    "highlights": [
+      {
+        "en": "Anniversary Free Night (up to 60,000 points)",
+        "zh": "每年週年免費住宿一晚（上限 60,000 點）"
+      },
+      {
+        "en": "Automatic Platinum Elite status",
+        "zh": "自動享 Platinum Elite 會籍"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier-select",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier-select",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/ihg_premier_select_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-ihg-premier",
+    "issuer": "chase",
+    "name": "IHG One Rewards Premier Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 150
+    },
+    "reward_type": "points",
+    "program": "ihg",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 10,
+        "detail": {
+          "en": "Up to 24X total at IHG incl. member and status earnings",
+          "zh": "含會員與會籍加碼，IHG 住宿最高共 24X"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 5,
+        "detail": {
+          "en": "flights booked directly, car rental agencies, dining, grocery stores and gas stations",
+          "zh": "直接訂購的機票、租車、餐飲、超市與加油站"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 3
+      }
+    ],
+    "welcome": {
+      "value": 140000,
+      "unit": "points",
+      "spend": 3000,
+      "months": 3,
+      "extra": {
+        "en": "plus 10,000 points for adding an authorized user in the first 3 months",
+        "zh": "開卡 3 個月內新增附卡再獲 10,000 點"
+      },
+      "limited_time": true
+    },
+    "highlights": [
+      {
+        "en": "Anniversary Free Night (up to 50,000 points)",
+        "zh": "每年週年免費住宿一晚（上限 50,000 點）"
+      },
+      {
+        "en": "Automatic Gold Elite status",
+        "zh": "自動享 Gold Elite 會籍"
+      },
+      {
+        "en": "Up to $120 Global Entry / TSA PreCheck® fee credit",
+        "zh": "Global Entry／TSA PreCheck® 申請費回饋最高 $120"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/ihgpremiercardart2026.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-ihg-one-rewards",
+    "issuer": "chase",
+    "name": "IHG One Rewards Credit Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "points",
+    "program": "ihg",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 5,
+        "detail": {
+          "en": "Up to 17X total at IHG incl. member and status earnings",
+          "zh": "含會員與會籍加碼，IHG 住宿最高共 17X"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "dining, gas stations and grocery stores",
+          "zh": "餐飲、加油站與超市"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 2
+      }
+    ],
+    "welcome": {
+      "value": 80000,
+      "unit": "points",
+      "spend": 2000,
+      "months": 3,
+      "extra": {
+        "en": "plus 10,000 points for adding an authorized user in the first 3 months",
+        "zh": "開卡 3 個月內新增附卡再獲 10,000 點"
+      },
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Automatic Silver Elite status",
+        "zh": "自動享 Silver Elite 會籍"
+      },
+      {
+        "en": "10,000 bonus points after spending $15,000 in a year",
+        "zh": "年消費滿 $15,000 再獲 10,000 點"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/one-rewards",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/one-rewards",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/ihg-one-rewardscard.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-world-of-hyatt",
+    "issuer": "chase",
+    "name": "World of Hyatt Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "points",
+    "program": "hyatt",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "hotel_brand",
+        "rate": 4,
+        "detail": {
+          "en": "Hyatt hotels (up to 9X total incl. World of Hyatt member base points)",
+          "zh": "Hyatt 飯店（含會員基本點數最高共 9X）"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants, airline tickets bought from the airline, local transit and commuting, fitness clubs and gyms",
+          "zh": "餐廳、直接向航空公司購票、大眾運輸與通勤、健身房"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 4,
+      "unit": "nights",
+      "spend": 5000,
+      "months": 3,
+      "extra": {
+        "en": "free nights valid at any Category 1–4 Hyatt hotel",
+        "zh": "免費住宿適用 Category 1–4 Hyatt 飯店"
+      },
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "One free night at a Category 1–4 Hyatt every year after your anniversary",
+        "zh": "每年週年後贈 Category 1–4 免費住宿一晚"
+      },
+      {
+        "en": "Discoverist status and 5 tier-qualifying night credits each year",
+        "zh": "Discoverist 會籍，每年 5 晚定級房晚"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/world_of_hyatt_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-disney-inspire",
+    "issuer": "chase",
+    "name": "Disney® Inspire Visa® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 149
+    },
+    "reward_type": "cashback",
+    "program": "disney",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "streaming",
+        "rate": 10,
+        "detail": {
+          "en": "directly at DisneyPlus.com, Hulu.com or Stream.ESPN.com",
+          "zh": "於 DisneyPlus.com、Hulu.com、Stream.ESPN.com 直接消費"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 3,
+        "detail": {
+          "en": "gas stations and most other U.S. Disney locations",
+          "zh": "加油站與多數美國 Disney 據點"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "grocery stores and restaurants",
+          "zh": "超市與餐廳"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 500,
+      "unit": "usd",
+      "spend": 1000,
+      "months": 3,
+      "text": {
+        "en": "$300 Disney Gift Card eGift on approval + $200 statement credit after $1,000 spend in 3 months",
+        "zh": "核卡即贈 $300 Disney 電子禮物卡；3 個月內消費 $1,000 再獲 $200 帳單回饋"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Rewards are Disney Rewards Dollars, redeemable toward Disney purchases",
+        "zh": "回饋為 Disney Rewards Dollars，用於 Disney 相關消費"
+      },
+      {
+        "en": "$10 monthly statement credit on Disney+/Hulu/ESPN subscriptions (yearly activation)",
+        "zh": "Disney+／Hulu／ESPN 訂閱每月 $10 回饋（需每年啟用）"
+      },
+      {
+        "en": "10% off select merchandise and dining at select Disney locations",
+        "zh": "指定 Disney 據點商品與餐飲 9 折"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/rewards-credit-cards/disney/inspire",
+    "source_url": "https://creditcards.chase.com/rewards-credit-cards/disney/inspire",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/disney-inspire.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-disney-premier",
+    "issuer": "chase",
+    "name": "Disney® Premier Visa® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 49
+    },
+    "reward_type": "cashback",
+    "program": "disney",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "streaming",
+        "rate": 5,
+        "detail": {
+          "en": "directly at DisneyPlus.com, Hulu.com or Stream.ESPN.com",
+          "zh": "於 DisneyPlus.com、Hulu.com、Stream.ESPN.com 直接消費"
+        }
+      },
+      {
+        "cat": "choice",
+        "rate": 2,
+        "detail": {
+          "en": "select card purchases (see issuer page for categories)",
+          "zh": "指定類別消費（類別見官網）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 300,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3,
+      "text": {
+        "en": "$200 Disney Gift Card eGift on approval + $100 statement credit after $500 spend in 3 months",
+        "zh": "核卡即贈 $200 Disney 電子禮物卡；3 個月內消費 $500 再獲 $100 帳單回饋"
+      }
+    },
+    "highlights": [
+      {
+        "en": "Rewards are Disney Rewards Dollars, redeemable toward Disney purchases and airline statement credits",
+        "zh": "回饋為 Disney Rewards Dollars，可用於 Disney 消費或折抵機票"
+      },
+      {
+        "en": "10% off select purchases at DisneyStore.com",
+        "zh": "DisneyStore.com 指定商品 9 折"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+    "source_url": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/disney_sleeping_beauty_premier_vs_Jan_2026.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-disney-visa",
+    "issuer": "chase",
+    "name": "Disney® Visa® Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "disney",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 150,
+      "unit": "usd",
+      "spend": 500,
+      "months": 3,
+      "text": {
+        "en": "$100 Disney Gift Card eGift on approval + $50 statement credit after $500 spend in 3 months",
+        "zh": "核卡即贈 $100 Disney 電子禮物卡；3 個月內消費 $500 再獲 $50 帳單回饋"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Rewards are Disney Rewards Dollars, redeemable toward Disney purchases",
+        "zh": "回饋為 Disney Rewards Dollars，用於 Disney 相關消費"
+      },
+      {
+        "en": "10% off select merchandise and dining at select Disney locations",
+        "zh": "指定 Disney 據點商品與餐飲 9 折"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/rewards-credit-cards/disney/rewards",
+    "source_url": "https://creditcards.chase.com/rewards-credit-cards/disney/rewards",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/disney_vintage_mickey_Jan_2026.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-prime-visa",
+    "issuer": "chase",
+    "name": "Prime Visa",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "brand",
+        "rate": 5,
+        "detail": {
+          "en": "Amazon.com, Audible.com, Whole Foods Market and Chase Travel℠, with an eligible Prime membership",
+          "zh": "Amazon.com、Audible.com、Whole Foods Market 與 Chase Travel℠（需有效 Prime 會籍）"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 2,
+        "detail": {
+          "en": "gas stations, restaurants, local transit and commuting (including rideshare)",
+          "zh": "加油站、餐廳、大眾運輸與通勤（含共乘）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 200,
+      "unit": "usd",
+      "text": {
+        "en": "$200 Amazon Gift Card loaded on approval (Prime members)",
+        "zh": "核卡即贈 $200 Amazon 禮物卡（限 Prime 會員）"
+      },
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Requires an eligible Amazon Prime membership (membership fee is separate)",
+        "zh": "需有 Amazon Prime 會籍（會費另計）"
+      },
+      {
+        "en": "10% back or more on a rotating selection of Amazon.com items",
+        "zh": "Amazon.com 輪替指定商品 10% 以上回饋"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+    "source_url": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/prime-visa.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-amazon-visa",
+    "issuer": "chase",
+    "name": "Amazon Visa",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "brand",
+        "rate": 3,
+        "detail": {
+          "en": "Amazon.com, Audible.com, Whole Foods Market and Chase Travel℠",
+          "zh": "Amazon.com、Audible.com、Whole Foods Market 與 Chase Travel℠"
+        }
+      },
+      {
+        "cat": "gas",
+        "rate": 2,
+        "detail": {
+          "en": "gas stations, restaurants, local transit and commuting (including rideshare)",
+          "zh": "加油站、餐廳、大眾運輸與通勤（含共乘）"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 60,
+      "unit": "usd",
+      "text": {
+        "en": "$60 Amazon Gift Card loaded on approval",
+        "zh": "核卡即贈 $60 Amazon 禮物卡"
+      },
+      "limited_time": true
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "No Prime membership required",
+        "zh": "不需 Prime 會籍"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
+    "source_url": "https://creditcards.chase.com/cash-back-credit-cards/amazon-rewards",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/amazon-visa.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-aeroplan",
+    "issuer": "chase",
+    "name": "Air Canada Aeroplan® Card",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 195
+    },
+    "reward_type": "miles",
+    "program": "aeroplan",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "purchases made directly with Air Canada (up to 5X total as an Aeroplan 25K member)",
+          "zh": "直接向加拿大航空消費（Aeroplan 25K 會員最高共 5X）"
+        }
+      },
+      {
+        "cat": "travel",
+        "rate": 3,
+        "detail": {
+          "en": "travel purchases",
+          "zh": "旅遊消費"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 3,
+        "detail": {
+          "en": "grocery stores and dining (2X after 12/31/2026)",
+          "zh": "超市與餐飲（2026/12/31 後為 2X）"
+        },
+        "valid_until": "2026-12-31"
+      },
+      {
+        "cat": "gas",
+        "rate": 2
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 80000,
+      "unit": "points",
+      "spend": 3000,
+      "months": 3,
+      "extra": {
+        "en": "60,000 points after the spend, plus up to 20,000 more from 1.5X on base-rate purchases in the first 2 months (new-to-Aeroplan-card applicants only)",
+        "zh": "達成消費獲 60,000 點；另前 2 個月一般消費 1.5X，最多再獲 20,000 點（限未持有過 Aeroplan 信用卡者）"
+      },
+      "limited_time": true
+    },
+    "highlights": [
+      {
+        "en": "Automatic Aeroplan Elite status",
+        "zh": "自動享 Aeroplan 會籍"
+      },
+      {
+        "en": "Up to $100 in annual Air Canada statement credits",
+        "zh": "每年最高 $100 加航消費回饋"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/AirCanada_Aeroplan_cardart.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-british-airways",
+    "issuer": "chase",
+    "name": "British Airways Visa Signature® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "miles",
+    "program": "avios",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "British Airways, Aer Lingus and Iberia flights",
+          "zh": "英航、愛爾蘭航空、西班牙國家航空機票"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 2,
+        "detail": {
+          "en": "booked directly with the hotel",
+          "zh": "直接向飯店訂房"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 75000,
+      "unit": "miles",
+      "spend": 5000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Earn Avios, shared across British Airways, Aer Lingus and Iberia",
+        "zh": "Avios 可於英航、愛爾蘭航空、西班牙國家航空之間通用"
+      },
+      {
+        "en": "2,500 anniversary bonus Avios each year",
+        "zh": "每年週年贈 2,500 Avios"
+      },
+      {
+        "en": "Up to $600 a year in Reward Flight statement credits",
+        "zh": "獎勵機票稅費每年最高 $600 回饋"
+      },
+      {
+        "en": "Travel Together Ticket after $30,000 in purchases in a calendar year",
+        "zh": "曆年消費滿 $30,000 贈 Travel Together 同行票"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/british-airways.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-aer-lingus",
+    "issuer": "chase",
+    "name": "Aer Lingus Visa Signature® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "miles",
+    "program": "avios",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "British Airways, Aer Lingus and Iberia flights",
+          "zh": "英航、愛爾蘭航空、西班牙國家航空機票"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 2,
+        "detail": {
+          "en": "booked directly with the hotel",
+          "zh": "直接向飯店訂房"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 75000,
+      "unit": "miles",
+      "spend": 5000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Earn Avios, shared across British Airways, Aer Lingus and Iberia",
+        "zh": "Avios 可於英航、愛爾蘭航空、西班牙國家航空之間通用"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/avios/aer-lingus",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/avios/aer-lingus",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/aer_lingus_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-iberia",
+    "issuer": "chase",
+    "name": "Iberia Visa Signature® Credit Card",
+    "network": "visa",
+    "annual_fee": {
+      "amount": 95
+    },
+    "reward_type": "miles",
+    "program": "avios",
+    "earn_unit": "x",
+    "rewards": [
+      {
+        "cat": "airline",
+        "rate": 3,
+        "detail": {
+          "en": "British Airways, Aer Lingus and Iberia flights",
+          "zh": "英航、愛爾蘭航空、西班牙國家航空機票"
+        }
+      },
+      {
+        "cat": "hotels",
+        "rate": 2,
+        "detail": {
+          "en": "booked directly with the hotel",
+          "zh": "直接向飯店訂房"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 75000,
+      "unit": "miles",
+      "spend": 5000,
+      "months": 3
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "Earn Avios, shared across British Airways, Aer Lingus and Iberia",
+        "zh": "Avios 可於英航、愛爾蘭航空、西班牙國家航空之間通用"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+    "source_url": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/iberia_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-doordash",
+    "issuer": "chase",
+    "name": "DoorDash Rewards Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "brand",
+        "rate": 4,
+        "detail": {
+          "en": "DoorDash and Caviar orders",
+          "zh": "DoorDash 與 Caviar 訂單"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 3,
+        "detail": {
+          "en": "purchased directly from a restaurant",
+          "zh": "直接向餐廳消費"
+        }
+      },
+      {
+        "cat": "groceries",
+        "rate": 2,
+        "detail": {
+          "en": "online or in-store",
+          "zh": "線上或實體"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "text": {
+        "en": "Free year of DashPass on approval (auto-renews at $96/yr; cancel anytime)",
+        "zh": "核卡贈一年 DashPass（到期自動以每年 $96 續訂，可隨時取消）"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [
+      {
+        "en": "12 more months of DashPass each anniversary year you spend $10,000",
+        "zh": "每年度消費滿 $10,000 再贈 12 個月 DashPass"
+      }
+    ],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+    "source_url": "https://creditcards.chase.com/cash-back-credit-cards/doordash",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/doordash_card.png",
+    "last_verified": "2026-11-16"
+  },
+  {
+    "id": "chase-instacart",
+    "issuer": "chase",
+    "name": "Instacart Mastercard®",
+    "network": "mastercard",
+    "annual_fee": {
+      "amount": 0
+    },
+    "reward_type": "cashback",
+    "program": "cash",
+    "earn_unit": "pct",
+    "rewards": [
+      {
+        "cat": "brand",
+        "rate": 5,
+        "detail": {
+          "en": "Instacart.com and Instacart app purchases",
+          "zh": "Instacart 網站與 App 消費"
+        },
+        "cap": {
+          "en": "first $6,000 spent annually",
+          "zh": "每年前 $6,000"
+        }
+      },
+      {
+        "cat": "portal",
+        "rate": 5,
+        "detail": {
+          "en": "Chase Travel℠",
+          "zh": "Chase Travel℠ 訂購"
+        }
+      },
+      {
+        "cat": "dining",
+        "rate": 2,
+        "detail": {
+          "en": "restaurants, gas stations and select streaming services",
+          "zh": "餐廳、加油站與指定串流服務"
+        }
+      },
+      {
+        "cat": "all",
+        "rate": 1
+      }
+    ],
+    "welcome": {
+      "value": 50,
+      "unit": "usd",
+      "text": {
+        "en": "$50 Instacart credit on approval",
+        "zh": "核卡即贈 $50 Instacart 購物金"
+      }
+    },
+    "fx_fee": 0,
+    "highlights": [],
+    "status": "active",
+    "apply_url": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+    "source_url": "https://creditcards.chase.com/cash-back-credit-cards/instacart",
+    "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/instacart_card.png",
+    "last_verified": "2026-11-16"
+  }
+]
