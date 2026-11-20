@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { siteStats } from '../lib/data';
-import { HTML_LANG, SITE_NAME, UI, href } from '../lib/i18n';
+import { HTML_LANG, SITE_NAME, UI, asset, href, pagePath } from '../lib/i18n';
 import type { Lang } from '../lib/types';
 
 interface Props {
@@ -16,10 +16,12 @@ const t = UI[lang];
 const site = SITE_NAME[lang];
 const desc = description ?? t.metaDesc;
 const fullTitle = title === site ? `${site} — ${t.tagline}` : `${title} | ${site}`;
-const cleanPath = Astro.url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '').replace(/(.)\/$/, '$1');
-const basePath = cleanPath === '/zh' ? '/' : cleanPath.replace(/^\/zh\//, '/');
+const basePath = pagePath(Astro.url.pathname);
+// The 404 page is served for any unknown address, so its language switch goes to the other edition's home page.
+const is404 = basePath === '/404';
+const switchPath = is404 ? '/' : basePath;
 const other: Lang = lang === 'en' ? 'zh' : 'en';
-const canonical = new URL(cleanPath, Astro.site);
+const canonical = new URL(href(lang, basePath), Astro.site);
 const alt = (l: Lang) => new URL(href(l, basePath), Astro.site).href;
 const nav = [
   { path: '/category/cashback', label: t.nav.cashback },
@@ -51,12 +53,12 @@ const isCurrent = (p: string) => basePath.startsWith(p);
     <meta property="og:url" content={canonical} />
     {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)} />}
     <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="icon" href={asset('/favicon.svg')} type="image/svg+xml" />
+    <link rel="sitemap" href={asset('/sitemap-index.xml')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <script is:inline define:vars={{ lang, zhUrl: href('zh', basePath) }}>
+    <script is:inline define:vars={{ lang, zhUrl: is404 ? '' : href('zh', basePath) }}>
       // Theme before first paint; and, on a first visit only, send Chinese-language browsers to the Chinese edition.
       (function () {
         try {
@@ -64,7 +66,7 @@ const isCurrent = (p: string) => basePath.startsWith(p);
           if (th === 'light' || th === 'dark') document.documentElement.setAttribute('data-theme', th);
           if (!localStorage.getItem('uscards.lang')) {
             localStorage.setItem('uscards.lang', 'auto');
-            if (lang === 'en' && /^zh\b/i.test(navigator.language || '')) location.replace(zhUrl + location.search + location.hash);
+            if (zhUrl && lang === 'en' && /^zh\b/i.test(navigator.language || '')) location.replace(zhUrl + location.search + location.hash);
           }
         } catch (e) {}
       })();
@@ -83,14 +85,14 @@ const isCurrent = (p: string) => basePath.startsWith(p);
             <a href={href(lang, n.path)} class:list={['rounded-md px-2.5 py-1.5 text-sm font-medium hover:bg-paper-2', { 'bg-paper-2': isCurrent(n.path) }]} aria-current={isCurrent(n.path) ? 'page' : undefined}>{n.label}</a>
           ))}
           <a href={href(lang, '/compare')} class="btn btn-ghost ml-2 !py-1.5 text-sm">{t.nav.compare}</a>
-          <a href={href(other, basePath)} hreflang={HTML_LANG[other]} lang={HTML_LANG[other]} data-lang-switch={other} class="btn btn-ghost ml-1 !py-1.5 text-sm">{t.langSwitch}</a>
+          <a href={href(other, switchPath)} hreflang={HTML_LANG[other]} lang={HTML_LANG[other]} data-lang-switch={other} class="btn btn-ghost ml-1 !py-1.5 text-sm">{t.langSwitch}</a>
           <span class="ml-2"><div class="theme-toggle" role="group" aria-label={t.theme.label} data-theme-toggle>
             <button type="button" data-theme-value="light" aria-pressed="false">{t.theme.light}</button>
             <button type="button" data-theme-value="system" aria-pressed="true">{t.theme.auto}</button>
             <button type="button" data-theme-value="dark" aria-pressed="false">{t.theme.dark}</button>
           </div></span>
         </nav>
-        <span class="ml-auto lg:hidden"><a href={href(other, basePath)} hreflang={HTML_LANG[other]} lang={HTML_LANG[other]} data-lang-switch={other} class="btn btn-ghost !px-3 !py-1.5 text-sm">{t.langSwitch}</a></span>
+        <span class="ml-auto lg:hidden"><a href={href(other, switchPath)} hreflang={HTML_LANG[other]} lang={HTML_LANG[other]} data-lang-switch={other} class="btn btn-ghost !px-3 !py-1.5 text-sm">{t.langSwitch}</a></span>
         <details class="relative lg:hidden">
           <summary class="btn btn-ghost !px-3 !py-1.5 text-sm list-none cursor-pointer">{t.nav.menu}</summary>
           <div class="absolute right-0 mt-2 w-52 rounded-xl border border-line bg-surface p-2 shadow-lift">

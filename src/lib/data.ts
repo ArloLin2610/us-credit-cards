@@ -4,7 +4,7 @@ import issuersJson from '../../data/issuers.json';
 import programsJson from '../../data/programs.json';
 import changelogJson from '../../data/changelog.json';
 import type { Card, CardSummary, ChangelogEntry, Issuer, Lang, Program, Reward, RewardType, Tag } from './types';
-import { CAT_LABEL, fmtNum, fmtPct, fmtRate, fmtUsd, tr, UI } from './i18n';
+import { CAT_LABEL, asset, fmtNum, fmtPct, fmtRate, fmtUsd, tr, UI } from './i18n';
 
 const cardModules = import.meta.glob<Card[]>('../../data/cards/*.json', { eager: true, import: 'default' });
 
@@ -31,7 +31,7 @@ const localImages = new Map<string, string>();
 try {
   for (const f of fs.readdirSync(path.resolve(process.cwd(), 'public/cards'))) {
     const m = /^(.+)\.(png|jpe?g|webp|svg|avif)$/i.exec(f);
-    if (m && !localImages.has(m[1])) localImages.set(m[1], `/cards/${f}`);
+    if (m && !localImages.has(m[1])) localImages.set(m[1], asset(`/cards/${f}`));
   }
 } catch {
   /* no local images yet */

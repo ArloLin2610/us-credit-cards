@@ -35,7 +35,7 @@ const jsonLd = {
   name: card.name,
   provider: { '@type': 'BankOrCreditUnion', name: issuer.name, url: issuer.website },
   description: hl,
-  url: new URL(Astro.url.pathname.replace(/\.html$/, ''), Astro.site).href,
+  url: new URL(href(lang, `/cards/${card.id}`), Astro.site).href,
   image: img.isPlaceholder ? undefined : new URL(img.src, Astro.site).href,
   feesAndCommissionsSpecification: `Annual fee: ${formatFee(card, 'en')}`,
 };

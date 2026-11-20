@@ -3,7 +3,7 @@
 中英雙語靜態網站：把美國主要發卡機構的個人信用卡依 **現金回饋／哩程／點數** 分類，附官方卡圖、年費、各類別回饋、開卡禮、海外手續費與官方連結，可挑三張並排比較。
 哩程與點數卡會標示「≈ %」約當現金回饋率，並明講是估算。
 
-架構沿用台灣站「卡比」：Astro 靜態站 + React 互動元件 + Tailwind；資料是 repo 內的 JSON；排程程式偵測官網變動後開 PR，**人工審核後才上線**。
+架構沿用台灣站「卡比」：Astro 靜態站 + React 互動元件 + Tailwind；資料是 repo 內的 JSON；排程程式偵測官網變動後開 PR，**人工審核後才上線**。網站由 **GitHub Pages** 免費代管（`.github/workflows/deploy.yml`，推到 `main` 就自動建置發布）。
 
 ## 現況（2026-11-16）
 
@@ -15,7 +15,7 @@
 
 ## 架構
 
-- **頁面**（英文在根目錄，繁體中文在 `/zh`，互相有 hreflang）：首頁（情境入口／篩選／搜尋／比較）、`/category/{cashback,miles,points}`、`/tags/{tag}`、`/issuers`、`/issuers/{id}`、`/cards/{id}`、`/compare?ids=a,b,c`、`/valuations`（點數估值表）、`/changelog`、`/about`。
+- **頁面**（英文在網站根目錄，繁體中文在 `zh/`，互相有 hreflang；所有連結都會自動帶上 GitHub Pages 的 `/<repo 名稱>/` 前綴）：首頁（情境入口／篩選／搜尋／比較）、`/category/{cashback,miles,points}`、`/tags/{tag}`、`/issuers`、`/issuers/{id}`、`/cards/{id}`、`/compare?ids=a,b,c`、`/valuations`（點數估值表）、`/changelog`、`/about`。
 - **資料**（唯一資料來源）：
   - `data/issuers.json` — 發卡機構、官方總覽頁、是否需要瀏覽器渲染（`render`）。
   - `data/cards/<issuer>.json` — 卡片。文字欄位一律 `{ "en": …, "zh": … }`；回饋是結構化的（類別 + 倍率），標題、標籤、約當現金回饋都由程式算出，不用手寫。
@@ -26,7 +26,7 @@
   1. 讀每家的官方總覽頁與每張卡的產品頁（誠實的 User-Agent、遵守 robots.txt；`render: true` 的機構用 headless Chromium）。
   2. 與 `data/snapshots/` 的上次內容比對，偵測：**新卡**、**停止申請**（404／導回總覽頁／頁面出現 “no longer accepting applications” 等字樣）、**權益文字變動**。
   3. 有設 `ANTHROPIC_API_KEY` 時，用 Claude 依 schema 把頁面擷取成資料並寫入；沒設時只偵測並列出差異。
-  4. 開 PR（label `needs-review`，內文是證據與文字差異）→ 人工審核合併 → Netlify 自動部署。
+  4. 開 PR（label `needs-review`，內文是證據與文字差異）→ 人工審核合併 → GitHub Pages 自動重新發布。
 
 ## 本機操作
 
@@ -41,7 +41,7 @@ npm run build
 
 ## 一次性設定
 
-1. **Netlify**：Add new site → Import from Git → 選這個 repo（`netlify.toml` 已設定）。環境變數 `SITE_URL=https://<網域>`。
+1. **GitHub Pages**：repo → Settings → Pages → Source 選 **GitHub Actions**。之後每次推到 `main` 會自動發布到 `https://<帳號>.github.io/<repo 名稱>/`。（要用自訂網域時，在 Settings → Variables 設 `SITE_URL` 與 `BASE_PATH=/`。）
 2. **GitHub → Settings → Secrets and variables → Actions**：`ANTHROPIC_API_KEY`（選填，按量計費，只有頁面有變動時才呼叫）。Variables 可設 `LLM_MODEL`。
 3. **GitHub → Settings → Actions → General → Workflow permissions**：勾選 *Allow GitHub Actions to create and approve pull requests*。
 4. **快照基準**：已隨首次提交建立（`data/snapshots/`）；之後排程只回報變化。要重建：Actions →「核對各發卡機構官網」→ Run workflow，勾 `snapshot_only`。

@@ -1,9 +1,8 @@
 name: CI
 
+# 推到 main 時由 deploy.yml 建置並發布；這裡只檢查 PR。
 on:
   pull_request:
-  push:
-    branches: [main]
 
 jobs:
   build:

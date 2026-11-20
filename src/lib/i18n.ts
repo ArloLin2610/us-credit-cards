@@ -8,11 +8,23 @@ export const SITE_NAME: Record<Lang, string> = { en: 'Kabi US', zh: '卡比美�
 export function tr(l: L | undefined, lang: Lang): string {
   return l ? l[lang] || l.en : '';
 }
-/** Site path for a language: English lives at the root, Chinese under /zh. */
+/** Path the site is served under: '' at a domain root, '/<repo>' on GitHub Pages project sites. */
+export const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+/** A file in public/ (favicon, card images). */
+export const asset = (path: string) => `${BASE}${path.startsWith('/') ? path : `/${path}`}`;
+/** Site path for a language: English lives at the root, Chinese under /zh. Always ends with "/". */
 export function href(lang: Lang, path: string): string {
   const p = path.startsWith('/') ? path : `/${path}`;
-  if (lang === DEFAULT_LANG) return p;
-  return p === '/' ? '/zh' : `/zh${p}`;
+  const loc = lang === DEFAULT_LANG ? p : p === '/' ? '/zh' : `/zh${p}`;
+  return `${BASE}${loc.endsWith('/') ? loc : `${loc}/`}`;
+}
+/** Current URL path → language-neutral page path ('/cards/x', '/'), with the base and /zh removed. */
+export function pagePath(pathname: string): string {
+  let p = pathname.startsWith(BASE) ? pathname.slice(BASE.length) : pathname;
+  p = p.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+  if (p === '/zh' || p === '/zh/') return '/';
+  p = p.replace(/^\/zh\//, '/');
+  return p.length > 1 ? p.replace(/\/$/, '') : '/';
 }
 /** Astro `[...lang]` param → Lang. */
 export function langFromParam(p: string | undefined): Lang {

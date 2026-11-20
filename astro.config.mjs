@@ -4,15 +4,19 @@ import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
-// Set SITE_URL in Netlify (e.g. https://us-card-compare.netlify.app) so canonical URLs
-// and the sitemap point at the real domain.
-const site = process.env.SITE_URL || process.env.URL || 'https://example.com';
+// GitHub Pages serves a project site under /<repo-name>/. The deploy workflow sets both variables;
+// locally they default to a root-served site.
+//   SITE_URL  — origin, e.g. https://arlolin2610.github.io
+//   BASE_PATH — e.g. /us-credit-cards   (leave empty when using a custom domain)
+const site = process.env.SITE_URL || 'https://example.com';
+const base = process.env.BASE_PATH || '/';
 
 export default defineConfig({
   site,
+  base,
   output: 'static',
-  trailingSlash: 'never',
-  build: { format: 'file' },
+  trailingSlash: 'always',
+  build: { format: 'directory' },
   integrations: [react(), sitemap({ i18n: { defaultLocale: 'en', locales: { en: 'en-US', zh: 'zh-Hant' } } })],
   vite: { plugins: [tailwindcss()] },
 });
