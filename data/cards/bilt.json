@@ -150,6 +150,20 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Bilt Travel hotel credit",
+          "zh": "Bilt Travel 飯店回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "two $50 statement credits a year",
+          "zh": "每年兩筆各 $50"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "No transaction fee on rent and mortgage payments made through Bilt",
@@ -158,10 +172,6 @@
       {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"
-      },
-      {
-        "en": "$100 annual Bilt Travel hotel credit (two $50 statement credits)",
-        "zh": "每年 $100 Bilt Travel 飯店回饋（分兩次各 $50）"
       }
     ],
     "status": "active",
@@ -233,6 +243,20 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Bilt Travel hotel credit",
+          "zh": "Bilt Travel 飯店回饋"
+        },
+        "per": "year",
+        "amount": 400,
+        "detail": {
+          "en": "two $200 statement credits a year",
+          "zh": "每年兩筆各 $200"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "No transaction fee on rent and mortgage payments made through Bilt",
@@ -241,10 +265,6 @@
       {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"
-      },
-      {
-        "en": "$400 annual Bilt Travel hotel credit (two $200 statement credits)",
-        "zh": "每年 $400 Bilt Travel 飯店回饋（分兩次各 $200）"
       },
       {
         "en": "Priority Pass™ airport lounge access",

@@ -59,15 +59,41 @@
       "months": 3
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Chase Travel hotel credit",
+          "zh": "Chase Travel 飯店回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "on hotel stays bought through Chase Travel each account anniversary year",
+          "zh": "每個帳戶年度，經 Chase Travel 訂飯店"
+        }
+      },
+      {
+        "name": {
+          "en": "DashPass membership",
+          "zh": "DashPass 會籍"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "complimentary DoorDash DashPass for 12 months; $120 is the issuer-stated value",
+          "zh": "免費 DoorDash DashPass 12 個月；$120 為官網標示價值"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® / NEXUS application fee",
+          "zh": "Global Entry／TSA PreCheck®／NEXUS 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      }
+    ],
     "highlights": [
-      {
-        "en": "Up to $100 in statement credits each anniversary year for hotel stays booked through Chase Travel",
-        "zh": "每個年度經 Chase Travel 訂飯店最高 $100 帳單回饋"
-      },
-      {
-        "en": "Up to $120 Global Entry / TSA PreCheck® fee credit",
-        "zh": "Global Entry／TSA PreCheck® 申請費回饋最高 $120"
-      },
       {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"
@@ -138,18 +164,127 @@
       "spend": 6000,
       "months": 3
     },
-    "highlights": [
+    "credits": [
       {
-        "en": "$300 annual travel credit",
-        "zh": "每年 $300 旅遊消費回饋"
+        "name": {
+          "en": "The Edit℠ hotel credit",
+          "zh": "The Edit℠ 飯店回饋"
+        },
+        "per": "year",
+        "amount": 500,
+        "detail": {
+          "en": "up to $250 per prepaid booking with The Edit; two-night minimum",
+          "zh": "每筆 The Edit 預付訂房最高 $250；至少兩晚"
+        }
       },
+      {
+        "name": {
+          "en": "Apple TV and Apple Music subscriptions",
+          "zh": "Apple TV 與 Apple Music 訂閱"
+        },
+        "per": "year",
+        "amount": 324,
+        "detail": {
+          "en": "complimentary for at least one year when activated by June 22, 2027; $324 is the issuer-stated value",
+          "zh": "2027/6/22 前啟用可免費訂閱至少一年；$324 為官網標示價值"
+        }
+      },
+      {
+        "name": {
+          "en": "Annual travel credit",
+          "zh": "年度旅遊回饋"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "on travel purchases each account anniversary year",
+          "zh": "每個帳戶年度，旅遊消費自動折抵"
+        }
+      },
+      {
+        "name": {
+          "en": "Dining credit",
+          "zh": "餐飲回饋"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "up to $150 every six months at Sapphire Reserve Exclusive Tables restaurants on OpenTable",
+          "zh": "每半年最高 $150，限 OpenTable 上的 Sapphire Reserve Exclusive Tables 餐廳"
+        }
+      },
+      {
+        "name": {
+          "en": "StubHub credit",
+          "zh": "StubHub 票券回饋"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "up to $150 every six months on StubHub and viagogo, through 12/31/2027; activation required",
+          "zh": "每半年最高 $150，限 StubHub 與 viagogo，至 2027/12/31；需啟用"
+        }
+      },
+      {
+        "name": {
+          "en": "Lyft credit",
+          "zh": "Lyft 乘車金"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month in in-app ride credits, through 9/30/2027",
+          "zh": "每月最高 $10 App 內乘車金，至 2027/9/30"
+        }
+      },
+      {
+        "name": {
+          "en": "DashPass membership",
+          "zh": "DashPass 會籍"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "complimentary DoorDash DashPass for 12 months; $120 is the issuer-stated value",
+          "zh": "免費 DoorDash DashPass 12 個月；$120 為官網標示價值"
+        }
+      },
+      {
+        "name": {
+          "en": "Peloton credit",
+          "zh": "Peloton 會籍回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month on eligible Peloton memberships, through 12/31/2027; activation required",
+          "zh": "每月最高 $10 Peloton 會籍，至 2027/12/31；需啟用"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® / NEXUS application fee",
+          "zh": "Global Entry／TSA PreCheck®／NEXUS 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      },
+      {
+        "name": {
+          "en": "High-spend credits",
+          "zh": "高消費加碼回饋"
+        },
+        "per": "other",
+        "detail": {
+          "en": "after $75,000 in purchases in a calendar year: $250 for The Shops at Chase and $500 for Southwest Airlines booked through Chase Travel",
+          "zh": "曆年消費滿 $75,000 後：The Shops at Chase $250、經 Chase Travel 訂購 Southwest 機票 $500"
+        }
+      }
+    ],
+    "highlights": [
       {
         "en": "Chase Sapphire Lounges and 1,300+ Priority Pass™ lounges with up to two guests",
         "zh": "Chase Sapphire Lounge 與 1,300+ 間 Priority Pass™ 貴賓室，可帶兩位同行"
-      },
-      {
-        "en": "Up to $500 a year in credits for prepaid stays with The Edit℠ (two-night minimum)",
-        "zh": "The Edit℠ 預付住宿每年最高 $500 回饋（至少兩晚）"
       },
       {
         "en": "Points transfer to airline and hotel partners",
@@ -426,6 +561,88 @@
       },
       "limited_time": true
     },
+    "credits": [
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month in Instacart credits",
+          "zh": "每月最高 $10 Instacart 購物金"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® / NEXUS application fee",
+          "zh": "Global Entry／TSA PreCheck®／NEXUS 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      },
+      {
+        "name": {
+          "en": "United travel credit",
+          "zh": "United 旅遊額度"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "in United TravelBank cash after $10,000 in purchases in a calendar year",
+          "zh": "曆年消費滿 $10,000 後獲 United TravelBank 現金"
+        }
+      },
+      {
+        "name": {
+          "en": "United Hotels credit",
+          "zh": "United Hotels 住宿回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "$50 each for your first and second prepaid stays bought through United Hotels",
+          "zh": "經 United Hotels 預付訂房，前兩次各 $50"
+        }
+      },
+      {
+        "name": {
+          "en": "JSX credit",
+          "zh": "JSX 機票回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "on flights bought directly from JSX",
+          "zh": "直接向 JSX 購票"
+        }
+      },
+      {
+        "name": {
+          "en": "Rideshare credit",
+          "zh": "共乘回饋"
+        },
+        "per": "year",
+        "amount": 60,
+        "detail": {
+          "en": "up to $5 a month; enrollment required",
+          "zh": "每月最高 $5；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Avis / Budget credit",
+          "zh": "Avis／Budget 租車額度"
+        },
+        "per": "year",
+        "amount": 50,
+        "detail": {
+          "en": "in United travel credits when booking through mileageplustravel.united.com",
+          "zh": "經 mileageplustravel.united.com 預訂，回饋為 United 旅遊額度"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "First checked bag free",
@@ -434,10 +651,6 @@
       {
         "en": "2 United Club℠ one-time passes each year",
         "zh": "每年 2 張 United Club℠ 單次通行證"
-      },
-      {
-        "en": "Over $500 in annual partner credits",
-        "zh": "每年合作夥伴回饋合計逾 $500"
       }
     ],
     "status": "active",
@@ -510,14 +723,84 @@
       },
       "limited_time": true
     },
+    "credits": [
+      {
+        "name": {
+          "en": "United travel credit",
+          "zh": "United 旅遊額度"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "in United TravelBank cash at account opening and each anniversary",
+          "zh": "開卡時與每年週年獲 United TravelBank 現金"
+        }
+      },
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 180,
+        "detail": {
+          "en": "in Instacart credits per calendar year",
+          "zh": "每曆年 Instacart 購物金"
+        }
+      },
+      {
+        "name": {
+          "en": "Renowned Hotels and Resorts credit",
+          "zh": "Renowned Hotels and Resorts 住宿回饋"
+        },
+        "per": "year",
+        "amount": 150,
+        "detail": {
+          "en": "on prepaid stays bought directly through Renowned Hotels and Resorts",
+          "zh": "直接經 Renowned Hotels and Resorts 預付訂房"
+        }
+      },
+      {
+        "name": {
+          "en": "JSX credit",
+          "zh": "JSX 機票回饋"
+        },
+        "per": "year",
+        "amount": 150,
+        "detail": {
+          "en": "on flights bought directly from JSX",
+          "zh": "直接向 JSX 購票"
+        }
+      },
+      {
+        "name": {
+          "en": "Rideshare credit",
+          "zh": "共乘回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "up to $8 a month January–November and $12 in December; enrollment required",
+          "zh": "1–11 月每月最高 $8，12 月最高 $12；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Avis / Budget credit",
+          "zh": "Avis／Budget 租車額度"
+        },
+        "per": "year",
+        "amount": 80,
+        "detail": {
+          "en": "in United travel credits when booking through mileageplustravel.united.com",
+          "zh": "經 mileageplustravel.united.com 預訂，回饋為 United 旅遊額度"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "First and second checked bags free",
         "zh": "免費託運第一、二件行李"
-      },
-      {
-        "en": "$200 United travel credit",
-        "zh": "$200 United 旅遊回饋"
       },
       {
         "en": "Annual 10,000-mile award flight discount",
@@ -655,6 +938,68 @@
       },
       "limited_time": true
     },
+    "credits": [
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 240,
+        "detail": {
+          "en": "two $10 Instacart credits a month",
+          "zh": "每月兩筆各 $10 Instacart 購物金"
+        }
+      },
+      {
+        "name": {
+          "en": "Renowned Hotels and Resorts credit",
+          "zh": "Renowned Hotels and Resorts 住宿回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "on prepaid stays bought directly through Renowned Hotels and Resorts, each anniversary year",
+          "zh": "每個週年年度，直接經 Renowned Hotels and Resorts 預付訂房"
+        }
+      },
+      {
+        "name": {
+          "en": "JSX credit",
+          "zh": "JSX 機票回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "on flights bought directly from JSX, each anniversary year",
+          "zh": "每個週年年度，直接向 JSX 購票"
+        }
+      },
+      {
+        "name": {
+          "en": "Rideshare credit",
+          "zh": "共乘回饋"
+        },
+        "per": "year",
+        "amount": 150,
+        "detail": {
+          "en": "up to $12 a month January–November and $18 in December; yearly opt-in required",
+          "zh": "1–11 月每月最高 $12，12 月最高 $18；需每年登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Avis / Budget credit",
+          "zh": "Avis／Budget 租車額度"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "in United travel credits when booking through mileageplustravel.united.com",
+          "zh": "經 mileageplustravel.united.com 預訂，回饋為 United 旅遊額度"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "United Club℠ membership",
@@ -723,6 +1068,20 @@
       "limited_time": true
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month in Instacart credits",
+          "zh": "每月最高 $10 Instacart 購物金"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "First checked bag free",
@@ -784,6 +1143,20 @@
       "limited_time": true
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month in Instacart credits",
+          "zh": "每月最高 $10 Instacart 購物金"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "First checked bag free",
@@ -849,6 +1222,20 @@
       "limited_time": true
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month in Instacart credits",
+          "zh": "每月最高 $10 Instacart 購物金"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "First checked bag free",
@@ -917,6 +1304,20 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Airline credit",
+          "zh": "航空回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "$50 each half-year after $250 in purchases made directly with airlines; through 6/30/2027",
+          "zh": "每半年直接向航空公司消費滿 $250 回饋 $50；至 2027/6/30"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Free Night Award every account anniversary",
@@ -925,10 +1326,6 @@
       {
         "en": "Automatic Silver Elite status and 15 Elite Night Credits",
         "zh": "自動享 Silver Elite 會籍與 15 晚房晚數"
-      },
-      {
-        "en": "Through 6/30/2027: up to $100 in statement credits on airline purchases ($50 semi-annually after $250 spend)",
-        "zh": "至 2027/6/30：航空消費最高 $100 回饋（每半年消費 $250 回饋 $50）"
       }
     ],
     "status": "active",
@@ -1095,6 +1492,64 @@
       },
       "limited_time": true
     },
+    "credits": [
+      {
+        "name": {
+          "en": "IHG Food & Beverage Rewards",
+          "zh": "IHG 餐飲抵用券"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "a $75 voucher each quarter, redeemable at IHG hotels",
+          "zh": "每季一張 $75 抵用券，於 IHG 飯店使用"
+        }
+      },
+      {
+        "name": {
+          "en": "Airline statement credit",
+          "zh": "航空回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "after $250 on flights bought directly from an airline each calendar year, through 12/31/2027",
+          "zh": "每曆年直接向航空公司購票滿 $250 後；至 2027/12/31"
+        }
+      },
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month in Instacart credits",
+          "zh": "每月最高 $10 Instacart 購物金"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® / NEXUS application fee",
+          "zh": "Global Entry／TSA PreCheck®／NEXUS 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      },
+      {
+        "name": {
+          "en": "United TravelBank cash",
+          "zh": "United TravelBank 現金"
+        },
+        "per": "year",
+        "amount": 50,
+        "detail": {
+          "en": "after registering the card with your MileagePlus® account",
+          "zh": "將本卡登錄至 MileagePlus® 帳戶後"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Anniversary Free Night (up to 60,000 points)",
@@ -1155,6 +1610,64 @@
       },
       "limited_time": true
     },
+    "credits": [
+      {
+        "name": {
+          "en": "Instacart",
+          "zh": "Instacart"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month in Instacart credits",
+          "zh": "每月最高 $10 Instacart 購物金"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® / NEXUS application fee",
+          "zh": "Global Entry／TSA PreCheck®／NEXUS 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      },
+      {
+        "name": {
+          "en": "IHG Food & Beverage Rewards",
+          "zh": "IHG 餐飲抵用券"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "a $25 voucher each quarter, redeemable at IHG hotels",
+          "zh": "每季一張 $25 抵用券，於 IHG 飯店使用"
+        }
+      },
+      {
+        "name": {
+          "en": "Airline statement credit",
+          "zh": "航空回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "after $250 on flights bought directly from an airline each calendar year, through 12/31/2027",
+          "zh": "每曆年直接向航空公司購票滿 $250 後；至 2027/12/31"
+        }
+      },
+      {
+        "name": {
+          "en": "United TravelBank cash",
+          "zh": "United TravelBank 現金"
+        },
+        "per": "year",
+        "amount": 50,
+        "detail": {
+          "en": "after registering the card with your MileagePlus® account",
+          "zh": "將本卡登錄至 MileagePlus® 帳戶後"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Anniversary Free Night (up to 50,000 points)",
@@ -1163,10 +1676,6 @@
       {
         "en": "Automatic Gold Elite status",
         "zh": "自動享 Gold Elite 會籍"
-      },
-      {
-        "en": "Up to $120 Global Entry / TSA PreCheck® fee credit",
-        "zh": "Global Entry／TSA PreCheck® 申請費回饋最高 $120"
       }
     ],
     "status": "active",
@@ -1349,14 +1858,48 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Disney resort and cruise bonus",
+          "zh": "Disney 度假村與郵輪加碼"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "in Disney Rewards Dollars after $2,000 a year on U.S. Disney Resort stays and Disney Cruise Line bookings",
+          "zh": "每年於美國 Disney 度假村住宿與 Disney Cruise Line 消費滿 $2,000，獲 $200 Disney Rewards Dollars"
+        }
+      },
+      {
+        "name": {
+          "en": "Disney streaming credit",
+          "zh": "Disney 串流回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month after $10+ on Disney+, Hulu or ESPN subscriptions; yearly activation required",
+          "zh": "每月最高 $10，當月 Disney+、Hulu、ESPN 訂閱滿 $10；需每年啟用"
+        }
+      },
+      {
+        "name": {
+          "en": "Theme park ticket credit",
+          "zh": "主題樂園門票回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "after $200 a year on U.S. Disney theme park tickets",
+          "zh": "每年美國 Disney 主題樂園門票消費滿 $200 後"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Rewards are Disney Rewards Dollars, redeemable toward Disney purchases",
         "zh": "回饋為 Disney Rewards Dollars，用於 Disney 相關消費"
-      },
-      {
-        "en": "$10 monthly statement credit on Disney+/Hulu/ESPN subscriptions (yearly activation)",
-        "zh": "Disney+／Hulu／ESPN 訂閱每月 $10 回饋（需每年啟用）"
       },
       {
         "en": "10% off select merchandise and dining at select Disney locations",
@@ -1643,14 +2186,24 @@
       },
       "limited_time": true
     },
+    "credits": [
+      {
+        "name": {
+          "en": "Air Canada credit",
+          "zh": "加拿大航空回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "up to $50 every six months on eligible Air Canada purchases",
+          "zh": "每半年最高 $50，限符合條件的加航消費"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Automatic Aeroplan Elite status",
         "zh": "自動享 Aeroplan 會籍"
-      },
-      {
-        "en": "Up to $100 in annual Air Canada statement credits",
-        "zh": "每年最高 $100 加航消費回饋"
       }
     ],
     "status": "active",
@@ -1699,6 +2252,20 @@
       "months": 3
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Reward Flight credits",
+          "zh": "獎勵機票回饋"
+        },
+        "per": "year",
+        "amount": 600,
+        "detail": {
+          "en": "$100 per Reward Flight booking in economy or premium economy, $200 in business or first",
+          "zh": "每筆獎勵機票：經濟艙／豪華經濟艙 $100，商務艙／頭等艙 $200"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Earn Avios, shared across British Airways, Aer Lingus and Iberia",
@@ -1707,10 +2274,6 @@
       {
         "en": "2,500 anniversary bonus Avios each year",
         "zh": "每年週年贈 2,500 Avios"
-      },
-      {
-        "en": "Up to $600 a year in Reward Flight statement credits",
-        "zh": "獎勵機票稅費每年最高 $600 回饋"
       },
       {
         "en": "Travel Together Ticket after $30,000 in purchases in a calendar year",

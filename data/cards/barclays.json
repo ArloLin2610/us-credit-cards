@@ -95,6 +95,20 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "JetBlue Vacations credit",
+          "zh": "JetBlue Vacations 回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "after buying a JetBlue Vacations package of $100 or more; one per year",
+          "zh": "購買 $100 以上 JetBlue Vacations 套裝行程後；每年一次"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Free first checked bag for you and up to 3 companions on JetBlue-operated flights",
@@ -161,6 +175,40 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "TrueBlue Travel credit",
+          "zh": "TrueBlue Travel 回饋"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "on TrueBlue Travel purchases per calendar year",
+          "zh": "每曆年，TrueBlue Travel 消費"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      },
+      {
+        "name": {
+          "en": "Companion pass statement credits",
+          "zh": "同行票回饋"
+        },
+        "per": "other",
+        "amount": 2000,
+        "detail": {
+          "en": "up to $2,000 after eligible purchases in a calendar year (see issuer page for the spend required)",
+          "zh": "曆年達成指定消費後最高 $2,000（門檻見官網）"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Priority Pass™ lounge access and BlueHouse™ access with eligible fares",
@@ -351,14 +399,68 @@
       "limited_time": true
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Meal delivery credit",
+          "zh": "外送回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month on qualifying meal delivery purchases",
+          "zh": "每月最高 $10 符合條件的外送消費"
+        }
+      },
+      {
+        "name": {
+          "en": "Wyndham hotel credit",
+          "zh": "Wyndham 飯店回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "after $100 or more at Wyndham hotels in a calendar year",
+          "zh": "每曆年於 Wyndham 飯店消費滿 $100 後"
+        }
+      },
+      {
+        "name": {
+          "en": "Streaming credit",
+          "zh": "串流回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "on qualifying streaming service purchases per calendar year",
+          "zh": "每曆年，符合條件的串流服務"
+        }
+      },
+      {
+        "name": {
+          "en": "Wholesale club membership credit",
+          "zh": "量販會籍回饋"
+        },
+        "per": "year",
+        "amount": 65,
+        "detail": {
+          "en": "after $65 or more in wholesale club membership purchases in a calendar year",
+          "zh": "每曆年量販會籍消費滿 $65 後"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      }
+    ],
     "highlights": [
       {
         "en": "Automatic Wyndham Rewards Diamond level",
         "zh": "自動享 Wyndham Rewards Diamond 會籍"
-      },
-      {
-        "en": "Over $400 a year in statement credits (Wyndham hotels $100, meal delivery up to $120, streaming up to $100, wholesale club $65)",
-        "zh": "每年逾 $400 回饋（Wyndham 飯店 $100、外送最高 $120、串流最高 $100、量販會籍 $65）"
       }
     ],
     "status": "active",
@@ -412,6 +514,19 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee credit",
+          "zh": "Global Entry／TSA PreCheck® 申請費回饋"
+        },
+        "per": "other",
+        "detail": {
+          "en": "amount not stated on the product page",
+          "zh": "產品頁未載明金額"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Priority Pass™ airport lounge access",
@@ -420,10 +535,6 @@
       {
         "en": "10,000 anniversary bonus Skywards Miles each year",
         "zh": "每年週年贈 10,000 Skywards 哩"
-      },
-      {
-        "en": "Global Entry or TSA PreCheck application fee credit",
-        "zh": "Global Entry／TSA PreCheck 申請費回饋"
       }
     ],
     "tags": [

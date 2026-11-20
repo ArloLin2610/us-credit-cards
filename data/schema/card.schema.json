@@ -222,6 +222,42 @@
       "minimum": 0,
       "description": "Foreign transaction fee in percent; 0 = none. Omit when the product page does not state it"
     },
+    "credits": {
+      "type": "array",
+      "maxItems": 16,
+      "description": "Statement credits, vouchers and other dollar-denominated perks, one entry each. List every one the official page names, not just the largest.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "per"
+        ],
+        "properties": {
+          "name": {
+            "$ref": "#/$defs/L"
+          },
+          "amount": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Maximum value in USD for the period in `per` (e.g. 120 for $10 a month). Omit when the page gives no amount."
+          },
+          "per": {
+            "enum": [
+              "year",
+              "4years",
+              "stay",
+              "other"
+            ],
+            "description": "year = per calendar/anniversary year; 4years = once every four years; stay = per hotel stay/booking; other = conditional or one-off (explain in detail)"
+          },
+          "detail": {
+            "$ref": "#/$defs/L",
+            "description": "Cadence and conditions: monthly/quarterly split, where it applies, enrollment, end date"
+          }
+        }
+      }
+    },
     "highlights": {
       "type": "array",
       "maxItems": 6,

@@ -170,7 +170,7 @@ const en = {
   cmp: {
     title: 'Compare side by side', intro: 'Up to three cards. The address carries your picks, so you can share it.', addPh: 'Type a card or issuer to add…', fullPh: (n: number) => `Up to ${n} cards — remove one first`,
     addAria: 'Add a card to compare', emptyA: 'Your compare list is empty. Add cards from the', emptyB: 'or search above.', homeLink: 'home page',
-    issuer: 'Issuer', type: 'Reward type', fee: 'Annual fee', network: 'Network', welcome: 'Welcome offer', rewards: 'Rewards', equiv: 'Cash-back equivalent (est.)', fx: 'Foreign transaction fee', introApr: 'Intro APR',
+    issuer: 'Issuer', type: 'Reward type', fee: 'Annual fee', network: 'Network', welcome: 'Welcome offer', rewards: 'Rewards', credits: 'Statement credits and perks', equiv: 'Cash-back equivalent (est.)', fx: 'Foreign transaction fee', introApr: 'Intro APR',
     highlights: 'Highlights', goodFor: 'Good for', status: 'Status', verified: 'Last checked', apply: 'Apply on issuer site', source: 'Official source', detail: 'Card page', removeBtn: 'Remove',
   },
   card: {
@@ -184,6 +184,9 @@ const en = {
     valuation: 'How the cash estimate works',
     valuationBody: (prog: string, cpp: string, basis: string) => `${prog} is valued at ${cpp}¢ each (${basis}). Multiply the earn rate by that value to get an approximate cash-back percentage. What you actually get depends on how you redeem.`,
     valuationLink: 'See all point values',
+    credits: 'Statement credits and perks', creditsTotal: (v: string) => `Up to ${v} a year if you use every one`,
+    creditsNote: 'Amounts are the maximums the issuer advertises. Most need enrollment, specific merchants, or use-it-or-lose-it monthly or quarterly spending, so few cardholders get the full value.',
+    creditPer: { year: (v: string) => `up to ${v} / year`, '4years': (v: string) => `up to ${v} every 4 years`, stay: (v: string) => `${v} per stay`, other: (v: string) => `up to ${v}` },
     highlights: 'Highlights', facts: 'Card facts', issuer: 'Issuer', network: 'Network', program: 'Rewards currency', fx: 'Foreign transaction fee', fxNone: 'None', fxUnknown: 'Not stated on the product page — check the issuer’s rates and fees',
     intro: 'Intro APR', introOn: { purchases: 'purchases', bt: 'balance transfers', both: 'purchases and balance transfers' }, introText: (m: number, on: string) => `0% for ${m} months on ${on}`,
     goodFor: 'Good for', status: 'Status', related: 'Similar cards from other issuers', sameIssuer: (i: string) => `More from ${i}`, breadcrumb: 'Breadcrumb',
@@ -247,7 +250,7 @@ const zh: Dict = {
   cmp: {
     title: '並排比較', intro: '最多三張。網址會帶著你選的卡片，可以直接分享。', addPh: '輸入卡名或發卡機構加入比較…', fullPh: (n) => `最多比較 ${n} 張，先移除一張`,
     addAria: '加入卡片到比較', emptyA: '比較清單是空的。從', emptyB: '把卡片加進來，或在上方搜尋。', homeLink: '首頁',
-    issuer: '發卡機構', type: '回饋類型', fee: '年費', network: '卡組織', welcome: '開卡禮', rewards: '回饋內容', equiv: '約當現金回饋（估算）', fx: '海外交易手續費', introApr: '優惠利率',
+    issuer: '發卡機構', type: '回饋類型', fee: '年費', network: '卡組織', welcome: '開卡禮', rewards: '回饋內容', credits: '回饋額度與附加權益', equiv: '約當現金回饋（估算）', fx: '海外交易手續費', introApr: '優惠利率',
     highlights: '亮點', goodFor: '適合', status: '狀態', verified: '最近核對', apply: '前往官網申請', source: '官方資料來源', detail: '卡片詳細頁', removeBtn: '移除',
   },
   card: {
@@ -261,6 +264,9 @@ const zh: Dict = {
     valuation: '現金回饋估算怎麼算',
     valuationBody: (prog, cpp, basis) => `${prog} 以每單位 ${cpp} 美分計（${basis}）。把累積倍率乘上這個估值，就是約略的現金回饋率。實際價值取決於你怎麼兌換。`,
     valuationLink: '查看全部點數估值',
+    credits: '回饋額度與附加權益', creditsTotal: (v) => `全部用滿每年最高 ${v}`,
+    creditsNote: '金額為發卡機構標示的上限。多數需要登錄、限定通路，或分月分季使用、過期不補，實際能拿到的通常低於上限。',
+    creditPer: { year: (v) => `每年最高 ${v}`, '4years': (v) => `每 4 年最高 ${v}`, stay: (v) => `每次住宿 ${v}`, other: (v) => `最高 ${v}` },
     highlights: '亮點', facts: '基本資料', issuer: '發卡機構', network: '卡組織', program: '回饋計畫', fx: '海外交易手續費', fxNone: '免', fxUnknown: '產品頁未載明，請查官網費率表',
     intro: '優惠利率', introOn: { purchases: '消費', bt: '餘額代償', both: '消費與餘額代償' }, introText: (m, on) => `${on} ${m} 個月 0%`,
     goodFor: '適合', status: '申請狀態', related: '其他發卡機構的同類卡片', sameIssuer: (i) => `${i} 的其他卡片`, breadcrumb: '路徑',

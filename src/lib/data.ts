@@ -206,6 +206,17 @@ export function rewardRows(card: Card, lang: Lang) {
     until: r.valid_until,
   }));
 }
+/** Itemised statement credits, largest annual ones first. */
+export function creditRows(card: Card, lang: Lang) {
+  const t = UI[lang].card;
+  const order = { year: 0, '4years': 1, stay: 2, other: 3 } as const;
+  return (card.credits ?? [])
+    .slice()
+    .sort((a, b) => order[a.per] - order[b.per] || (b.amount ?? 0) - (a.amount ?? 0))
+    .map((c) => ({ name: tr(c.name, lang), value: c.amount ? t.creditPer[c.per](fmtUsd(c.amount)) : '', detail: tr(c.detail, lang) || undefined }));
+}
+/** Sum of the per-year credits (the advertised maximum, not what a typical cardholder realises). */
+export const creditsTotal = (card: Card) => (card.credits ?? []).filter((c) => c.per === 'year' && c.amount).reduce((n, c) => n + (c.amount ?? 0), 0);
 export function fxText(card: Card, lang: Lang): string {
   const t = UI[lang].card;
   if (card.fx_fee === undefined) return t.fxUnknown;
@@ -241,6 +252,8 @@ export function toCompare(card: Card, lang: Lang): CompareCard {
     equivNote: valuationNote(card, lang),
     fx: fxText(card, lang),
     intro: introText(card, lang),
+    credits: creditRows(card, lang),
+    creditsTotal: creditsTotal(card) ? t.creditsTotal(fmtUsd(creditsTotal(card))) : undefined,
     highlights: card.highlights.map((h) => tr(h, lang)),
     tags: tagsOf(card).map((x) => tr(TAG_LABEL[x], lang)),
     status: card.status,

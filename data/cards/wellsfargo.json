@@ -150,11 +150,21 @@
       "months": 3
     },
     "fx_fee": 0,
-    "highlights": [
+    "credits": [
       {
-        "en": "$50 annual statement credit with a minimum $50 airline purchase",
-        "zh": "每年航空消費滿 $50 回饋 $50"
-      },
+        "name": {
+          "en": "Airline credit",
+          "zh": "航空回饋"
+        },
+        "per": "year",
+        "amount": 50,
+        "detail": {
+          "en": "once a year, on your first airline purchase of at least $50",
+          "zh": "每年一次，首筆 $50 以上的航空消費"
+        }
+      }
+    ],
+    "highlights": [
       {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"

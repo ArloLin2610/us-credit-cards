@@ -23,6 +23,13 @@ export interface Reward {
   valid_until?: string;
   featured?: boolean;
 }
+export interface Credit {
+  name: L;
+  /** Maximum USD value for the period in `per`. */
+  amount?: number;
+  per: 'year' | '4years' | 'stay' | 'other';
+  detail?: L;
+}
 export interface Welcome {
   value?: number;
   unit?: 'points' | 'miles' | 'usd' | 'nights';
@@ -45,6 +52,7 @@ export interface Card {
   welcome?: Welcome;
   intro_apr?: { months: number; on: 'purchases' | 'bt' | 'both' };
   fx_fee?: number;
+  credits?: Credit[];
   highlights: L[];
   tags?: Tag[];
   status: CardStatus;

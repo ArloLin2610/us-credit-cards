@@ -17,6 +17,8 @@ export interface CompareCard {
   welcomeEst?: string;
   rewards: { rate: string; label: string; detail?: string; equiv?: string }[];
   equivNote?: string;
+  credits: { name: string; value: string; detail?: string }[];
+  creditsTotal?: string;
   fx: string;
   intro?: string;
   highlights: string[];
@@ -109,6 +111,23 @@ export default function CompareTable({ lang, cards }: Props) {
               </li>
             ))}
           </ul>
+        ),
+    },
+    {
+      label: t.credits,
+      render: (c) =>
+        c.credits.length === 0 ? '—' : (
+          <div>
+            {c.creditsTotal && <div className="mb-2 text-sm font-semibold">{c.creditsTotal}</div>}
+            <ul className="space-y-1.5 text-sm">
+              {c.credits.map((x, i) => (
+                <li key={i}>
+                  <span className="font-medium">{x.name}</span>
+                  {x.value && <span className="text-ink-soft"> — {x.value}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
         ),
     },
     { label: t.equiv, render: (c) => c.equivNote ? <span className="text-sm text-ink-soft">{c.equivNote}</span> : '—' },

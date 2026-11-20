@@ -19,6 +19,7 @@
 - **資料**（唯一資料來源）：
   - `data/issuers.json` — 發卡機構、官方總覽頁、是否需要瀏覽器渲染（`render`）。
   - `data/cards/<issuer>.json` — 卡片。文字欄位一律 `{ "en": …, "zh": … }`；回饋是結構化的（類別 + 倍率），標題、標籤、約當現金回饋都由程式算出，不用手寫。
+  - 每張卡的 `credits` 欄位逐項列出帳單回饋、抵用券等有金額的權益（金額、週期、條件），卡片頁會加總「全部用滿每年最高」並標明多數人拿不到上限。
   - `data/programs.json` — 各哩程／點數計畫的每點估值（美分）、依據與來源。**改這裡就會改全站的「≈ %」。**
   - `data/schema/*.json` — JSON Schema；`npm run build` 前自動驗證。
 - **卡圖**：`scripts/fetch-card-images.mjs` 依 `image_url` 下載到 `public/cards/<id>.webp`；沒有圖的卡顯示發卡機構色的示意圖。

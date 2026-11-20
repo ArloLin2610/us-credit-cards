@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import CardTile from '../../../components/CardTile.astro';
 import IssuerChip from '../../../components/IssuerChip.astro';
-import { cards, issuerById, cardImage, topReward, baseReward, formatFee, cardsOfIssuer, cardsOfType, headline, rewardRows, rateText, catLabel, cashEquiv, needsEstimate, programOf, unitWord, welcomeText, welcomeValue, fxText, introText, tagsOf } from '../../../lib/data';
+import { cards, issuerById, cardImage, topReward, baseReward, formatFee, cardsOfIssuer, cardsOfType, headline, rewardRows, rateText, catLabel, cashEquiv, needsEstimate, programOf, unitWord, welcomeText, welcomeValue, fxText, introText, tagsOf, creditRows, creditsTotal } from '../../../lib/data';
 import { BASIS_LABEL, LANGS, NETWORK_LABEL, REWARD_TYPE_LABEL, STATUS_LABEL, TAG_LABEL, TAG_PAGES, UI, fmtPct, fmtUsd, href, langFromParam, tr } from '../../../lib/i18n';
 
 export function getStaticPaths() {
@@ -19,6 +19,8 @@ const base = baseReward(card);
 const est = needsEstimate(card);
 const prog = programOf(card);
 const rows = rewardRows(card, lang);
+const credits = creditRows(card, lang);
+const creditSum = creditsTotal(card);
 const rewardClass = `reward-${card.reward_type === 'cashback' ? 'cash' : card.reward_type}`;
 const inactive = card.status !== 'active';
 const hl = headline(card, lang);
@@ -135,6 +137,27 @@ const jsonLd = {
             <p class="mt-1">{c.valuationBody(tr(prog.name, lang), String(prog.cpp), tr(BASIS_LABEL[prog.basis], lang))} {prog.note && tr(prog.note, lang)}</p>
             <a href={href(lang, '/valuations')} class="mt-1 inline-block underline">{c.valuationLink}</a>
           </div>
+        )}
+
+        {credits.length > 0 && (
+          <>
+            <h2 class="mt-10 text-xl font-bold">{c.credits}</h2>
+            {creditSum > 0 && credits.length > 1 && <p class="mt-2 font-medium">{c.creditsTotal(fmtUsd(creditSum))}</p>}
+            <table class="spec mt-3">
+              <tbody>
+                {credits.map((x) => (
+                  <tr>
+                    <th scope="row">{x.name}</th>
+                    <td>
+                      {x.value && <div class="font-bold">{x.value}</div>}
+                      {x.detail && <div class="mt-0.5 text-sm text-ink-soft">{x.detail}</div>}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p class="mt-2 text-xs text-ink-soft">{c.creditsNote}</p>
+          </>
         )}
 
         {card.highlights.length > 0 && (

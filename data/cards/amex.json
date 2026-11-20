@@ -47,18 +47,143 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Hotel credit",
+          "zh": "飯店回饋"
+        },
+        "per": "year",
+        "amount": 600,
+        "detail": {
+          "en": "up to $300 every six months on prepaid Fine Hotels + Resorts® or The Hotel Collection bookings through American Express Travel®",
+          "zh": "每半年最高 $300，限經 American Express Travel® 預付 Fine Hotels + Resorts® 或 The Hotel Collection"
+        }
+      },
+      {
+        "name": {
+          "en": "Resy credit",
+          "zh": "Resy 餐廳回饋"
+        },
+        "per": "year",
+        "amount": 400,
+        "detail": {
+          "en": "up to $100 a quarter at qualifying U.S. Resy restaurants; enrollment required",
+          "zh": "每季最高 $100，限美國 Resy 合作餐廳；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Digital Entertainment credit",
+          "zh": "數位娛樂回饋"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "up to $25 a month at participating partners; enrollment required",
+          "zh": "每月最高 $25，限指定合作夥伴；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "lululemon credit",
+          "zh": "lululemon 回饋"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "up to $75 a quarter at U.S. lululemon stores (excluding outlets) and lululemon.com; enrollment required",
+          "zh": "每季最高 $75，限美國 lululemon 門市（不含 outlet）與 lululemon.com；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Uber Cash",
+          "zh": "Uber Cash"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "$15 a month plus a $20 bonus in December, for U.S. rides and orders",
+          "zh": "每月 $15，12 月再加 $20，用於美國境內叫車與訂餐"
+        }
+      },
+      {
+        "name": {
+          "en": "Airline fee credit",
+          "zh": "航空雜費回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "incidental fees (checked bags, in-flight refreshments, etc.) at one airline you select, per calendar year",
+          "zh": "每曆年，限自選一家航空公司的雜費（託運行李、機上餐飲等）"
+        }
+      },
+      {
+        "name": {
+          "en": "Oura Ring credit",
+          "zh": "Oura Ring 回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "on an Oura Ring bought at ouraring.com, per calendar year",
+          "zh": "每曆年，於 ouraring.com 購買 Oura Ring"
+        }
+      },
+      {
+        "name": {
+          "en": "CLEAR+ credit",
+          "zh": "CLEAR+ 回饋"
+        },
+        "per": "year",
+        "amount": 219,
+        "detail": {
+          "en": "for an auto-renewing CLEAR+ membership, per calendar year",
+          "zh": "每曆年，自動續訂的 CLEAR+ 會籍"
+        }
+      },
+      {
+        "name": {
+          "en": "Walmart+ credit",
+          "zh": "Walmart+ 回饋"
+        },
+        "per": "year",
+        "amount": 155,
+        "detail": {
+          "en": "up to $12.95 a month plus tax for a monthly Walmart+ membership",
+          "zh": "每月最高 $12.95（另加稅），用於 Walmart+ 月費"
+        }
+      },
+      {
+        "name": {
+          "en": "Uber One credit",
+          "zh": "Uber One 回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "for an auto-renewing Uber One membership, per calendar year",
+          "zh": "每曆年，自動續訂的 Uber One 會籍"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® fee credit",
+          "zh": "Global Entry／TSA PreCheck® 申請費回饋"
+        },
+        "per": "other",
+        "detail": {
+          "en": "amount not stated on the product page",
+          "zh": "產品頁未載明金額"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Centurion Lounges, Priority Pass™ and Delta Sky Club (10 visits when flying Delta)",
         "zh": "Centurion Lounge、Priority Pass™ 與 Delta Sky Club（搭乘 Delta 時 10 次）"
-      },
-      {
-        "en": "Up to $600 hotel credit a year ($300 semi-annually) on prepaid Fine Hotels + Resorts® or The Hotel Collection",
-        "zh": "每年最高 $600 飯店回饋（每半年 $300），限預付 Fine Hotels + Resorts® 或 The Hotel Collection"
-      },
-      {
-        "en": "Up to $200 Uber Cash and up to $200 airline fee credit per year",
-        "zh": "每年最高 $200 Uber Cash 與 $200 航空雜費回饋"
       },
       {
         "en": "Points transfer to airline and hotel partners",
@@ -146,15 +271,69 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Dining credit",
+          "zh": "餐飲回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month at Grubhub (incl. Seamless), Buffalo Wild Wings, Five Guys, The Cheesecake Factory and Wonder; enrollment required",
+          "zh": "每月最高 $10，限 Grubhub（含 Seamless）、Buffalo Wild Wings、Five Guys、The Cheesecake Factory、Wonder；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Uber Cash",
+          "zh": "Uber Cash"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month for U.S. rides and orders",
+          "zh": "每月最高 $10，用於美國境內叫車與訂餐"
+        }
+      },
+      {
+        "name": {
+          "en": "Resy credit",
+          "zh": "Resy 餐廳回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "up to $50 every six months at qualifying U.S. Resy restaurants; enrollment required",
+          "zh": "每半年最高 $50，限美國 Resy 合作餐廳；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Dunkin' credit",
+          "zh": "Dunkin' 回饋"
+        },
+        "per": "year",
+        "amount": 84,
+        "detail": {
+          "en": "up to $7 a month at U.S. Dunkin' locations; enrollment required",
+          "zh": "每月最高 $7，限美國 Dunkin' 門市；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "The Hotel Collection property credit",
+          "zh": "The Hotel Collection 飯店消費額度"
+        },
+        "per": "stay",
+        "amount": 100,
+        "detail": {
+          "en": "toward eligible on-property charges when you book The Hotel Collection through Amex Travel",
+          "zh": "經 Amex Travel 預訂 The Hotel Collection，可折抵飯店內消費"
+        }
+      }
+    ],
     "highlights": [
-      {
-        "en": "$120 dining credit ($10 monthly at Grubhub, Five Guys, The Cheesecake Factory and others; enrollment required)",
-        "zh": "$120 餐飲回饋（每月 $10，Grubhub、Five Guys、The Cheesecake Factory 等；需登錄）"
-      },
-      {
-        "en": "$120 Uber Cash ($10 monthly)",
-        "zh": "$120 Uber Cash（每月 $10）"
-      },
       {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"
@@ -227,12 +406,21 @@
       }
     },
     "fx_fee": 2.7,
-    "highlights": [
+    "credits": [
       {
-        "en": "$120 Disney Streaming Credit (up to $10 back per month; enrollment required)",
-        "zh": "$120 Disney 串流回饋（每月最高 $10；需登錄）"
+        "name": {
+          "en": "Disney streaming credit",
+          "zh": "Disney 串流回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month on Disney+, Hulu or ESPN subscriptions; enrollment required",
+          "zh": "每月最高 $10 Disney+、Hulu、ESPN 訂閱；需登錄"
+        }
       }
     ],
+    "highlights": [],
     "status": "active",
     "apply_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
     "source_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
@@ -300,12 +488,21 @@
       }
     },
     "fx_fee": 2.7,
-    "highlights": [
+    "credits": [
       {
-        "en": "$84 Disney Streaming Credit (up to $7 back per month; enrollment required)",
-        "zh": "$84 Disney 串流回饋（每月最高 $7；需登錄）"
+        "name": {
+          "en": "Disney streaming credit",
+          "zh": "Disney 串流回饋"
+        },
+        "per": "year",
+        "amount": 84,
+        "detail": {
+          "en": "up to $7 a month on Disney+, Hulu or ESPN subscriptions; enrollment required",
+          "zh": "每月最高 $7 Disney+、Hulu、ESPN 訂閱；需登錄"
+        }
       }
     ],
+    "highlights": [],
     "status": "active",
     "apply_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
     "source_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
@@ -409,6 +606,44 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Delta Flight Credit",
+          "zh": "Delta 機票額度"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "after $10,000 in purchases in a calendar year",
+          "zh": "曆年消費滿 $10,000 後"
+        }
+      },
+      {
+        "name": {
+          "en": "Rideshare credit",
+          "zh": "共乘回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month on U.S. rideshare with select providers; the page says this starts after your first card renewal",
+          "zh": "每月最高 $10，限美國指定共乘業者；官網註明自首次續卡後開始"
+        }
+      },
+      {
+        "name": {
+          "en": "Delta Stays credit",
+          "zh": "Delta Stays 住宿回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "on prepaid hotels or vacation rentals booked through Delta Stays",
+          "zh": "經 Delta Stays 預付訂購飯店或度假租屋"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "First checked bag free on Delta flights",
@@ -477,6 +712,56 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Delta Stays credit",
+          "zh": "Delta Stays 住宿回饋"
+        },
+        "per": "year",
+        "amount": 150,
+        "detail": {
+          "en": "on prepaid hotels or vacation rentals booked through Delta Stays",
+          "zh": "經 Delta Stays 預付訂購飯店或度假租屋"
+        }
+      },
+      {
+        "name": {
+          "en": "Resy credit",
+          "zh": "Resy 餐廳回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month at qualifying U.S. Resy restaurants; enrollment required",
+          "zh": "每月最高 $10，限美國 Resy 合作餐廳；需登錄"
+        }
+      },
+      {
+        "name": {
+          "en": "Rideshare credit",
+          "zh": "共乘回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month on U.S. rideshare with select providers",
+          "zh": "每月最高 $10，限美國指定共乘業者"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "other",
+        "amount": 120,
+        "detail": {
+          "en": "$120 for Global Entry or up to $85 for TSA PreCheck®",
+          "zh": "Global Entry $120，或 TSA PreCheck® 最高 $85"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Annual Companion Certificate (Delta Main, domestic/Caribbean/Central America round trip) after renewal",
@@ -521,6 +806,52 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Resy credit",
+          "zh": "Resy 餐廳回饋"
+        },
+        "per": "year",
+        "amount": 240,
+        "detail": {
+          "en": "up to $20 a month at qualifying U.S. Resy restaurants",
+          "zh": "每月最高 $20，限美國 Resy 合作餐廳"
+        }
+      },
+      {
+        "name": {
+          "en": "Delta Stays credit",
+          "zh": "Delta Stays 住宿回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "on prepaid hotels or vacation rentals booked through Delta Stays",
+          "zh": "經 Delta Stays 預付訂購飯店或度假租屋"
+        }
+      },
+      {
+        "name": {
+          "en": "Rideshare credit",
+          "zh": "共乘回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "up to $10 a month on U.S. rideshare with select providers",
+          "zh": "每月最高 $10，限美國指定共乘業者"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      }
+    ],
     "highlights": [
       {
         "en": "Annual Companion Certificate valid for Delta First, Delta Comfort or Delta Main",
@@ -707,6 +1038,56 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Hilton Resort credit",
+          "zh": "Hilton 度假村回饋"
+        },
+        "per": "year",
+        "amount": 400,
+        "detail": {
+          "en": "up to $200 every six months on purchases made directly with participating Hilton Resorts",
+          "zh": "每半年最高 $200，限直接向參與的 Hilton 度假村消費"
+        }
+      },
+      {
+        "name": {
+          "en": "Flight credit",
+          "zh": "機票回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "up to $50 a quarter on flights bought directly from an airline or through AmexTravel.com",
+          "zh": "每季最高 $50，限直接向航空公司或經 AmexTravel.com 購票"
+        }
+      },
+      {
+        "name": {
+          "en": "CLEAR+ credit",
+          "zh": "CLEAR+ 回饋"
+        },
+        "per": "year",
+        "amount": 219,
+        "detail": {
+          "en": "for a CLEAR+ membership, per calendar year",
+          "zh": "每曆年，CLEAR+ 會籍"
+        }
+      },
+      {
+        "name": {
+          "en": "Waldorf Astoria / Conrad property credit",
+          "zh": "Waldorf Astoria／Conrad 飯店消費額度"
+        },
+        "per": "stay",
+        "amount": 100,
+        "detail": {
+          "en": "on qualifying charges for stays of 2+ nights booked with the card",
+          "zh": "以本卡預訂連住 2 晚以上，可折抵飯店內消費"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Complimentary Hilton Honors Diamond status",
@@ -827,14 +1208,48 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Brilliant Dining credit",
+          "zh": "餐飲回饋"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "up to $25 a month at restaurants worldwide",
+          "zh": "每月最高 $25，全球餐廳"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "other",
+        "amount": 120,
+        "detail": {
+          "en": "$120 for Global Entry or up to $85 for TSA PreCheck®",
+          "zh": "Global Entry $120，或 TSA PreCheck® 最高 $85"
+        }
+      },
+      {
+        "name": {
+          "en": "Ritz-Carlton / St. Regis property credit",
+          "zh": "Ritz-Carlton／St. Regis 飯店消費額度"
+        },
+        "per": "stay",
+        "amount": 100,
+        "detail": {
+          "en": "on qualifying charges for direct bookings of 2+ nights at a special rate",
+          "zh": "以指定房價直接預訂連住 2 晚以上，可折抵飯店內消費"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "Complimentary Marriott Bonvoy Platinum Elite status",
         "zh": "贈 Marriott Bonvoy Platinum Elite 會籍"
-      },
-      {
-        "en": "Up to $300 a year in dining statement credits (up to $25 per month)",
-        "zh": "每年最高 $300 餐飲回饋（每月最高 $25）"
       },
       {
         "en": "1 Free Night Award every year after renewal",

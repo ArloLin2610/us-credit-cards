@@ -265,12 +265,21 @@
       "months": 15,
       "on": "both"
     },
-    "highlights": [
+    "credits": [
       {
-        "en": "$15 credit for annual streaming service purchases",
-        "zh": "年度串流服務消費回饋 $15"
+        "name": {
+          "en": "Streaming credit",
+          "zh": "串流回饋"
+        },
+        "per": "year",
+        "amount": 15,
+        "detail": {
+          "en": "after 11 consecutive months of qualifying streaming service purchases",
+          "zh": "連續 11 個月有符合條件的串流消費後"
+        }
       }
     ],
+    "highlights": [],
     "status": "active",
     "apply_url": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
     "source_url": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",

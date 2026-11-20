@@ -360,6 +360,16 @@
       }
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      }
+    ],
     "highlights": [
       {
         "en": "25,000-point Global Companion Award every anniversary; a 100,000-point one after $60,000 in purchases in a card year",
@@ -372,10 +382,6 @@
       {
         "en": "Free first checked bag for you and up to 6 guests on the same reservation when you pay for the flight with the card",
         "zh": "以本卡購票，本人與同一訂位最多 6 位同行者免費託運第一件行李"
-      },
-      {
-        "en": "Up to $120 TSA PreCheck® / Global Entry credit every four years",
-        "zh": "TSA PreCheck®／Global Entry 申請費回饋最高 $120，每四年一次"
       },
       {
         "en": "Points transfer to hotel partner programs, including Marriott Bonvoy and Shangri-La Circle",

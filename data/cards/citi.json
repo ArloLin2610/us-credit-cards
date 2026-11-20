@@ -139,11 +139,21 @@
       "months": 3
     },
     "fx_fee": 0,
-    "highlights": [
+    "credits": [
       {
-        "en": "$100 off one hotel stay of $500+ per calendar year booked through cititravel.com",
-        "zh": "每曆年經 cititravel.com 訂房滿 $500 可折 $100 一次"
-      },
+        "name": {
+          "en": "Hotel benefit",
+          "zh": "飯店折抵"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "off one hotel stay of $500+ (before taxes and fees) booked through cititravel.com, once per calendar year",
+          "zh": "每曆年一次，經 cititravel.com 訂房滿 $500（未稅）折 $100"
+        }
+      }
+    ],
+    "highlights": [
       {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"
@@ -203,15 +213,53 @@
       "months": 3
     },
     "fx_fee": 0,
+    "credits": [
+      {
+        "name": {
+          "en": "Hotel benefit",
+          "zh": "飯店折抵"
+        },
+        "per": "year",
+        "amount": 300,
+        "detail": {
+          "en": "off a hotel stay of 2+ nights booked through cititravel.com, per calendar year",
+          "zh": "每曆年，經 cititravel.com 預訂連住 2 晚以上"
+        }
+      },
+      {
+        "name": {
+          "en": "Splurge Credit®",
+          "zh": "Splurge Credit®"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "at up to 2 brands you choose (1stDibs, American Airlines, Best Buy® and others)",
+          "zh": "自選最多 2 個品牌（1stDibs、American Airlines、Best Buy® 等）"
+        }
+      },
+      {
+        "name": {
+          "en": "Blacklane® credit",
+          "zh": "Blacklane® 接送回饋"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "on Blacklane chauffeur bookings, per calendar year",
+          "zh": "每曆年，Blacklane 專車接送"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      }
+    ],
     "highlights": [
-      {
-        "en": "Up to $300 off a hotel stay of 2+ nights each calendar year via cititravel.com",
-        "zh": "每曆年經 cititravel.com 訂房兩晚以上最高折 $300"
-      },
-      {
-        "en": "Up to $200 Splurge Credit® each calendar year at up to 2 chosen brands",
-        "zh": "每曆年於自選 2 個品牌最高 $200 Splurge Credit®"
-      },
       {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"
@@ -464,14 +512,80 @@
       "spend": 8000,
       "months": 3
     },
+    "credits": [
+      {
+        "name": {
+          "en": "American Airlines Vacations℠ credit",
+          "zh": "American Airlines Vacations℠ 回饋"
+        },
+        "per": "year",
+        "amount": 500,
+        "detail": {
+          "en": "up to $250 every six months on eligible packages or experiences",
+          "zh": "每半年最高 $250，限符合條件的套裝行程或體驗"
+        }
+      },
+      {
+        "name": {
+          "en": "inKind dining credits",
+          "zh": "inKind 餐飲額度"
+        },
+        "per": "year",
+        "amount": 200,
+        "detail": {
+          "en": "$100 for January–June and $100 for July–December after adding the card to the inKind app",
+          "zh": "將本卡加入 inKind App 後，上下半年各 $100"
+        }
+      },
+      {
+        "name": {
+          "en": "Lyft credits",
+          "zh": "Lyft 乘車金"
+        },
+        "per": "year",
+        "amount": 180,
+        "detail": {
+          "en": "a $15 Lyft credit in each month you take 3 eligible rides",
+          "zh": "當月搭乘 3 趟符合條件的行程可獲 $15"
+        }
+      },
+      {
+        "name": {
+          "en": "Avis / Budget credit",
+          "zh": "Avis／Budget 租車回饋"
+        },
+        "per": "year",
+        "amount": 120,
+        "detail": {
+          "en": "on prepaid rentals booked directly on avis.com or budget.com, per calendar year",
+          "zh": "每曆年，直接於 avis.com 或 budget.com 預付租車"
+        }
+      },
+      {
+        "name": {
+          "en": "Inflight and Admirals Club® credit",
+          "zh": "機上與 Admirals Club® 消費回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "on inflight and eligible Admirals Club® purchases",
+          "zh": "機上消費與符合條件的 Admirals Club® 消費"
+        }
+      },
+      {
+        "name": {
+          "en": "Global Entry / TSA PreCheck® application fee",
+          "zh": "Global Entry／TSA PreCheck® 申請費"
+        },
+        "per": "4years",
+        "amount": 120
+      }
+    ],
     "highlights": [
       {
         "en": "Admirals Club® membership with unlimited visits (up to 2 guests or immediate family)",
         "zh": "Admirals Club® 會籍，不限次數（可帶 2 位賓客或直系家屬）"
-      },
-      {
-        "en": "Up to $500 back each calendar year on eligible American Airlines Vacations℠ purchases",
-        "zh": "每曆年 American Airlines Vacations℠ 消費最高回饋 $500"
       }
     ],
     "tags": [
@@ -538,6 +652,44 @@
       "spend": 4000,
       "months": 3
     },
+    "credits": [
+      {
+        "name": {
+          "en": "Turo credit",
+          "zh": "Turo 租車回饋"
+        },
+        "per": "year",
+        "amount": 240,
+        "detail": {
+          "en": "up to $30 per eligible Turo trip after linking the card",
+          "zh": "綁定本卡後，每趟符合條件的 Turo 行程最高 $30"
+        }
+      },
+      {
+        "name": {
+          "en": "Inflight credit",
+          "zh": "機上消費回饋"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "on inflight purchases on American Airlines flights",
+          "zh": "美國航空機上消費"
+        }
+      },
+      {
+        "name": {
+          "en": "Splurge Credit®",
+          "zh": "Splurge Credit®"
+        },
+        "per": "year",
+        "amount": 100,
+        "detail": {
+          "en": "at up to 2 brands you choose",
+          "zh": "自選最多 2 個品牌"
+        }
+      }
+    ],
     "highlights": [
       {
         "en": "4 Admirals Club® Globe™ Passes every calendar year",
@@ -758,11 +910,21 @@
       "spend": 1000,
       "months": 3
     },
-    "highlights": [
+    "credits": [
       {
-        "en": "$20 statement credit each billing cycle you spend $1,000 or more",
-        "zh": "每期帳單消費滿 $1,000 回饋 $20"
-      },
+        "name": {
+          "en": "Monthly spend credit",
+          "zh": "月消費達標回饋"
+        },
+        "per": "year",
+        "amount": 240,
+        "detail": {
+          "en": "$20 statement credit in each billing cycle you spend $1,000 or more",
+          "zh": "每期帳單消費滿 $1,000 回饋 $20"
+        }
+      }
+    ],
+    "highlights": [
       {
         "en": "$10 off per line on AT&T wireless with AutoPay and paperless billing",
         "zh": "AT&T 門號設定自動扣繳與電子帳單，每線每月折 $10"
