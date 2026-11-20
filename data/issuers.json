@@ -53,8 +53,8 @@
     "cards_index_url": "https://www.bankofamerica.com/credit-cards/",
     "color": "#E31837",
     "notes": {
-      "en": "Bank of America card pages are ZIP-code gated and refuse automated browsers, so its cards are held back until someone verifies them by hand.",
-      "zh": "美國銀行的卡片頁面需輸入郵遞區號並拒絕自動化瀏覽器，卡片資料待人工核對後才會顯示。"
+      "en": "Bank of America card pages are ZIP-code gated and refuse automated browsers, so most of its cards are held back until someone verifies them by hand. The two Atmos Rewards cards are listed using Alaska Airlines' official card pages.",
+      "zh": "美國銀行的卡片頁面需輸入郵遞區號並拒絕自動化瀏覽器，多數卡片待人工核對後才會顯示。兩張 Atmos Rewards 卡的資料取自阿拉斯加航空官方卡片頁。"
     }
   },
   {

@@ -14,7 +14,9 @@ All card data was read from issuer websites on 2026-11-16 with `scripts/research
 | U.S. Bank | 8 | Headless Chrome index + plain product pages | FX fee stated only for Altitude Connect. |
 | Barclays | 14 (1 hidden) | Plain HTTP: index + product pages | Frontier: card-only earn rate on Frontier purchases not broken out → `needs_review`. Wyndham network unconfirmed. Several welcome offers are "after qualifying account activity" with terms behind the application. Retail co-brands not listed. |
 | Bilt | 3 | Plain HTTP: card page comparison table | No card-art images exposed; placeholders. |
-| Bank of America | 12 (all hidden) | Product pages are ZIP-code gated and built client-side; headless Chrome gets HTTP 403 | Only meta descriptions and card art were readable. All 12 entries are `needs_review` until verified by hand (their summaries are in each card's `notes`). |
+| Bank of America | 13 (11 hidden) | Product pages are ZIP-code gated and built client-side; headless Chrome gets HTTP 403 | Only meta descriptions and card art were readable. All 12 entries are `needs_review` until verified by hand (their summaries are in each card's `notes`). |
 
 Point valuations: NerdWallet, "How Much Are Travel Points and Miles Worth in 2026?", updated 2026-10-13, retrieved 2026-11-16.
 Programs without a NerdWallet figure (U.S. Bank Altitude, Miles & More, Frontier, Allegiant) use an assumed 1¢ and are labelled as such on the site.
+
+2026-11-19 — Atmos Rewards Ascent and Summit (issued by Bank of America) added from Alaska Airlines' official pages (`alaskaair.com/atmosrewards/content/credit-cards/visa-ascent`, `…/visa-summit`). The pages are served as embedded content data over plain HTTP; a headless browser gets a CAPTCHA and Node's `fetch` gets HTTP 406, so `scripts/check-updates.mjs` will likely report these two as fetch errors — re-verify them by hand. Ascent: foreign transaction fee not stated on the page. Summit card image cropped from the page's official image.

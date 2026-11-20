@@ -1,3 +1,4 @@
+# NOTE: superseded for the Atmos cards — data/cards/bofa.json was edited by hand on 2026-11-19 (Ascent filled in, Summit added).
 from lib import *
 B = 'https://www.bankofamerica.com/credit-cards/products/'
 A = 'https://www.bankofamerica.com/content/images/ContextualSiteGraphics/CreditCardArt/en_US/Approved_PCM/'

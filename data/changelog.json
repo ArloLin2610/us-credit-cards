@@ -19,5 +19,29 @@
       "zh": "Citi 停止受理申請。"
     },
     "source_url": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
+  },
+  {
+    "date": "2026-11-19",
+    "type": "added",
+    "issuer": "bofa",
+    "card_id": "bofa-atmos-ascent",
+    "card_name": "Atmos™ Rewards Ascent Visa Signature® Credit Card",
+    "summary": {
+      "en": "Added, using Alaska Airlines' official card page.",
+      "zh": "新增，資料取自阿拉斯加航空官方卡片頁。"
+    },
+    "source_url": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-ascent"
+  },
+  {
+    "date": "2026-11-19",
+    "type": "added",
+    "issuer": "bofa",
+    "card_id": "bofa-atmos-summit",
+    "card_name": "Atmos™ Rewards Summit Visa Infinite® Credit Card",
+    "summary": {
+      "en": "Added, using Alaska Airlines' official card page.",
+      "zh": "新增，資料取自阿拉斯加航空官方卡片頁。"
+    },
+    "source_url": "https://www.alaskaair.com/atmosrewards/content/credit-cards/visa-summit"
   }
 ]

@@ -7,9 +7,9 @@
 
 ## 現況（2026-11-16）
 
-- 10 家發卡機構、122 筆卡片資料；網站顯示 108 張（107 張可申請 + 1 張停止申請紀錄），14 張 `needs_review` 隱藏中（Bank of America 12 張、Amex Hilton Surpass、Barclays Frontier）。
+- 10 家發卡機構、123 筆卡片資料；網站顯示 110 張（109 張可申請 + 1 張停止申請紀錄），13 張 `needs_review` 隱藏中（Bank of America 11 張、Amex Hilton Surpass、Barclays Frontier）。
 - 各家讀取方式與已知缺口見 [`research/NOTES.md`](research/NOTES.md)。最大的缺口：
-  - **Bank of America**：官網需輸入郵遞區號且拒絕自動化瀏覽器，12 張全部待人工核對。
+  - **Bank of America**：官網需輸入郵遞區號且拒絕自動化瀏覽器，11 張待人工核對；兩張 Atmos Rewards 卡（Ascent、Summit）改用阿拉斯加航空官方頁面的資料，已顯示。
   - **American Express**：開卡禮因人而異，不列；Green 等 4 張產品頁導回總覽，未收錄。
   - 商務卡、多數零售聯名卡未收錄。
 
