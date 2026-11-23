@@ -657,7 +657,10 @@
     "apply_url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
     "source_url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
     "image_url": "https://creditcards.chase.com/content/dam/jpmc-marketplace/card-art/united_explorer_new_card.png",
-    "last_verified": "2026-11-16"
+    "last_verified": "2026-11-16",
+    "tags": [
+      "lounge"
+    ]
   },
   {
     "id": "chase-united-quest",

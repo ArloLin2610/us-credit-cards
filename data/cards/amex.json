@@ -1254,12 +1254,19 @@
       {
         "en": "1 Free Night Award every year after renewal",
         "zh": "每年續卡後贈免費住宿一晚"
+      },
+      {
+        "en": "Priority Pass™: unlimited visits to 1,300+ airport lounges (enrollment required)",
+        "zh": "Priority Pass™：全球 1,300+ 間機場貴賓室不限次數（需登錄）"
       }
     ],
     "status": "active",
     "apply_url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
     "source_url": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
     "image_url": "https://icm.aexp-static.com/acquisition/card-art/NUS000000313_480x304_straight_withname.png",
-    "last_verified": "2026-11-16"
+    "last_verified": "2026-11-16",
+    "tags": [
+      "lounge"
+    ]
   }
 ]

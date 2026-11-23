@@ -261,6 +261,14 @@
     ],
     "highlights": [
       {
+        "en": "Priority Pass™ Select membership: 1,500+ airport lounges worldwide (up to 2 guests)",
+        "zh": "Priority Pass™ Select 會籍：全球 1,500+ 間機場貴賓室（可帶 2 位同行）"
+      },
+      {
+        "en": "4 Admirals Club® Citi Strata Elite® Passes every calendar year",
+        "zh": "每曆年 4 張 Admirals Club® Citi Strata Elite® 通行證"
+      },
+      {
         "en": "Points transfer to airline and hotel partners",
         "zh": "點數可轉至航空與飯店夥伴"
       }
@@ -269,7 +277,10 @@
     "apply_url": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
     "source_url": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
     "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-strata-elite-credit-card/citi-strata-elite-credit-card_306x192.webp",
-    "last_verified": "2026-11-16"
+    "last_verified": "2026-11-16",
+    "tags": [
+      "lounge"
+    ]
   },
   {
     "id": "citi-strata",
@@ -700,7 +711,10 @@
     "apply_url": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
     "source_url": "https://www.citi.com/credit-cards/citi-aadvantage-globe-mastercard",
     "image_url": "https://aemapi.citi.com/content/dam/cfs/uspb/usmkt/cards/en/static/images/citi-aadvantage-globe-mastercard/citi-aadvantage-globe-mastercard_306x192.webp",
-    "last_verified": "2026-11-16"
+    "last_verified": "2026-11-16",
+    "tags": [
+      "lounge"
+    ]
   },
   {
     "id": "citi-aadvantage-mileup",
