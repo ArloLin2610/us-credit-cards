@@ -225,7 +225,7 @@
     "credits": {
       "type": "array",
       "maxItems": 16,
-      "description": "Statement credits, vouchers and other dollar-denominated perks, one entry each. List every one the official page names, not just the largest.",
+      "description": "Statement credits, vouchers and every other cardholder perk the official page names (passes, companion fares, free bags, boarding, fee waivers, free nights, status), one entry each. Perks without a dollar amount use per \"other\" and no amount.",
       "items": {
         "type": "object",
         "additionalProperties": false,

@@ -142,7 +142,7 @@ const jsonLd = {
         {credits.length > 0 && (
           <>
             <h2 class="mt-10 text-xl font-bold">{c.credits}</h2>
-            {creditSum > 0 && credits.length > 1 && <p class="mt-2 font-medium">{c.creditsTotal(fmtUsd(creditSum))}</p>}
+            {creditSum > 0 && <p class="mt-2 font-medium">{c.creditsTotal(fmtUsd(creditSum))}</p>}
             <table class="spec mt-3">
               <tbody>
                 {credits.map((x) => (

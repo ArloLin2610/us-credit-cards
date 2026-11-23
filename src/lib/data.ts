@@ -216,7 +216,11 @@ export function creditRows(card: Card, lang: Lang) {
     .map((c) => ({ name: tr(c.name, lang), value: c.amount ? t.creditPer[c.per](fmtUsd(c.amount)) : '', detail: tr(c.detail, lang) || undefined }));
 }
 /** Sum of the per-year credits (the advertised maximum, not what a typical cardholder realises). */
-export const creditsTotal = (card: Card) => (card.credits ?? []).filter((c) => c.per === 'year' && c.amount).reduce((n, c) => n + (c.amount ?? 0), 0);
+/** Yearly maximum across statement credits; 0 unless at least two yearly amounts exist (a "total" of one item is noise). */
+export const creditsTotal = (card: Card) => {
+  const yearly = (card.credits ?? []).filter((c) => c.per === 'year' && c.amount);
+  return yearly.length > 1 ? yearly.reduce((n, c) => n + (c.amount ?? 0), 0) : 0;
+};
 export function fxText(card: Card, lang: Lang): string {
   const t = UI[lang].card;
   if (card.fx_fee === undefined) return t.fxUnknown;
